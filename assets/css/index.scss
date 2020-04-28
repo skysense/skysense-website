@@ -1,22 +1,22 @@
 ---
 ---
 
-$theme: #0083ff;
+$theme: #4e4ef9;
 
 html {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+  font-family: "Roboto", "arial", sans-serif;
 }
 
 html, body {
-  height: 100%;
+  background: linear-gradient(120deg, #4e4ef9 35%, #1f9efd 100%);
 }
 
 body {
-  background-color: #FFFFFF;
-  color: #303030;
+  color: #fff;
   line-height: 1.5;
   font-size: 15pt;
   font-weight: 300;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -25,8 +25,11 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-weight: 600;
-  font-size: 2em;
+  font-size: 2.4em;
+}
+
+h2 {
+  font-size: 1.8em;
 }
 
 .wrap {
@@ -37,7 +40,7 @@ h1 {
 }
 
 section {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 section h1+p,
@@ -49,13 +52,13 @@ main {
 
   a {
     text-decoration: none;
-    color: $theme;
+    color: #ddd;
   }
-  
+
   p a {
-    border-bottom: solid 1px $theme;
+    border-bottom: solid 1px #ddd;
   }
-  
+
 }
 
 hr {
@@ -75,9 +78,9 @@ img {
 @import 'index';
 
 .button {
-  background: $theme;
+  background: #fff;
   border: none;
-  color: white;
+  color: $theme;
   text-align: center;
   white-space: nowrap;
   border-radius: 4px;
@@ -87,10 +90,13 @@ img {
 }
 
 .icons {
-  display: flex;
+  display: inline-block;
   margin-top: 30px;
 
   .icon {
+    width: 200px;
+    display: inline-block;
+    background: #fff;
     border: solid 1px #eee;
     border-radius: 15px;
     margin: 0 20px 20px 0;
@@ -106,6 +112,7 @@ img {
   }
 
   .title {
+    color: $theme;
     margin-top: 15px;
     font-size: 0.8em;
   }

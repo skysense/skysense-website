@@ -1,6 +1,6 @@
 
 footer {
-  margin-top: 50px;
+  margin: 0;
   background: #f6f8fa;
   text-align: center;
   padding: 30px;
@@ -8,22 +8,22 @@ footer {
   .links {
     font-size: 2em;
     color: #a0a0a0;
-    
+
     a {
       color: inherit;
       text-decoration: none;
     }
-  
+
     a:hover {
       color: #666;
     }
-  
+
     a+a {
       margin-left: 20px;
     }
-  
+
   }
-  
+
   .copyright {
     margin-top: 10px;
     font-size: 0.8em;
@@ -33,5 +33,5 @@ footer {
       color: inherit;
     }
   }
-  
+
 }
