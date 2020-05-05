@@ -1,0 +1,24 @@
+main > .index {
+
+  .hero {
+    background: linear-gradient(120deg, #4e4ef9 35%, #1f9efd 100%);
+    text-align: center;
+    padding: 120px 0;
+
+    h1, p {
+      color: white;
+    }
+
+    h1 + p {
+      opacity: 0.8;
+      margin-top: -30px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      padding: 13px 30px;
+    }
+
+  }
+
+}

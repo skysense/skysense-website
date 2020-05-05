@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="/assets/css/index.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="alternate" type="application/atom+xml" title="AwardFares Blog" href="/feed.xml" />
 
     {% seo %}
@@ -28,26 +28,27 @@
 
   </head>
   <body>
-    <div class="wrap">
-
-      <header>
+    <header>
+      <div class="wrap">
         <a href="/" class="brand">Skysense</a>
+        <!--
         <a href="/features/" {% if page.url == '/features/' %}class="active"{% endif %}>Features</a>
         <a href="/drones/" {% if page.url == '/drones/' %}class="active"{% endif %}>Drones</a>
         <a href="/about/" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
         <a href="/blog/" {% if page.url == '/blog/' %}class="active"{% endif %}>Blog</a>
+        -->
         <a href="/contact/" {% if page.url == '/contact/' %}class="active"{% endif %}>Contact</a>
-      </header>
-
-      <main>{{content}}</main>
-      
+      </div>
+    </header>
+    <main>{{content}}</main>
+    <div class="wrap">
     </div>
     <footer>
       <div class="links">
         <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
         <a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="mailto:hello@pqvst.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        <a href="mailto:hello@skysense.jp" target="_blank"><i class="fa fa-envelope"></i></a>
       </div>
       <div class="copyright">
           Copyright &copy; 2019-{{ site.time | date: '%Y' }} Skysense

@@ -1,0 +1,29 @@
+
+.icons {
+  display: inline-block;
+  margin-top: 30px;
+
+  .icon {
+    width: 200px;
+    display: inline-block;
+    background: #fff;
+    border: solid 1px #eee;
+    border-radius: 15px;
+    margin: 0 20px 20px 0;
+    padding: 40px 20px;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  i {
+    font-size: 4em;
+    color: $theme;
+  }
+
+  .title {
+    margin-top: 15px;
+    font-size: 0.8em;
+  }
+
+}
