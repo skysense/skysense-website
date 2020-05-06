@@ -1,5 +1,8 @@
 # Skysense Website
 
+## Jekyll
+https://jekyllrb.com/docs/installation/
+
 ## Setup
 
 ```
@@ -14,5 +17,3 @@ bundle exec jekyll serve
 ```
 
 Then, open browser to <http://localhost:4000>.
-
-.
