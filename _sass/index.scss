@@ -5,6 +5,12 @@ main > .index {
     text-align: center;
     padding: 120px 0;
 
+    @media screen and (max-width: 500px) {
+      & {
+        padding: 50px 0;
+      }
+    }
+
     h1, p {
       color: white;
     }
