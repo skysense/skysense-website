@@ -1,7 +1,8 @@
 main > .index {
 
   .hero {
-    background: linear-gradient(120deg, #4e4ef9 35%, #1f9efd 100%);
+    // https://cssgradient.io/
+    background: linear-gradient(120deg, $theme 0%, #2a69b9 100%);
     text-align: center;
     padding: 120px 0;
 
