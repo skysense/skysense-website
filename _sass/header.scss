@@ -27,7 +27,6 @@ header {
   .brand {
     font-size: 1.2em;
     font-weight: 400;
-    margin-right: 20px;
     color: $theme;
   }
 
@@ -35,6 +34,7 @@ header {
     max-height: 50px;
     display: inline-block;
     margin-top: -3px;
+    max-width: none;
   }
 
   .brand:hover {
