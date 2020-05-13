@@ -31,14 +31,22 @@
   <body>
     <header>
       <div class="wrap">
-        <a href="/" class="brand">Skysense</a>
+        <nav class="left">
+          <a href="/" class="brand">
+            <img src="/assets/img/logo.jpg" />
+          </a>
+          <a href="/about/" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
+          <a href="/contact/" {% if page.url == '/contact/' %}class="active"{% endif %}>Contact</a>
+          <a href="/news-media/" {% if page.url == '/news-media/' %}class="active"{% endif %}>News & Media</a>
+        </nav>
+        <nav class="right">
+          <a href="/careers/" {% if page.url == '/careers/' %}class="active"{% endif %}>We're Hiring!</a>
+        </nav>
         <!--
         <a href="/features/" {% if page.url == '/features/' %}class="active"{% endif %}>Features</a>
         <a href="/drones/" {% if page.url == '/drones/' %}class="active"{% endif %}>Drones</a>
-        <a href="/about/" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
         <a href="/blog/" {% if page.url == '/blog/' %}class="active"{% endif %}>Blog</a>
         -->
-        <a href="/contact/" {% if page.url == '/contact/' %}class="active"{% endif %}>Contact</a>
       </div>
     </header>
     <main>{{content}}</main>
