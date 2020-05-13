@@ -4,10 +4,62 @@ title: Contact
 ---
 
 <div class="contact">
-  <div class="wrap">
-    <div class="typeform-widget" data-url="https://justin510144.typeform.com/to/OSTtMn" style="width: 100%; height: 500px;">
+  <section>
+    <div class="wrap">
+
+      <div class="message" id="success">
+        <i class="fa fa-check"></i> Thank you, we'll get back to you as soon as possible!
+      </div>
+
+      <div class="message" id="failure">
+        <i class="fa fa-times"></i> Sorry something went wrong, please try again!
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 col-xs-12">
+          <div class="col">
+            <div class="preheader">Contact Sales</div>
+            <h1>How can we help?</h1>
+            <p>Please enter your information and describe your inquiry, and we’ll get back to you as soon as possible.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xs-12">
+          <div class="col">
+            <form method="POST" action="https://app.skysense.jp/contact">
+              <label>Full Name</label>
+              <input type="text" name="name" />
+              
+              <label>Company</label>
+              <input type="text" name="company" />
+              
+              <label>Job Title</label>
+              <input type="text" name="title" />
+              
+              <label>Email</label>
+              <input type="text" name="email" />
+              
+              <label>Please tell us about yourself</label>
+              <textarea name="message" placeholder="For example: your state, farm size, crop types, and how can we help you?"></textarea>
+
+              <button>Contact Us</button>
+
+              <input type="hidden" name="honeypot" value="">
+            </form>
+          </div>
+        </div>
+
+      </div>    
     </div>
-    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() 
-    </script>
-  </div>
+  </section>
 </div>
+
+<script>
+  if (window.location.href.includes('sent=1')) {
+    document.getElementById('success').style.display = 'block';
+  }
+  if (window.location.href.includes('sent=0')) {
+    document.getElementById('failure').style.display = 'block';
+  }
+</script>
