@@ -2,9 +2,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" rel="stylesheet">
     <link href="/assets/css/index.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="alternate" type="application/atom+xml" title="AwardFares Blog" href="/feed.xml" />
 
     {% seo %}
@@ -28,17 +30,23 @@
   </head>
   <body>
     <header>
-      <div class="wrap nav">
-        <a href="/" class="brand">
-          <img src="/assets/img/logo_bl2.png">
-        </a>
+      <div class="wrap">
+        <nav class="left">
+          <a href="/" class="brand">
+            <img src="/assets/img/logo.jpg" />
+          </a>
+          <a href="/about/" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
+          <a href="/contact/" {% if page.url == '/contact/' %}class="active"{% endif %}>Contact</a>
+          <a href="/news-media/" {% if page.url == '/news-media/' %}class="active"{% endif %}>News & Media</a>
+        </nav>
+        <nav class="right">
+          <a href="/careers/" {% if page.url == '/careers/' %}class="active"{% endif %}>We're Hiring!</a>
+        </nav>
         <!--
         <a href="/features/" {% if page.url == '/features/' %}class="active"{% endif %}>Features</a>
         <a href="/drones/" {% if page.url == '/drones/' %}class="active"{% endif %}>Drones</a>
-        <a href="/about/" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
         <a href="/blog/" {% if page.url == '/blog/' %}class="active"{% endif %}>Blog</a>
         -->
-        <a href="/contact/" {% if page.url == '/contact/' %}class="active"{% endif %}>Contact</a>
       </div>
     </header>
     <main>{{content}}</main>

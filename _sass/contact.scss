@@ -1,0 +1,63 @@
+
+main > .contact {
+  background: #fafbfc;
+
+  h1, p {
+    margin-right: 30px;
+  }
+
+  form {
+    background: white;
+    padding: 50px;
+    border-radius: 3px;
+    box-shadow: 0 6px 6px 0 #28286415;
+    padding-top: 30px;
+
+    label {
+      display: block;
+      font-weight: bold;
+      font-size: 0.8em;
+      margin: 20px 0 5px 0;
+    }
+    input, textarea {
+      border-radius: 3px;
+      border: solid 1px #ddd;
+      padding: 10px;
+      width: 100%;
+    }
+    textarea {
+      height: 200px;
+    }
+    button {
+      background: $theme;
+      color: white;
+      border-radius: 6px;
+      padding: 10px;
+      width: 100%;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  }
+  
+  .message {
+    display: none;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+
+    .fa {
+      margin-right: 5px;
+    }
+  }
+
+  #success {
+    background: #2ecc71;
+  }
+
+  #failure {
+    background: #e74c3c
+  }
+
+}
