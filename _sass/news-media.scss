@@ -1,0 +1,23 @@
+
+main > .news-media {
+
+  .channels {
+    a {
+      font-size: 2em;
+      color: $theme;
+      margin-right: 20px;
+    }
+  }
+
+  .media {
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 1px #eee;
+  }
+
+  .media.theme {
+    background: $theme;
+    border-color: $theme;
+  }
+
+}
