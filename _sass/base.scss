@@ -1,4 +1,5 @@
 $theme: #2e88fa;
+$poppins: "Poppins", "Roboto", "arial", sans-serif;
 
 body, input, textarea, select, button {
   font-family: "Roboto", "arial", sans-serif;
@@ -18,7 +19,7 @@ main {
 h1, h2, h3, h4, h5 {
   font-weight: 500;
   line-height: 1.2;
-  font-family: Poppins;
+  font-family: $poppins;
 }
 
 h1 {
@@ -53,6 +54,10 @@ section + section {
 section h1+p,
 section h2+p {
   margin-top: -20px;
+}
+
+section.alt {
+  background: #fafbfc;
 }
 
 section.theme {

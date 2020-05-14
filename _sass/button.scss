@@ -10,11 +10,16 @@
   display: inline-block;
   font-weight: 500;
   text-transform: uppercase;
-  box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 6px rgba(50,50,93,0.22), 0 1px 3px rgba(0,0,0,0.16);
   transition: opacity 0.2s ease;
   text-decoration: none;
 }
 
 .button:hover {
   opacity: 0.8;
+}
+
+.button.primary {
+  background-color: $theme;
+  color: white;
 }
