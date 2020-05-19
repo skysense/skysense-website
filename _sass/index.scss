@@ -1,9 +1,5 @@
 main > .index {
 
-  section {
-    text-align: center;
-  }
-
   $opacity: 0.2;
 
   .hero {
@@ -42,6 +38,24 @@ main > .index {
 
     .button {
       padding: 13px 30px;
+    }
+
+  }
+
+  section {
+    text-align: center;
+  }
+
+  section.text {
+    text-align: left;
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+
+    .button {
+      margin-top: 20px;
     }
 
   }
