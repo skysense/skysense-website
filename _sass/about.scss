@@ -1,0 +1,29 @@
+
+main > .about {
+
+  section.team {
+    text-align: center;
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    h3 {
+      font-size: 1em;
+      margin: 20px 0 0 0;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 0.8em;
+    }
+
+  }
+
+  section.text h2 {
+    margin-top: 0;
+  }
+
+}
