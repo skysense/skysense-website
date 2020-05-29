@@ -1,3 +1,5 @@
+{% assign locale = site.data.localization[page.language] %}
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -34,7 +36,7 @@
 
         <div class="navbar">
           <div class="brand">
-            <a href="/">
+            <a href="/{{ page.language }}/">
               <img src="/assets/img/logo.jpg" />
             </a>
             <div class="toggle" onclick="this.parentElement.parentElement.classList.toggle('toggled')">
@@ -42,17 +44,20 @@
             </div>
           </div>
           <div class="left">
-            <a href="/about/" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
-            <a href="/contact/" {% if page.url == '/contact/' %}class="active"{% endif %}>Contact</a>
+            <a href="/{{ page.language }}/about/" {% if page.url == '/about/' %}class="active"{% endif %}>{{ locale.nav.about }}</a>
+            <a href="/{{ page.language }}/contact/" {% if page.url == '/contact/' %}class="active"{% endif %}>{{ locale.nav.contact }}</a>
             <!--
               <a href="/news-media/" {% if page.url == '/news-media/' %}class="active"{% endif %}>News & Media</a>
-              <a href="/features/" {% if page.url == '/features/' %}class="active"{% endif %}>Features</a>
-              <a href="/drones/" {% if page.url == '/drones/' %}class="active"{% endif %}>Drones</a>
               <a href="/blog/" {% if page.url == '/blog/' %}class="active"{% endif %}>Blog</a>
             -->
           </div>
           <div class="right">
-            <a href="/careers/" {% if page.url == '/careers/' %}class="active"{% endif %}>We're Hiring!</a>
+            <a href="/{{ page.language }}/careers/" {% if page.url == '/careers/' %}class="active"{% endif %}>{{ locale.nav.careers }}</a>
+            {% if page.language == "en" %}
+            <a href="/jp/{{ page.url | slice: 4,99 }}">日本語</a>
+            {% else %}
+            <a href="/en/{{ page.url | slice: 4,99 }}">English</a>
+            {% endif %}
           </div>
         </div>
 

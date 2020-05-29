@@ -1,49 +1,46 @@
----
-layout: default
-title: Contact
----
+{% assign locale = site.data.localization[page.language] %}
 
 <div class="contact">
   <section>
     <div class="wrap">
 
       <div class="message" id="success">
-        <i class="fa fa-check"></i> Thank you, we'll get back to you as soon as possible!
+        <i class="fa fa-check"></i> {{ locale.contact.message_success }}
       </div>
 
       <div class="message" id="failure">
-        <i class="fa fa-times"></i> Sorry something went wrong, please try again!
+        <i class="fa fa-times"></i> {{ locale.contact.message_failure }}
       </div>
 
       <div class="row">
 
         <div class="col-md-6 col-xs-12">
           <div class="col">
-            <div class="preheader">Contact Skysense</div>
-            <h1>How can we help?</h1>
-            <p>Please enter your information and describe your inquiry, and we’ll get back to you as soon as possible.</p>
+            <div class="preheader">{{ locale.contact.preheader }}</div>
+            <h1>{{ locale.contact.header }}</h1>
+            <p>{{ locale.contact.description }}</p>
           </div>
         </div>
 
         <div class="col-md-6 col-xs-12">
           <div class="col">
             <form method="POST" action="https://app.skysense.jp/contact">
-              <label>Full Name</label>
+              <label>{{ locale.contact.field_full_name }}</label>
               <input type="text" name="name" required="required" />
 
-              <label>Company</label>
+              <label>{{ locale.contact.field_company }}</label>
               <input type="text" name="company" />
 
-              <label>Job Title</label>
+              <label>{{ locale.contact.field_job_title }}</label>
               <input type="text" name="title" />
 
-              <label>Email</label>
+              <label>{{ locale.contact.field_email }}</label>
               <input type="text" name="email" required="required" />
 
-              <label>Describe your inquiry</label>
-              <textarea name="message" required="required" placeholder="For example, please share your location, farm size, crop type, and how we can help you"></textarea>
+              <label>{{ locale.contact.field_message }}</label>
+              <textarea name="message" required="required" placeholder="{{ locale.contact.field_message_placeholder }}"></textarea>
 
-              <button>Contact Us</button>
+              <button>{{ locale.buttons.contact_us }}</button>
 
               <input type="hidden" name="honeypot" value="">
             </form>
