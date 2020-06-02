@@ -33,7 +33,6 @@
   <body>
     <header>
       <div class="wrap">
-
         <div class="navbar">
           <div class="brand">
             <a href="/{{ page.language }}/">
@@ -46,6 +45,9 @@
           <div class="left">
             <a href="/{{ page.language }}/about/" {% if page.url == '/about/' %}class="active"{% endif %}>{{ locale.nav.about }}</a>
             <a href="/{{ page.language }}/contact/" {% if page.url == '/contact/' %}class="active"{% endif %}>{{ locale.nav.contact }}</a>
+            {% if page.language == "en" %}
+            <a href="/{{ page.language }}/hemp/" {% if page.url == '/hemp/' %}class="active"{% endif %}>{{ locale.nav.hemp }}</a>
+            {% endif %}
             <!--
               <a href="/news-media/" {% if page.url == '/news-media/' %}class="active"{% endif %}>News & Media</a>
               <a href="/blog/" {% if page.url == '/blog/' %}class="active"{% endif %}>Blog</a>
@@ -53,11 +55,13 @@
           </div>
           <div class="right">
             <a href="/{{ page.language }}/careers/" {% if page.url == '/careers/' %}class="active"{% endif %}>{{ locale.nav.careers }}</a>
+            <!--
             {% if page.language == "en" %}
             <a href="/jp/{{ page.url | slice: 4,99 }}">日本語</a>
             {% else %}
             <a href="/en/{{ page.url | slice: 4,99 }}">English</a>
             {% endif %}
+            -->
           </div>
         </div>
 
