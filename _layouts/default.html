@@ -18,16 +18,30 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
-    {% if page.language and page.meta %}
-    <title>{{ site.data.localization[page.language][page.meta].meta_title }} | Skysense</title>
-    <meta name="description" content="{{ site.data.localization[page.language][page.meta].meta_description }}">
+    {% if page.language and page.seo %}
+    {% assign seo = locale[page.seo] %}
+    <title>{{ seo.title }} | Skysense</title>
+    <meta property="og:title" content="{{ seo.title }}" />
+    <meta name="description" content="{{ seo.description }}">
+    <meta property="og:description" content="{{ seo.description }}" />
     {% else %}
-    <title>Skysense</title>
+    <title>{{ site.title }} | {{ site.description }}</title>
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}" />
+    {% endif %}
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+
+    {% if page.language %}
+    <meta property="og:locale" content="{{ page.language }}" />
     {% endif %}
 
     {% if page.hreflang %}
-    <link rel="alternate" hreflang="x" href="https://skysense.jp{{page.hreflang}}" />
+    <link rel="alternate" hreflang="x" href="{{ site.url }}{{page.hreflang}}" />
     {% endif %}
+    <link rel="alternate" href="http://example.com/" hreflang="x-default" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162420404-1"></script>

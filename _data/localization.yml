@@ -12,7 +12,8 @@ en:
     get_in_touch: Get In Touch
     learn_more: Learn More
     get_started: Get Started
-  index_hemp:
+  hemp:
+    title: Hemp
     header: Grow quality CBD that extractors want
     description: Increase CBD % with drone-based AI to avoid pollination, watch plant stress, and ensure compliant harvest timing
     features_title: Complete hemp intelligence to increase CBD and avoid losses
@@ -36,7 +37,7 @@ en:
     connect_title: Let's Connect!
     connect_text1: Request a demo for hemp or share details about your unique use case and ideas for any crop. Skysense has brought together drones, scientific imaging, and AI for the first time to revolutionize your business.
     connect_text2: The Skysense team is excited to solve custom problems together and can take care of all the details from regulations and choice of equipment to developing pre-trained deep learning algorithms with custom image annotation.
-  index_japan:
+  index:
     header: Agricultural intelligence for quality and yield
     description: Drone-based AI to locate plant disease, stress, pests, and more
     features_title: Avoid losses by preventing risks and maximizing quality
@@ -61,6 +62,7 @@ en:
     connect_text1: Request a demo or share details about your unique use case and ideas for any crop. Skysense has brought together drones, scientific imaging, and AI for the first time to revolutionize your business.
     connect_text2: The Skysense team is excited to solve custom problems together and can take care of all the details from regulations and choice of equipment to developing pre-trained deep learning algorithms with custom image annotation.
   contact:
+    title: Contact
     message_success: Thank you, we'll get back to you as soon as possible!
     message_failure: Sorry something went wrong, please try again!
     preheader: Contact Skysense
@@ -73,6 +75,7 @@ en:
     field_message: Describe your inquiry
     field_message_placeholder: For example, please share your location, farm size, crop type, and how we can help you.
   careers:
+    title: Careers
     preheader: Join the Team
     header: Skysense is hiring!
     description: We’re looking for hard-working, creative problem-solvers to help us transform the future of agricultural drone tech. If you are looking to join a tight-knit, talented team with the opportunity to initiate change and make a big impact, join us!
@@ -101,6 +104,7 @@ en:
     principles5_title: Freedom
     principles5_text: We have a flat organizational structure with a 4-day work week and we embrace remote work. We don't squander human potential with by jobs or offices that people hate.
   about:
+    title: About
     preheader: Who We Are
     header: Skysense in a few words
     description: Skysense empowers farmers to revolutionize agriculture by combining scientific imaging from above with artificial intelligence to quickly reveal critical insights that unlock new value.
@@ -134,7 +138,7 @@ jp:
     get_in_touch: 連絡する
     learn_more: もっと詳しく知る
     get_started: 始めましょう
-  index_japan:
+  index:
     header: 品質と収量のための農業情報
     description: 植物の病気、ストレス、害虫などを見つけるためのドローンベースのAI
     features_title: リスクを防ぎ品質を最大化することで損失を回避
@@ -159,6 +163,7 @@ jp:
     connect_text1: デモをリクエストするか、独自のユースケースと作物のアイデアについての詳細を共有してください。 Skysenseは、ビジネスに革命を起こすために、初めてドローン、科学的画像処理、およびAIを統合しました。
     connect_text2: Skysenseチームは、カスタム問題を一緒に解決することに興奮しており、規制や機器の選択から、カスタム画像アノテーションを使用した事前トレーニング済みディープラーニングアルゴリズムの開発まで、あらゆる詳細に対応できます。
   contact:
+    title: 連絡先
     message_success: ありがとうございます。できるだけ早くご連絡いたします。
     message_failure: エラーが発生しました。もう一度お試しください。
     preheader: SKYSENSEに連絡する
@@ -171,6 +176,7 @@ jp:
     field_message: お問い合わせ内容を説明してください
     field_message_placeholder: たとえば、あなたの場所、農場の規模、作物の種類、そして私たちがあなたをどのように支援できるかを共有してください
   careers:
+    title: 採用しています！
     preheader: チームに参加する
     header: Skysenseが採用しています！
     description: 私たちは、農業用ドローン技術の未来を変革するのに役立つ、勤勉で創造的な問題解決者を探しています。 変化を起こし、大きな影響を与える機会を持つ緊密で才能のあるチームに参加したい場合は、ぜひご参加ください。
@@ -199,6 +205,7 @@ jp:
     principles5_title: 自由
     principles5_text: 平日は4日間勤務のフラットな組織構造になっており、遠隔地での勤務も可能です。 私たちは、人々が嫌う仕事やオフィスによって人間の可能性を浪費しません。
   about:
+    title: 会社
     preheader: 私たちは誰ですか
     header: Skysenseについて
     description: Skysenseは、上からの科学的画像処理と人工知能を組み合わせることで農業に革命を起こす力を農家に与え、新しい価値を引き出す重要な洞察をすばやく明らかにします。
