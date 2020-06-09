@@ -1,0 +1,98 @@
+nav_about: 会社
+nav_contact: 連絡先
+nav_careers: 採用しています！
+
+buttons_contact_us: お問い合わせ
+buttons_reach_out: 私たちに手を差し伸べる
+buttons_open_roles: 役割を開く
+buttons_apply_now: 今すぐ申し込む
+buttons_get_in_touch: 連絡する
+buttons_learn_more: もっと詳しく知る
+buttons_get_started: 始めましょう
+
+index_header: 品質と収量のための農業情報
+index_description: 植物の病気、ストレス、害虫などを見つけるためのドローンベースのAI
+index_features_title: リスクを防ぎ品質を最大化することで損失を回避
+index_features_scouting_title: 空中偵察
+index_features_scouting_text: 低コストで自動飛行ドローンを使用します。 4Kカメラとマルチスペクトルセンサーは、農場全体を継続的にマッピングし、人間の目に見えない植物の問題を特定するのに役立ちます。
+index_features_ai_title: 各作物のカスタムAI
+index_features_ai_text: 各作物の複雑さに特化したAI。雑草の存在下での植物のカウント、最も緊急の問題のカスタム検出、植物ストレスマップの異常など。
+index_features_map_title: 問題を特定するためのマップ
+index_features_map_text: Skysenseは画像データを処理して、マップに表示される実用的な診断に変換します。これは、チーム全体が品質と生産量を失う前にリスクを回避するために使用します。
+index_advantage_title: Skysense Advantage
+index_advantage_text1: スカイセンスは、日本でAIベースの作物診断を提供する世界初のプロバイダーです。
+index_advantage_text2: 有名なベンチャーキャピタリストと比類のないAI経験に支えられて、作物ストレスマッピング、植物病の検出、収穫計画、雑草管理、灌漑管理などを支援する革新的なカスタムデータソリューションを提供します。
+index_advantage_text3: 今シーズンの競争力を確保するための独自のテクノロジーをご利用ください。
+index_solutions_title: ストレス、病気、成長率を監視する機能
+index_solutions_stress_title: 植物ストレスの地図
+index_solutions_stress_text: 品質を低下させる植物ストレスを避けてください。人間の目には見えない植物の近赤外線反射に基づいています。
+index_solutions_disease_title: 植物の病気を見つける
+index_solutions_disease_text: 病気の植物が広がって破滅する前に、病気の植物の場所をグーグルマップで確認して、すばやく根絶します。
+index_solutions_growth_title: 各植物の成長率
+index_solutions_growth_text: AIベースの植物のカウントと成長の監視。発育不全の成長を早期にキャッチし、収量を最大化し、表現型を表現します。
+index_connect_title: 接続しましょう！
+index_connect_text1: デモをリクエストするか、独自のユースケースと作物のアイデアについての詳細を共有してください。 Skysenseは、ビジネスに革命を起こすために、初めてドローン、科学的画像処理、およびAIを統合しました。
+index_connect_text2: Skysenseチームは、カスタム問題を一緒に解決することに興奮しており、規制や機器の選択から、カスタム画像アノテーションを使用した事前トレーニング済みディープラーニングアルゴリズムの開発まで、あらゆる詳細に対応できます。
+
+contact_title: 連絡先
+contact_message_success: ありがとうございます。できるだけ早くご連絡いたします。
+contact_message_failure: エラーが発生しました。もう一度お試しください。
+contact_preheader: SKYSENSEに連絡する
+contact_header: どのように我々は助けることができます？
+contact_description: 情報を入力し、お問い合わせ内容をご記入ください。できるだけ早くご連絡いたします。
+contact_field_full_name: 氏名
+contact_field_company: 会社
+contact_field_job_title: 職名
+contact_field_email: Eメール
+contact_field_message: お問い合わせ内容を説明してください
+contact_field_message_placeholder: たとえば、あなたの場所、農場の規模、作物の種類、そして私たちがあなたをどのように支援できるかを共有してください
+
+careers_title: 採用しています！
+careers_preheader: チームに参加する
+careers_header: Skysenseが採用しています！
+careers_description: 私たちは、農業用ドローン技術の未来を変革するのに役立つ、勤勉で創造的な問題解決者を探しています。 変化を起こし、大きな影響を与える機会を持つ緊密で才能のあるチームに参加したい場合は、ぜひご参加ください。
+careers_benefits_and_perks: 特典と特典
+careers_4_day_work_week: 4日間の労働週
+careers_work_remote: リモートでの作業
+careers_flexible_vacation: 柔軟な休暇
+careers_stock_options: ストックオプション
+careers_relocation_package: 移転パッケージ
+careers_commuter_benefits: 通勤者のメリット
+careers_insurance_coverage: 保険の適用範囲
+careers_retirement_plan: 退職金制度
+careers_roles_title: 役割を開く
+careers_roles_dev: エンジニアリングと開発
+careers_roles_data: データサイエンス、ML、AI
+careers_roles_sales: 販売および運営
+careers_principles: Skysenseの違い
+careers_principles1_title: よくできました
+careers_principles1_text: それは意味があり、影響を与えると信じているので、私たちは良い仕事をしています。 長いメール、過度の会議、細かい管理などの悪い仕事をする時間を無駄にしません。
+careers_principles2_title: 影響
+careers_principles2_text: 私たちは社会に影響を与える問題を解決し、世界を変え、人々の生活を助けます。 あなたがポジティブな変化を信じるなら、誰もがそうすることができます。 私たちのプロジェクトは私たちが喜んで取り組むものです。
+careers_principles3_title: 自治
+careers_principles3_text: 人々は熱心である必要があるからではなく、長時間労働します。 マイクロマネージメントは行いません。 私たちは、高い個人レベルの自律性のためにタスクを指示することなく目標を設定します。
+careers_principles4_title: 頻繁に失敗する
+careers_principles4_text: 私たちは人々が過ちを責めるのではなく、むしろ良い仕事にはリスクをとる必要があるのでそれを奨励します。 私たちは、多くの制御された実験を試み、頻繁に失敗することによってリスクを取ることを信じています。
+careers_principles5_title: 自由
+careers_principles5_text: 平日は4日間勤務のフラットな組織構造になっており、遠隔地での勤務も可能です。 私たちは、人々が嫌う仕事やオフィスによって人間の可能性を浪費しません。
+
+about_title: 会社
+about_preheader: 私たちは誰ですか
+about_header: Skysenseについて
+about_description: Skysenseは、上からの科学的画像処理と人工知能を組み合わせることで農業に革命を起こす力を農家に与え、新しい価値を引き出す重要な洞察をすばやく明らかにします。
+about_about1: 手頃な価格のドローンとマルチスペクトルカメラを入手します。
+about_about2: 自己飛行ドローンを簡単に操作するように顧客に教えます。
+about_about3: 重要な洞察を備えたインタラクティブマップに画像を処理します。
+about_about4: 新しい作物と統合のためのカスタムR＆D。
+about_team_header: チームに会います
+about_justin: ジャスティン・クルーン
+about_justin_role: 最高経営責任者（CEO
+about_justin_about: ジャスティンは以前、テクノロジーのスタートアップHouseCareを設立し、規模を拡大し、そして退社した。 Skysenseのアイデアは、彼が120エーカーの大麻農場を栽培したときに生まれました。ジャスティンは、ローレンスバークレー国立研究所を含む4年間科学研究者でした。ジャスティンは東京大学で工学の修士号を、カリフォルニア大学バークレー校でビジネスと工学の学士号を取得しています。
+about_philippe: フィリップ・レミー
+about_philippe_role: 最高AI責任者
+about_philippe_about: PhilippeはAI研究エンジニアリングで13年の経験があります。彼は以前、成功したAI企業であるCogent Labsで最初の主要な採用者でした。彼は100以上のオープンソースリポジトリをコーディングし、何千人ものフォロワーを擁しています。フィリップは、インペリアルカレッジロンドンで統計数学と確率の修士号を、フランスのグランドエコールズで工学の学士号を取得しています。
+about_philip: フィリップ・バーグビスト
+about_philip_role: リード開発者
+about_philip_about:  フィリップは、現実の問題を解決することに情熱を傾けて、15年以上の専門的なソフトウェア開発の経験を持っています。彼は、Unified RemoteやAwardFaresなど、いくつかの成功したソフトウェア会社を設立しました。フィリップはブリストル大学でファーストクラスの栄誉を取得して工学修士号を取得しています。
+about_join_header: 参加しませんか！
+about_join_description: 採用しています！農業用ドローン技術の未来を変革するのに役立つ、勤勉で創造的な問題解決者を探しています。私たちは常にPhilipという名前の人をもっと探しています;）変化を起こして大きな影響を与える機会を持つ緊密で才能のあるチームに参加したい場合は、ぜひ参加してください！

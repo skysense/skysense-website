@@ -1,39 +1,39 @@
-{% assign locale = site.data.localization[page.language] %}
+{% assign locale = site.data[page.language] %}
 
 <div class="about">
 
   <section>
     <div class="wrap">
-      <div class="preheader">{{ locale.about.preheader }}</div>
-      <h1>{{ locale.about.header }}</h1>
-      <p>{{ locale.about.description }}</p>
+      <div class="preheader">{{ locale.about_preheader }}</div>
+      <h1>{{ locale.about_header }}</h1>
+      <p>{{ locale.about_description }}</p>
       <ul>
-        <li>{{ locale.about.about1 }}</li>
-        <li>{{ locale.about.about2 }}</li>
-        <li>{{ locale.about.about3 }}</li>
-        <li>{{ locale.about.about4 }}</li>
+        <li>{{ locale.about_about1 }}</li>
+        <li>{{ locale.about_about2 }}</li>
+        <li>{{ locale.about_about3 }}</li>
+        <li>{{ locale.about_about4 }}</li>
       </ul>
     </div>
   </section>
 
   <section class="team">
     <div class="wrap">
-      <h2>{{ locale.about.team_header }}</h2>
+      <h2>{{ locale.about_team_header }}</h2>
       <div class="row">
         <div class="col-md-4 col-xs-12">
           <img src="/assets/img/team/justin.jpg">
-          <h3>{{ locale.about.justin }} &middot; {{ locale.about.justin_role }}</h3>
-          <p>{{ locale.about.justin_about }}</p>
+          <h3>{{ locale.about_justin }} &middot; {{ locale.about_justin_role }}</h3>
+          <p>{{ locale.about_justin_about }}</p>
         </div>
         <div class="col-md-4 col-xs-12">
           <img src="/assets/img/team/philippe.jpg">
-          <h3>{{ locale.about.philippe }} &middot; {{ locale.about.philippe_role }}</h3>
-          <p>{{ locale.about.philippe_about }}</p>
+          <h3>{{ locale.about_philippe }} &middot; {{ locale.about_philippe_role }}</h3>
+          <p>{{ locale.about_philippe_about }}</p>
         </div>
         <div class="col-md-4 col-xs-12">
           <img src="/assets/img/team/philip.png">
-          <h3>{{ locale.about.philip }} &middot; {{ locale.about.philip_role }}</h3>
-          <p>{{ locale.about.philip_about }}</p>
+          <h3>{{ locale.about_philip }} &middot; {{ locale.about_philip_role }}</h3>
+          <p>{{ locale.about_philip_about }}</p>
         </div>
       </div>
     </div>
@@ -41,9 +41,9 @@
 
   <section class="theme text">
     <div class="wrap">
-      <h2>{{ locale.about.join_header }}</h2>
-      <p>{{ locale.about.join_description }}</p>
-      <a href="/contact/" class="button">{{ locale.buttons.get_in_touch }}</a>
+      <h2>{{ locale.about_join_header }}</h2>
+      <p>{{ locale.about_join_description }}</p>
+      <a href="/contact/" class="button">{{ locale.buttons_get_in_touch }}</a>
     </div>
   </section>
 

@@ -1,46 +1,46 @@
-{% assign locale = site.data.localization[page.language] %}
+{% assign locale = site.data[page.language] %}
 
 <div class="contact">
   <section>
     <div class="wrap">
 
       <div class="message" id="success">
-        <i class="fa fa-check"></i> {{ locale.contact.message_success }}
+        <i class="fa fa-check"></i> {{ locale.contact_message_success }}
       </div>
 
       <div class="message" id="failure">
-        <i class="fa fa-times"></i> {{ locale.contact.message_failure }}
+        <i class="fa fa-times"></i> {{ locale.contact_message_failure }}
       </div>
 
       <div class="row">
 
         <div class="col-md-6 col-xs-12">
           <div class="col">
-            <div class="preheader">{{ locale.contact.preheader }}</div>
-            <h1>{{ locale.contact.header }}</h1>
-            <p>{{ locale.contact.description }}</p>
+            <div class="preheader">{{ locale.contact_preheader }}</div>
+            <h1>{{ locale.contact_header }}</h1>
+            <p>{{ locale.contact_description }}</p>
           </div>
         </div>
 
         <div class="col-md-6 col-xs-12">
           <div class="col">
             <form method="POST" action="https://dashboard.skysense.jp/contact">
-              <label>{{ locale.contact.field_full_name }}</label>
+              <label>{{ locale.contact_field_full_name }}</label>
               <input type="text" name="name" required="required" />
 
-              <label>{{ locale.contact.field_company }}</label>
+              <label>{{ locale.contact_field_company }}</label>
               <input type="text" name="company" />
 
-              <label>{{ locale.contact.field_job_title }}</label>
+              <label>{{ locale.contact_field_job_title }}</label>
               <input type="text" name="title" />
 
-              <label>{{ locale.contact.field_email }}</label>
+              <label>{{ locale.contact_field_email }}</label>
               <input type="text" name="email" required="required" />
 
-              <label>{{ locale.contact.field_message }}</label>
-              <textarea name="message" required="required" placeholder="{{ locale.contact.field_message_placeholder }}"></textarea>
+              <label>{{ locale.contact_field_message }}</label>
+              <textarea name="message" required="required" placeholder="{{ locale.contact_field_message_placeholder }}"></textarea>
 
-              <button>{{ locale.buttons.contact_us }}</button>
+              <button>{{ locale.buttons_contact_us }}</button>
 
               <input type="hidden" name="honeypot" value="">
             </form>
