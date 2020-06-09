@@ -29,7 +29,7 @@
     <meta property="og:title" content="{{ site.title }}" />
     {% endif %}
     
-    {% if page.language and page.description ‰}
+    {% if page.language and page.description %}
     {% assign description = site.data[page.language][page.description] %}
     <meta name="description" content="{{ description }}">
     <meta property="og:description" content="{{ description }}" />
