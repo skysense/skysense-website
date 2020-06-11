@@ -2,7 +2,9 @@ $theme: #2e88fa;
 $poppins: "Poppins", "Roboto", "arial", sans-serif;
 
 body, input, textarea, select, button {
-  font-family: "Roboto", "arial", sans-serif;
+  font-family: "Roboto", "Noto Sans JP", "arial", sans-serif;
+  font-feature-settings: "palt";
+  -webkit-font-smoothing: antialiased;
   font-size: 14pt;
 }
 
