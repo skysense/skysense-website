@@ -21,24 +21,38 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
 
-    {% if page.language and page.title %}
-    {% assign title = site.data[page.language][page.title] %}
-    <title>{{ title }} | Skysense</title>
-    <meta property="og:title" content="{{ title }}" />
+    {% if page.language %}
+    {% if page.title %}
+    {% if site.data[page.language][page.title] %}
+    <title>{{ site.data[page.language][page.title] }} | {{ site.data[page.language].site_title }}</title>
+    <meta property="og:title" content="{{ site.data[page.language][page.title] }} | {{ site.data[page.language].site_title }}" />
+    {% else %}
+    <title>{{ page.title }} | {{ site.data[page.language].site_title }}</title>
+    <meta property="og:title" content="{{ page.title }} | {{ site.data[page.language].site_title }}" />
+    {% endif %}
+    {% else %}
+    <title>{{ site.data[page.language].site_title }} | {{ site.data[page.language].site_description }}</title>
+    <meta property="og:title" content="{{ site.data[page.language].site_title }}" />
+    {% endif %}
+    {% if page.description %}
+    {% if site.data[page.language][page.description] %}
+    <meta name="description" content="{{ site.data[page.language][page.description] }}">
+    <meta property="og:description" content="{{ site.data[page.language][page.description] }}" />
+    {% else %}
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}" />
+    {% endif %}
+    {% else %}
+    <meta name="description" content="{{ site.data[page.language].site_description }}">
+    <meta property="og:description" content="{{ site.data[page.language].site_description }}" />
+    {% endif %}
     {% else %}
     <title>{{ site.title }} | {{ site.description }}</title>
-    <meta property="og:title" content="{{ site.title }}" />
-    {% endif %}
-    
-    {% if page.language and page.description %}
-    {% assign description = site.data[page.language][page.description] %}
-    <meta name="description" content="{{ description }}">
-    <meta property="og:description" content="{{ description }}" />
-    {% else %}
+    <meta property="og:title" content="{{ site.title }} | {{ site.description }}" />
     <meta name="description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
-    
+
     {% if page.language %}
     <meta property="og:locale" content="{{ page.language }}" />
     {% endif %}
