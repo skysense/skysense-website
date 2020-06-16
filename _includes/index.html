@@ -5,10 +5,10 @@
     <div class="wrap">
       <h1>{{ locale.index_header }}</h1>
       <p>{{ locale.index_description }}</p>
-      <a href="/{{page.language}}/contact/" class="button">{{ locale.buttons_learn_more }}</a>
+      <a href="javascript:document.querySelector('#features').scrollIntoView({ behavior: 'smooth' })" class="button">{{ locale.buttons_learn_more }}</a>
     </div>
   </section>
-  <section>
+  <section id="features">
     <div class="wrap">
       <h2>{{ locale.index_features_title }}</h2>
       <div class="icons">

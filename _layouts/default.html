@@ -97,14 +97,12 @@
           </div>
           <div class="right">
             <a href="/{{ page.language }}/careers/" {% if page.url == '/careers/' %}class="active"{% endif %}>{{ locale.nav_careers }}</a>
-            <!--<a href="https://dashboard.skysense.jp">Dashboard</a>-->
-            <!--
+            <a href="https://dashboard.skysense.jp">{{ locale.nav_login }}</a>
             {% if page.language == "en" %}
             <a href="/ja/{{ page.url | slice: 4,99 }}">日本語</a>
             {% else %}
             <a href="/en/{{ page.url | slice: 4,99 }}">English</a>
             {% endif %}
-            -->
           </div>
         </div>
 
@@ -120,11 +118,18 @@
           <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
           <a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
           <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:hello@skysense.jp" target="_blank"><i class="fa fa-envelope"></i></a>
         -->
-        <a href="mailto:hello@skysense.jp" target="_blank"><i class="fa fa-envelope"></i></a>
       </div>
       <div class="copyright">
           <span>&copy; {{ site.time | date: '%Y' }} Skysense</span>
+          <a href="/{{ page.language }}/about/">{{ locale.nav_about }}</a>
+          <a href="/{{ page.language }}/contact/">{{ locale.nav_contact }}</a>
+          {% if page.language == "en" %}
+          <a href="/{{ page.language }}/hemp/">{{ locale.nav_hemp }}</a>
+          {% endif %}
+          <a href="/{{ page.language }}/careers/">{{ locale.nav_careers }}</a>
+          <a href="https://dashboard.skysense.jp/">Login</a>
           <a href="/terms/">Terms</a>
           <a href="/privacy/">Privacy</a>
       </div>
