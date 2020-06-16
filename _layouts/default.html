@@ -97,14 +97,12 @@
           </div>
           <div class="right">
             <a href="/{{ page.language }}/careers/" {% if page.url == '/careers/' %}class="active"{% endif %}>{{ locale.nav_careers }}</a>
-            <!--<a href="https://dashboard.skysense.jp">Dashboard</a>-->
-            <!--
+            <a href="https://dashboard.skysense.jp">{{ locale.nav_login }}</a>
             {% if page.language == "en" %}
             <a href="/ja/{{ page.url | slice: 4,99 }}">日本語</a>
             {% else %}
             <a href="/en/{{ page.url | slice: 4,99 }}">English</a>
             {% endif %}
-            -->
           </div>
         </div>
 
