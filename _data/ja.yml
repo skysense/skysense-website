@@ -15,8 +15,8 @@ buttons_get_in_touch: 問い合わせる
 buttons_learn_more: さらに詳しく
 buttons_get_started: 利用開始
 
-index_header: 品質と収穫量向上のための農業用人工知能
-index_description: ドローンベースのAIで作物の病害、ストレス、害虫・害獣などの発生箇所を検知
+index_header: 収穫量を上げる、農業用AI
+index_description: ドローンベースのAIが、作物の病害、ストレス、害虫・害獣などの発生箇所を検知します。
 index_features_title: リスクを防止して品質を最大化することで損失を回避
 index_features_scouting_title: 空からのモニタリング
 index_features_scouting_text: 自動操縦ドローンを低コストでご利用いただけます。4Kカメラとマルチスペクトラルセンサーを用いて、ファーム全体を連続的にマップ化し、人間の目には見えない作物の問題を検知できます。
