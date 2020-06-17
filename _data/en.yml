@@ -42,27 +42,27 @@ index_connect_text2: The Skysense team is excited to solve custom problems toget
 hemp_title: Hemp
 hemp_header: Grow quality CBD that extractors want
 hemp_description: Increase CBD % with drone-based AI to avoid pollination, watch plant stress, and ensure compliant harvest timing
-hemp_features_title: Complete hemp intelligence to increase CBD and avoid losses
-hemp_features_scouting_title: Aerial Scouting
-hemp_features_scouting_text: Use self-flying drones at low cost. 4K cameras and multispectral sensors help to map the entire farm continuously and spot plant issues invisible to the human eye.
-hemp_features_ai_title: AI-driven Software for Hemp
-hemp_features_ai_text: AI specialized for the complexities of hemp. Plant counting in the presence of weeds, male detection to avoid pollination to increase CBD, stress detection to avoid a spike in THC.
-hemp_features_map_title: Map to Locate Issues
-hemp_features_map_text: Skysense processes image data to turn it into actionable diagnostics displayed in a map that your whole team uses to prevent hemp risks before losing yield and quality.
-hemp_advantage_title: Skysense Advantage
-hemp_advantage_text1: Skysense is the world’s first provider of crop diagnostics for hemp, working with some of America’s fastest growing hemp farms and CBD extractors.
-hemp_advantage_text2: Backed by renowned venture capitalists and an unparalleled combination of hemp and AI experience, we deliver innovative, custom data solutions that assist in crop stress mapping, male plant detection, compliant harvest planning, weed management, irrigation management, and much more.​
-hemp_advantage_text3: Get started with our unique technology to secure your competitive edge this season.
-hemp_solutions_title: Features to monitor stress, males, and growth rate
-hemp_solutions_stress_title: Map of Plant Stress
-hemp_solutions_stress_text: Pass compliance testing by avoiding stress that spikes THC. Based on near-infrared reflection of plants that's invisible to the human eye.
-hemp_solutions_male_title: Locate Male Plants
-hemp_solutions_male_text: See male plant locations in google maps to eradicate them before pollination ruins CBD yield and makes it near impossible to find a buyer.
-hemp_solutions_growth_title: Growth Rate of Each Plant
-hemp_solutions_growth_text: AI-based plant counting and growth monitoring in the presence of weeds. Catch stunted growth early, maximize yield, and clone the best plants.
-hemp_connect_title: Let's Connect!
-hemp_connect_text1: Request a demo for hemp or share details about your unique use case and ideas for any crop. Skysense has brought together drones, scientific imaging, and AI for the first time to revolutionize your business.
-hemp_connect_text2: The Skysense team is excited to solve custom problems together and can take care of all the details from regulations and choice of equipment to developing pre-trained deep learning algorithms with custom image annotation.
+hemp_features_title: Complete hemp intelligence to increase CBD yield
+hemp_features_scouting_title: Self-flying drones
+hemp_features_scouting_text: Drones fitted with 4K cameras and multispectral sensors fly on autopilot to map your entire farm and spot hemp stress invisible to the human eye.
+hemp_features_ai_title: AI for hemp
+hemp_features_ai_text: Deep learning AI counts hemp plants and weeds, finds male plants to avoid pollination, detects stress to avoid a THC spike, and helps plan harvest timing.
+hemp_features_map_title: Male plant map
+hemp_features_map_text: Images are processed into actionable diagnostics displayed via an interactive map that your whole team uses to reduce labor and optimize spraying.
+hemp_advantage_title: The Skysense Advantage
+hemp_advantage_text1: Skysense is the world’s first provider of AI-powered crop diagnostics for hemp, working with some of America’s fastest growing hemp farms and CBD extractors.
+hemp_advantage_text2: Backed by an unparalleled combination of hemp and AI experience, and significant venture capital investment, we deliver innovative data solutions that assist in crop stress mapping, eradicating male plants quickly, compliant harvest planning, weed management, irrigation management, and more.​
+hemp_advantage_text3: Secure your competitive edge this growing season by using Skysense's unique technology!
+hemp_solutions_title: Monitor every hemp plant over time
+hemp_solutions_stress_title: Harvest compliant hemp
+hemp_solutions_stress_text: Pass compliance testing by avoiding stress that spikes THC. Skysense uses near-infrared reflection of plants that's invisible to the human eye.
+hemp_solutions_male_title: Eradicate males faster
+hemp_solutions_male_text: See male plant locations in google maps to eradicate them before pollination ruins CBD yield and makes it impossible to find an extractor willing to buy.
+hemp_solutions_growth_title: Benchmark growth rate
+hemp_solutions_growth_text: Catch stunted growth, benchmark yield, and clone the top 1% of plant phenotypes with AI-based plant counting and growth rate monitoring.
+hemp_connect_title: Need our expertise to solve a different problem?
+hemp_connect_text1: Contact us to schedule a meeting and share details about your unique use case or ideas. Skysense has brought together drones, scientific imaging, and AI for the first time to revolutionize your business.
+hemp_connect_text2: The Skysense team is excited to solve custom problems together and can take care of all the details from regulations and choice of equipment to developing fully trained deep learning algorithms with custom image annotation.
 
 contact_title: Contact
 contact_message_success: Thank you, we'll get back to you as soon as possible!
