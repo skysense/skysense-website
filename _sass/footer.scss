@@ -1,12 +1,12 @@
 
 footer {
-  background: #f6f8fa;
+  border-top: solid 1px #eee;
   text-align: center;
-  padding: 40px;
+  padding: 20px;
 
   .links {
     font-size: 2em;
-    color: #a0a0a0;
+    color: #da4c4c;
 
     a {
       color: inherit;
@@ -24,14 +24,19 @@ footer {
   }
 
   .copyright {
-    margin-top: 10px;
     font-size: 0.8em;
     opacity: 0.5;
 
     a {
       color: inherit;
+      text-decoration: none;
       margin-left: 5px;
     }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
   }
 
 }
