@@ -1,0 +1,167 @@
+{% assign locale = site.data[page.language] %}
+
+<div class="index">
+  <section class="hero2">
+    <div class="wrap">
+      <h1>Agricultural Intelligence from Drone Images</h1>
+      <p>Protect crops to maximize yield. Missing a disease, stress, or weeds can ruin yield.<br>Skysense helps you find and solve issues before the damage is done.</p>
+      <img src="/assets/img/demo/dashboard-overview.png" />
+    </div>
+  </section>
+
+  <!--
+  <section id="features">
+    <div class="wrap">
+      <h2>{{ locale.index_features_title }}</h2>
+      <div class="icons">
+        <div class="icon">
+          <i class="fa fa-helicopter"></i>
+          <div class="title">{{ locale.index_features_scouting_title }}</div>
+          <div class="description">{{ locale.index_features_scouting_text }}</div>
+        </div>
+        <div class="icon"><i class="fa fa-brain"></i>
+          <div class="title">{{ locale.index_features_ai_title }}</div>
+          <div class="description">{{ locale.index_features_ai_text }}</div>
+        </div>
+        <div class="icon"><i class="fa fa-map-marked-alt"></i>
+          <div class="title">{{ locale.index_features_map_title }}</div>
+          <div class="description">{{ locale.index_features_map_text }}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <section>
+    <div class="wrap">
+      <h2>{{ locale.index_solutions_title }}</h2>
+      <div class="icons">
+        <div class="icon"><i class="fa fa-stethoscope"></i>
+          <div class="title">{{ locale.index_solutions_stress_title }}</div>
+          <div class="description">{{ locale.index_solutions_stress_text }}</div>
+        </div>
+        <div class="icon"><i class="fa fa-map"></i>
+          <div class="title">{{ locale.index_solutions_disease_title }}</div>
+          <div class="description">{{ locale.index_solutions_disease_text }}</div>
+        </div>
+        <div class="icon"><i class="fa fa-chart-pie"></i>
+          <div class="title">{{ locale.index_solutions_growth_title }}</div>
+          <div class="description">{{ locale.index_solutions_growth_text }}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="wrap">
+      <div class="columns">
+        <div class="column narrow">
+          <h2>Dashboard</h2>
+          <p>Quickly and easily upload your flight data to the dashboard. Manage your flights and analyze data using the dashboard.</p>
+        </div>
+        <div class="column">
+          <img src="/assets/img/demo/dashboard.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="columns reverse">
+        <div class="column narrow">
+          <h2>Flight Mapping</h2>
+          <p>Images are processed into actionable diagnostics displayed via an interactive map that your whole team uses to prioritize labor and optimize spraying.</p>
+          <!--<p>Skysense uses state of the art technology to perform accurate and high resolution orthophoto mapping using your uploaded imagery. Using the dashboard you can toggle different map layers, including photo markers, flight path, ortho map, plant health, surface model, and plant detection.</p>-->
+        </div>
+        <div class="column">
+          <div class="screens">
+            <div class="screen"><img src="/assets/img/demo/map-path.png" /></div>
+            <div class="screen"><img src="/assets/img/demo/map-area.png" /></div>
+            <div class="screen"><img src="/assets/img/demo/map-ortho.png" /></div>
+          </div>
+          <div class="screens">
+            <div class="screen"><img src="/assets/img/demo/map-health.png" /></div>
+            <div class="screen"><img src="/assets/img/demo/map-dsm.png" /></div>
+            <div class="screen"><img src="/assets/img/demo/map-predictions.png" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="columns">
+        <div class="column narrow">
+          <h2>Plant Health</h2>
+          <p>Generate high-resolution plant health maps using both RGB and NIR (Near Infrared) data.</p>
+        </div>
+        <div class="column">
+          <img src="/assets/img/demo/dashboard-health.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="columns reverse">
+        <div class="column narrow">
+          <h2>Surface Model</h2>
+          <p>Generate high-resolution plant health maps using both RGB and NIR (Near Infrared) data.</p>
+        </div>
+        <div class="column">
+          <img src="/assets/img/demo/dashboard-surface-model.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="columns">
+        <div class="column narrow">
+          <h2>Crop Detection</h2>
+          <p>Deep learning AI is tuned to the complexities of your crops. Count plants and weeds, detect urgent problems, localize plant stress early, and more.</p>
+        </div>
+        <div class="column">
+          <div class="screen"><img src="/assets/img/demo/dashboard-preview.png" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="wrap">
+      <div class="columns reverse">
+        <div class="column narrow">
+          <h2>Flight Analysis</h2>
+          <p>Analyse data from uploaded flights.</p>
+        </div>
+        <div class="column">
+          <img src="/assets/img/demo/dashboard-assets.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt text">
+    <div class="wrap">
+      <h2>{{ locale.index_advantage_title }}</h2>
+      <p>{{ locale.index_advantage_text1 }}</p>
+      <p>{{ locale.index_advantage_text2 }}</p>
+      <p>{{ locale.index_advantage_text3 }}</p>
+      <a href="/{{page.language}}/contact/" class="button">{{ locale.buttons_get_started }}</a>
+    </div>
+  </section>
+
+  <section class="theme text">
+    <div class="wrap">
+      <h2>{{ locale.index_connect_title }}</h2>
+      <p>{{ locale.index_connect_text1 }}</p>
+      <p>{{ locale.index_connect_text2 }}</p>
+      <a href="/{{page.language}}/contact/" class="button">{{ locale.buttons_contact_us }}</a>
+    </div>
+  </section>
+</div>
