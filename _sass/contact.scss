@@ -1,6 +1,7 @@
 
 main > .contact {
   background: #fafbfc;
+  min-height: 100%;
 
   h1, p {
     margin-right: 30px;
@@ -36,6 +37,8 @@ main > .contact {
       width: 100%;
       margin-top: 20px;
       cursor: pointer;
+      border: none;
+      box-shadow: 0 4px 6px rgba(50,50,93,0.22), 0 1px 3px rgba(0,0,0,0.16);
     }
   }
   
