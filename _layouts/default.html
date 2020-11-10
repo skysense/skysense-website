@@ -85,18 +85,19 @@
             </div>
           </div>
           <div class="left">
-            <a href="/{{ page.language }}/about/" {% if page.url == '/about/' %}class="active"{% endif %}>{{ locale.nav_about }}</a>
-            <a href="/{{ page.language }}/contact/" {% if page.url == '/contact/' %}class="active"{% endif %}>{{ locale.nav_contact }}</a>
             {% if page.language == "en" %}
             <a href="/{{ page.language }}/hemp/" {% if page.url == '/hemp/' %}class="active"{% endif %}>{{ locale.nav_hemp }}</a>
             {% endif %}
+            <a href="/{{ page.language }}/about/" {% if page.url == '/about/' %}class="active"{% endif %}>{{ locale.nav_about }}</a>
+            <a href="/{{ page.language }}/careers/" {% if page.url == '/careers/' %}class="active"{% endif %}>{{ locale.nav_careers }}</a>
+            <a href="/{{ page.language }}/contact/" {% if page.url == '/contact/' %}class="active"{% endif %}>{{ locale.nav_contact }}</a>
             <!--
               <a href="/news-media/" {% if page.url == '/news-media/' %}class="active"{% endif %}>News & Media</a>
               <a href="/blog/" {% if page.url == '/blog/' %}class="active"{% endif %}>Blog</a>
             -->
           </div>
           <div class="right">
-            <a href="/{{ page.language }}/careers/" {% if page.url == '/careers/' %}class="active"{% endif %}>{{ locale.nav_careers }}</a>
+            
             <a href="https://dashboard.skysense.jp">{{ locale.nav_login }}</a>
             {% if page.language == "en" %}
             <a href="/ja/{{ page.url | slice: 4,99 }}">日本語</a>
@@ -110,17 +111,16 @@
     </header>
 
     <main>{{content}}</main>
-    <div class="wrap">
-    </div>
+    
     <footer>
+      <!--
       <div class="links">
-        <!--
           <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
           <a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
           <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
           <a href="mailto:hello@skysense.jp" target="_blank"><i class="fa fa-envelope"></i></a>
-        -->
-      </div>
+        </div>
+      -->
       <div class="copyright">
           <span>&copy; {{ site.time | date: '%Y' }} Skysense</span>
           <a href="/{{ page.language }}/about/">{{ locale.nav_about }}</a>
@@ -129,7 +129,7 @@
           <a href="/{{ page.language }}/hemp/">{{ locale.nav_hemp }}</a>
           {% endif %}
           <a href="/{{ page.language }}/careers/">{{ locale.nav_careers }}</a>
-          <a href="https://dashboard.skysense.jp/">Login</a>
+          <a href="https://dashboard.skysense.jp/">{{ locale.nav_login }}</a>
           <a href="/terms/">Terms</a>
           <a href="/privacy/">Privacy</a>
       </div>
