@@ -3,8 +3,10 @@ main > .index {
   $opacity: 0.2;
 
   .hero2 {
+    overflow: hidden;;
     img {
       margin-top: 30px;
+      margin-bottom: -150px;
     }
   }
 
