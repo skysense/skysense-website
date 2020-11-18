@@ -3,10 +3,25 @@ main > .index {
   $opacity: 0.2;
 
   .hero2 {
-    overflow: hidden;;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/img/drone.png');
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    color: white;
+
     img {
       margin-top: 30px;
-      margin-bottom: -150px;
+    }
+
+    h1 {
+      font-size: 2.22em;
+    }
+
+    p {
+      font-size: 1.7em;
+      opacity: 0.8;
+      margin-bottom: 0;
     }
   }
 
