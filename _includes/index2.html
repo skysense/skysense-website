@@ -3,8 +3,8 @@
 <div class="index">
   <section class="hero2">
     <div class="wrap">
-      <h1>Agricultural Intelligence from Drone Images</h1>
-      <p>Protect crops to maximize yield. Missing a disease, stress, or weeds can ruin yield.<br>Skysense helps you find and solve issues before the damage is done.</p>
+      <h1>Protect Crops with Intelligence from Drone Images</h1>
+      <p>Skysense helps you stop plant disease and weeds before the damage is done by providing agricultural intelligence from self-flying drones.</p>
       <img src="/assets/img/demo/dashboard-overview.png" />
     </div>
   </section>
@@ -36,22 +36,22 @@
     <div class="wrap">
       <h2>{{ locale.index_solutions_title }}</h2>
       <div class="icons">
-        <div class="icon"><i class="fa fa-stethoscope"></i>
+        <div class="icon"><i class="fa fa-helicopter"></i>
           <div class="title">{{ locale.index_solutions_stress_title }}</div>
           <div class="description">{{ locale.index_solutions_stress_text }}</div>
         </div>
-        <div class="icon"><i class="fa fa-map"></i>
+        <div class="icon"><i class="fa fa-map-marked-alt"></i>
           <div class="title">{{ locale.index_solutions_disease_title }}</div>
           <div class="description">{{ locale.index_solutions_disease_text }}</div>
         </div>
-        <div class="icon"><i class="fa fa-chart-pie"></i>
+        <div class="icon"><i class="fa fa-brain"></i>
           <div class="title">{{ locale.index_solutions_growth_title }}</div>
           <div class="description">{{ locale.index_solutions_growth_text }}</div>
         </div>
       </div>
     </div>
   </section>
-  
+
   <!--
   <section>
     <div class="wrap">
@@ -72,8 +72,8 @@
     <div class="wrap">
       <div class="columns">
         <div class="column narrow">
-          <h2>Crop Detection</h2>
-          <p>Deep learning AI is tuned to the complexities of your crops. Count plants and weeds, detect urgent problems, localize plant stress early, and more.</p>
+          <h2>Count Plants</h2>
+          <p>Deep learning AI is tuned to the detect and count specific plant species. Count plants and weeds separately, monitor plant growth, and improve insurance claims.</p>
         </div>
         <div class="column">
           <div class="screen"><img src="/assets/img/demo/dashboard-preview.png" /></div>
@@ -86,8 +86,8 @@
     <div class="wrap">
       <div class="columns reverse">
         <div class="column narrow">
-          <h2>Plant Classification</h2>
-          <p>Identify different types and variations of crops, powered by state of the art AI and Machine Learning techniques.</p>
+          <h2>Scout Diseases</h2>
+          <p>Go beyond NDVI-based plant health to classify specific plant diseases, made possible only by applying AI to low-altitude drone flights or hyperspectral cameras.</p>
         </div>
         <div class="column">
           <div class="screen"><img src="/assets/img/demo/dashboard-classification.png" /></div>
@@ -100,8 +100,8 @@
     <div class="wrap">
       <div class="columns">
         <div class="column narrow">
-          <h2>Flight Mapping</h2>
-          <p>Images are processed into actionable diagnostics displayed via an interactive map that your whole team uses to prioritize labor and optimize spraying.</p>
+          <h2>Interact with Maps</h2>
+          <p>Image-based intelligence is embeded in interactive farm maps that the whole team uses to prioritize labor, optimize spraying, and evaluate experiments.</p>
           <!--<p>Skysense uses state of the art technology to perform accurate and high resolution orthophoto mapping using your uploaded imagery. Using the dashboard you can toggle different map layers, including photo markers, flight path, ortho map, plant health, surface model, and plant detection.</p>-->
         </div>
         <div class="column">
@@ -124,8 +124,8 @@
     <div class="wrap">
       <div class="columns reverse">
         <div class="column narrow">
-          <h2>Plant Health</h2>
-          <p>Generate high-resolution plant health maps using both RGB and NIR (Near Infrared) data.</p>
+          <h2>Monitor Health</h2>
+          <p>Spot plant stress early with heat maps generated from standard RGB cameras (VARI) and multispectral cameras that capture near-infrared, invisible to the human eye (NDVI).</p>
         </div>
         <div class="column">
           <img src="/assets/img/demo/dashboard-health.png" />
@@ -138,8 +138,8 @@
     <div class="wrap">
       <div class="columns">
         <div class="column narrow">
-          <h2>Surface Model</h2>
-          <p>Generate accurate surface models...</p>
+          <h2>Generate Surface Models</h2>
+          <p>Improve irrigation decisions by understanding where water flows using accurate surface models that map your field's 3D topography.</p>
         </div>
         <div class="column">
           <img src="/assets/img/demo/dashboard-surface-model.png" />
@@ -147,13 +147,22 @@
       </div>
     </div>
   </section>
-  
+
+  <section class="theme text">
+    <div class="wrap">
+      <h2>{{ locale.index_connect_title }}</h2>
+      <p>{{ locale.index_connect_text1 }}</p>
+      <p>{{ locale.index_connect_text2 }}</p>
+      <a href="/{{page.language}}/contact/" class="button">{{ locale.buttons_contact_us }}</a>
+    </div>
+  </section>
+
   <section>
     <div class="wrap">
       <div class="columns reverse">
         <div class="column narrow">
-          <h2>Flight Analysis</h2>
-          <p>Analyse data from uploaded flights.</p>
+          <h2>Analyze Flights</h2>
+          <p>Improve data quality and reliability of self-flying drones by analyzing drone position, speed, and altitude information of every image.</p>
         </div>
         <div class="column">
           <img src="/assets/img/demo/dashboard-assets.png" />
@@ -169,12 +178,12 @@
         <div class="icon">
           <i class="fa fa-cloud"></i>
           <div class="title">Cloud Hosting</div>
-          <div class="description">Upload and access your flights from anywhere using our cloud hosted solution.</div>
+          <div class="description">Upload and access your flights from anywhere and share maps with your team using our cloud hosted solution.</div>
         </div>
         <div class="icon">
           <i class="fa fa-building"></i>
-          <div class="title">On-Premises</div>
-          <div class="description">On-site hosting for faster uploads speeds and custom processing hardware.</div>
+          <div class="title">On-Premise</div>
+          <div class="description">On-site hosting and custom processing hardware for fast results that aren't delayed by internet speeds (closed beta).</div>
         </div>
       </div>
     </div>
@@ -190,12 +199,5 @@
     </div>
   </section>
 
-  <section class="theme text">
-    <div class="wrap">
-      <h2>{{ locale.index_connect_title }}</h2>
-      <p>{{ locale.index_connect_text1 }}</p>
-      <p>{{ locale.index_connect_text2 }}</p>
-      <a href="/{{page.language}}/contact/" class="button">{{ locale.buttons_contact_us }}</a>
-    </div>
-  </section>
+
 </div>
