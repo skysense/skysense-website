@@ -39,6 +39,33 @@ index_connect_title: Need our expertise to solve a different problem?
 index_connect_text1: Contact us to schedule a meeting and share details about your unique use case or ideas. Skysense has brought together drones, scientific imaging, and AI for the first time to revolutionize your business.
 index_connect_text2: The Skysense team is excited to solve custom problems together and can take care of all the details from regulations and choice of equipment to developing fully trained deep learning algorithms with custom image annotation.
 
+index2_header: Protect Crops with Intelligence from Drone Images
+index2_description: Skysense helps you stop plant disease and weeds before the damage is done by providing agricultural intelligence from self-flying drones.
+index2_how_title: How it works
+index2_how_drones_title: Self-Flying Drones
+index2_how_drones_description: Operate multiple drones simultaneous for ultra high resolution RGB at low altitude.
+index2_how_process_title: Process Data using AI
+index2_how_process_description: ...
+index2_how_work_title: Work Based on disease status
+index2_how_work_description: ...
+
+index2_count_title: Count Plants
+index2_count_description: Deep learning AI is tuned to the detect and count specific plant species. Count plants and weeds separately, monitor plant growth, and improve insurance claims.
+index2_scout_title: Scout Diseases
+index2_scout_description: Go beyond NDVI-based plant health to classify specific plant diseases, made possible only by applying AI to low-altitude drone flights or hyperspectral cameras.
+index2_maps_title: Interact with Maps
+index2_maps_description: Image-based intelligence is embedded in interactive farm maps that the whole team uses to prioritize labor, optimize spraying, and evaluate experiments.
+index2_health_title: Monitor Health
+index2_health_description: Spot plant stress early with heat maps generated from standard RGB cameras (VARI) and multispectral cameras that capture near-infrared, invisible to the human eye (NDVI).
+index2_surface_title: Generate Surface Models
+index2_surface_description: Improve irrigation decisions by understanding where water flows using accurate surface models that map your field's 3D topography.
+
+index2_hosting_title: Hosting that suits your needs
+index2_hosting_cloud_title: Cloud Hosting
+index2_hosting_cloud_description: Upload and access your flights from anywhere and share maps with your team using our cloud hosted solution.
+index2_hosting_onpremise_title: On-Premise
+index2_hosting_onpremise_description: On-site hosting and custom processing hardware for fast results that aren't delayed by internet speeds (closed beta).
+
 hemp_title: Hemp
 hemp_header: Grow quality CBD that extractors want
 hemp_description: Increase CBD % with drone-based AI to avoid pollination, watch plant stress, and ensure compliant harvest timing
