@@ -43,11 +43,11 @@ index2_header: Protect Crops with Intelligence from Drone Images
 index2_description: Skysense helps you stop plant disease and weeds before the damage is done by providing agricultural intelligence from self-flying drones.
 index2_how_title: How it works
 index2_how_drones_title: Self-Flying Drones
-index2_how_drones_description: Operate multiple drones simultaneous for ultra high resolution RGB at low altitude.
+index2_how_drones_description: Drones fitted with 4K cameras and multispectral sensors fly on autopilot to map your entire farm.
 index2_how_process_title: Process Data using AI
-index2_how_process_description: ...
-index2_how_work_title: Work Based on disease status
-index2_how_work_description: ...
+index2_how_process_description: State of the art machine learning and AI processes the data to count and identify plants, weeds, diseases and other issues.
+index2_how_work_title: Actionable Results
+index2_how_work_description: Get actionable diagnostics displayed via an interactive map that your team uses to reduce labor and optimize work.
 
 index2_count_title: Count Plants
 index2_count_description: Deep learning AI is tuned to the detect and count specific plant species. Count plants and weeds separately, monitor plant growth, and improve insurance claims.
