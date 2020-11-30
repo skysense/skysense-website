@@ -48,7 +48,6 @@ index2_how_process_title: Process Data using AI
 index2_how_process_description: State of the art machine learning processes the data to count and identify plants, weeds, diseases, and other issues.
 index2_how_work_title: Actionable Results
 index2_how_work_description: Get actionable diagnostics displayed onto an interactive map that your team uses to reduce labor and optimize work.
-
 index2_count_title: Count Plants
 index2_count_description: Deep learning AI is tuned to detect and count specific plant species. Count plants and weeds separately, monitor plant growth, and improve insurance claims.
 index2_scout_title: Scout Diseases
@@ -59,7 +58,6 @@ index2_health_title: Monitor Health
 index2_health_description: Spot plant stress early with overlays generated from standard RGB cameras (VARI) and multispectral cameras that capture near-infrared, invisible to the human eye (NDVI).
 index2_surface_title: Generate Surface Models
 index2_surface_description: Improve irrigation decisions by understanding where water flows, using accurate surface models that map your field's 3D topography.
-
 index2_hosting_title: Hosting that suits your needs
 index2_hosting_cloud_title: Cloud Hosting
 index2_hosting_cloud_description: Upload and access your flights from anywhere and share maps with your team using our cloud hosted solution.
