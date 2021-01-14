@@ -9,9 +9,12 @@ main > .index {
     background-position: top center;
     position: relative;
     color: white;
-
+    
     img {
       margin-top: 30px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     h1 {
@@ -22,6 +25,8 @@ main > .index {
       font-size: 1.7em;
       opacity: 0.8;
       margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     @media screen and (max-width: 700px) {
@@ -32,6 +37,12 @@ main > .index {
         font-size: 1.4em;
         line-height: 1.2em;
       }
+    }
+  }
+
+  .hero2.hemp {
+    h1+p {
+      max-width: 900px;
     }
   }
 
