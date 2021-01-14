@@ -6,6 +6,7 @@ nav_contact: Contact
 nav_careers: Jobs
 nav_hemp: Hemp
 nav_login: Dashboard
+nav_pricing: Pricing
 
 buttons_contact_us: Contact Us
 buttons_reach_out: Reach Out To Us
@@ -53,6 +54,13 @@ index_advantage_title: The Skysense Advantage
 index_advantage_text1: Skysense is the first provider of crop diagnostics powered by deep learning AI in Japan.
 index_advantage_text2: Backed by industry-leading AI experience and significant venture capital investment, Skysense delivers innovative data solutions that assist in crop stress mapping, disease detection, weed management, irrigation management, and more.​
 index_advantage_text3: Secure your competitive edge this growing season by using Skysense's unique technology!
+
+pricing_title: Pricing
+pricing_preheader: Pricing
+pricing_header: Plans for every use case
+pricing_description: Whether your a hobbyist drone pilot or an industry professional we have solutions catering every need. Choose the plan that best suits you and upgrade or downgrade at any time. It's free to get started with no credit card required.
+
+pricing_faq_header: Frequently Asked Questions
 
 hemp_title: Hemp
 hemp_header: Grow quality CBD that extractors want
