@@ -11,22 +11,37 @@ main > .pricing {
     border-radius: 20px;
   }
 
-  .plan h3 {
-    margin-top: 0;
+  .preheader {
+    margin-bottom: 0px;
+  }
+
+  .price {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: sans-serif;
+  }
+
+  .interval {
+    font-size: 1.5rem;
+  }
+
+  .summary {
+    margin: 0;
   }
 
   .button {
-    margin-top: 20px;
+    margin: 20px 0;
+  }
+
+  h4 {
+    margin: 10px 0 20px 0;
   }
 
   ul, li {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-
-  ul {
-    //margin-top: 30px;
   }
 
   li {
