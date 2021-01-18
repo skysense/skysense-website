@@ -11,46 +11,46 @@
         <div class="row">
           <div class="col-md-4 col-xs-12">
             <div class="plan">
-              <div class="preheader">Hobbyist</div>
+              <div class="preheader">{{ locale.pricing_plan_hobbyist_name }}</div>
               <div class="price">$0</div>
-              <p class="summary">Generate professional maps, elevation models, 3D models and point clouds from drone images. Get started for FREE, no credit card required.</p>
-              <a class="button primary" href="https://dashboard.skysense.jp">Register Free</a>
-              <h4>Mapping Essentials:</h4>
+              <p class="summary">{{ locale.pricing_plan_hobbyist_summary }}</p>
+              <a class="button primary" href="https://dashboard.skysense.jp">{{ locale.pricing_plan_hobbyist_cta }}</a>
+              <h4>{{ locale.pricing_plan_hobbyist_features_title }}:</h4>
               <ul>
-                <li>Easily upload flight data</li>
-                <li>Generate maps and models</li>
-                <li>Cloud hosted solution</li>
-                <li>1,000 images per month <a href="#additional-images">(*)</a></li>
+                <li>{{ locale.pricing_plan_hobbyist_features_1 }}</li>
+                <li>{{ locale.pricing_plan_hobbyist_features_2 }}</li>
+                <li>{{ locale.pricing_plan_hobbyist_features_3 }}</li>
+                <li>{{ locale.pricing_plan_hobbyist_features_4 }} <a href="#additional-images">(*)</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md-4 col-xs-12">
             <div class="plan">
-              <div class="preheader">Professional</div>
-              <div class="price">$100<span class="interval">/mo</span></div>
-              <p class="summary">Combine our easy to use platform with state of the art AI and Machine Learning for plant counting, crop classification, and disease detection.</p>
-              <a class="button primary" href="https://dashboard.skysense.jp">Get Started</a>
-              <h4>Advanced Intelligence:</h4>
+              <div class="preheader">{{ locale.pricing_plan_professional_name }}</div>
+              <div class="price">$100<span class="interval">{{ locale.pricing_plan_professional_interval }}</span></div>
+              <p class="summary">{{ locale.pricing_plan_professional_summary }}</p>
+              <a class="button primary" href="https://dashboard.skysense.jp">{{ locale.pricing_plan_professional_cta }}</a>
+              <h4>{{ locale.pricing_plan_professional_features_title }}:</h4>
               <ul>
-                <li>AI and ML Models</li>
-                <li>Count Plants</li>
-                <li>Crop and Disease Detection</li>
-                <li>5,000 images per month <a href="#additional-images">(*)</a></li>
+                <li>{{ locale.pricing_plan_professional_features_1 }}</li>
+                <li>{{ locale.pricing_plan_professional_features_2 }}</li>
+                <li>{{ locale.pricing_plan_professional_features_3 }}</li>
+                <li>{{ locale.pricing_plan_professional_features_4 }} <a href="#additional-images">(*)</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md-4 col-xs-12">
             <div class="plan">
-              <div class="preheader">Full Service</div>
-              <div class="price">Contact Us</div>
-              <p class="summary">Do you need help with drone piloting? We can also provide custom solutions for specific crop types based on your needs. Let us help you!</p>
-              <a class="button primary" href="/{{ page.language }}/contact/">Talk To Us</a>
-              <h4>Custom Solution:</h4>
+              <div class="preheader">{{ locale.pricing_plan_full_name }}</div>
+              <div class="price">{{ locale.pricing_plan_full_price }}</div>
+              <p class="summary">{{ locale.pricing_plan_full_summary }}</p>
+              <a class="button primary" href="/{{ page.language }}/contact/">{{ locale.pricing_plan_full_cta }}</a>
+              <h4>{{ locale.pricing_plan_full_features_title }}:</h4>
               <ul>
-                <li>Fully managed service</li>
-                <li>On-demand piloting</li>
-                <li>Cloud or On-Premise</li>
-                <li>Contact us to get a quote</li>
+                <li>{{ locale.pricing_plan_full_features_1 }}</li>
+                <li>{{ locale.pricing_plan_full_features_2 }}</li>
+                <li>{{ locale.pricing_plan_full_features_3 }}</li>
+                <li>{{ locale.pricing_plan_full_features_4 }}</li>
               </ul>
             </div>
           </div>
@@ -63,17 +63,17 @@
     <div class="wrap">
       <h2>{{ locale.pricing_faq_header }}</h2>
 
-      <h3>How can I pay?</h3>
-      <p>You can pay with your Visa, Maestro, MasterCard, Diners Club and American Express card.</p>
+      <h3>{{ locale.pricing_faq_q1 }}</h3>
+      <p>{{ locale.pricing_faq_a1 }}</p>
 
-      <h3>What's your refund policy?</h3>
-      <p>In case you are not satisfied with the service or missing any features you can ask for a refund in 30 days from your last payment.</p>
+      <h3>{{ locale.pricing_faq_q2 }}</h3>
+      <p>{{ locale.pricing_faq_a2 }}</p>
 
-      <h3>Can I cancel my plan?</h3>
-      <p>You can cancel your subscription any time from your account and let it expire back to the Free Plan.</p>
+      <h3>{{ locale.pricing_faq_q3 }}</h3>
+      <p>{{ locale.pricing_faq_a3 }}</p>
 
-      <h3 id="additional-images">What happens if I exceed the monthly limit?</h3>
-      <p>Additional images beyond your plan limit are charged at $0.05 per image.</p>
+      <h3 id="additional-images">{{ locale.pricing_faq_q4 }}</h3>
+      <p>{{ locale.pricing_faq_a4 }}</p>
       
     </div>
   </section>

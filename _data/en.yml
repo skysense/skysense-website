@@ -58,9 +58,47 @@ index_advantage_text3: Secure your competitive edge this growing season by using
 pricing_title: Pricing
 pricing_preheader: Pricing
 pricing_header: Plans for every use case
-pricing_description: Whether your a hobbyist drone pilot or an industry professional we have solutions catering every need. Choose the plan that best suits you and upgrade or downgrade at any time. It's free to get started with no credit card required.
+pricing_description: Whether you are a hobbyist drone pilot or an industry professional, we have solutions catering to every need. Choose the plan that best suits you and upgrade or downgrade at any time. It's free to get started with no credit card required.
+
+pricing_plan_hobbyist_name: Hobbyist
+pricing_plan_hobbyist_summary: Generate professional maps, elevation models, 3D models, and point clouds from drone images. Get started for FREE. Credit card not required.
+pricing_plan_hobbyist_cta: Register Free
+pricing_plan_hobbyist_features_title: Mapping Essentials
+pricing_plan_hobbyist_features_1: Easily upload flight data
+pricing_plan_hobbyist_features_2: Generate maps and models
+pricing_plan_hobbyist_features_3: Cloud hosted solution
+pricing_plan_hobbyist_features_4: 1,000 images per month
+
+pricing_plan_professional_name: Professional
+pricing_plan_professional_interval: /mo
+pricing_plan_professional_summary: Combine our easy to use platform with state of the art AI and Machine Learning for plant counting, crop classification, and disease detection.
+pricing_plan_professional_cta: Get Started
+pricing_plan_professional_features_title: Advanced Intelligence
+pricing_plan_professional_features_1: AI and ML Models
+pricing_plan_professional_features_2: Count Plants
+pricing_plan_professional_features_3: Crop and Disease Detection
+pricing_plan_professional_features_4: 5,000 images per month
+
+pricing_plan_full_name: Full Service
+pricing_plan_full_price: Contact Us
+pricing_plan_full_summary: Do you need help with drone piloting? We can also provide custom solutions for specific crop types based on your needs. Let us help you!
+pricing_plan_full_cta: Talk To Us
+pricing_plan_full_features_title: Custom Solution
+pricing_plan_full_features_1: Fully managed service
+pricing_plan_full_features_2: On-demand piloting
+pricing_plan_full_features_3: Cloud or On-Premise
+pricing_plan_full_features_4: Contact us to get a quote
 
 pricing_faq_header: Frequently Asked Questions
+
+pricing_faq_q1: How can I pay?
+pricing_faq_a1: You can pay with your Visa, Maestro, MasterCard, Diners Club and American Express card
+pricing_faq_q2: What's your refund policy?
+pricing_faq_a2: In case you are not satisfied with the service or missing any features you can ask for a refund in 30 days from your last payment.
+pricing_faq_q3: Can I cancel my plan?
+pricing_faq_a3: You can cancel your subscription any time from your account and let it expire back to the Free Plan.
+pricing_faq_q4: What happens if I exceed the monthly limit?
+pricing_faq_a4: Additional images beyond your plan limit are charged at $0.05 per image.
 
 hemp_title: Hemp
 hemp_header: Grow quality CBD that extractors want
@@ -78,7 +116,7 @@ hemp_advantage_text2: Backed by an unparalleled combination of hemp and AI exper
 hemp_advantage_text3: Secure your competitive edge this growing season by using Skysense's unique technology!
 hemp_solutions_title: Monitor every hemp plant over time
 hemp_solutions_stress_title: Harvest compliant hemp
-hemp_solutions_stress_text: Pass compliance testing by avoiding stress that spikes THC. Skysense uses near-infrared reflection of plants that's invisible to the human eye.
+hemp_solutions_stress_text: Pass compliance testing by avoiding the stress that spikes THC. Skysense uses the near-infrared reflection of plants, invisible to the human eye.
 hemp_solutions_male_title: Eradicate males faster
 hemp_solutions_male_text: See male plant locations in google maps to eradicate them before pollination ruins CBD yield and makes it impossible to find an extractor willing to buy.
 hemp_solutions_growth_title: Benchmark growth rate
@@ -87,7 +125,7 @@ hemp_connect_title: Need our expertise to solve a different problem?
 hemp_connect_text1: Contact us to schedule a meeting and share details about your unique use case or ideas. Skysense has brought together drones, scientific imaging, and AI for the first time to revolutionize your business.
 hemp_connect_text2: The Skysense team is excited to solve custom problems together and can take care of all the details from regulations and choice of equipment to developing fully trained deep learning algorithms with custom image annotation.
 hemp_health_title: Prevent Stress
-hemp_health_description: Spot plant stress early to avoid increase in THC or hermaphrodites. Stress heat map overlays are generated from standard RGB cameras (VARI) and multispectral cameras that capture near-infrared, invisible to the human eye (NDVI).
+hemp_health_description: Spot plant stress early to avoid an increase in THC. Stress heat map overlays are generated from standard RGB cameras (VARI) and multispectral cameras that capture near-infrared, invisible to the human eye (NDVI).
 hemp_maps_title: Hemp Intelligence
 hemp_maps_description: Image-based hemp intelligence is embedded in interactive farm maps, that the whole team uses to reduce labor, avoid pollination, and ensure compliance. Count plants, locate male plants, generate surface models, and monitor stress.
 
