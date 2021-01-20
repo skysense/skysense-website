@@ -57,11 +57,11 @@ index_advantage_text3: Secure your competitive edge this growing season by using
 
 pricing_title: Pricing
 pricing_preheader: Pricing
-pricing_header: Plans for every use case
-pricing_description: Whether you are a hobbyist drone pilot or an industry professional, we have solutions catering to every need. Choose the plan that best suits you and upgrade or downgrade at any time. It's free to get started with no credit card required.
+pricing_header: Make drone maps for free
+pricing_description: Pricing caters to every use case from hobbyists mapping for free to industry professionals paying for a full service drone solution. Sign up without a credit card, and upgrade or downgrade at any time.
 
 pricing_plan_hobbyist_name: Hobbyist
-pricing_plan_hobbyist_summary: Generate professional maps, elevation models, 3D models, and point clouds from drone images. Get started for FREE. Credit card not required.
+pricing_plan_hobbyist_summary: Generate professional interactive maps, elevation models, 3D models, and point clouds from drone images. Credit card not required.
 pricing_plan_hobbyist_cta: Register Free
 pricing_plan_hobbyist_features_title: Mapping Essentials
 pricing_plan_hobbyist_features_1: Easily upload flight data
@@ -71,17 +71,17 @@ pricing_plan_hobbyist_features_4: 1,000 images per month
 
 pricing_plan_professional_name: Professional
 pricing_plan_professional_interval: /mo
-pricing_plan_professional_summary: Combine our easy to use platform with state of the art AI and Machine Learning for plant counting, crop classification, and disease detection.
+pricing_plan_professional_summary: Combine our easy to use Mapping Essentials with state of the art AI and deep learning to count plants, classify crops, and detect disease.
 pricing_plan_professional_cta: Get Started
 pricing_plan_professional_features_title: Advanced Intelligence
-pricing_plan_professional_features_1: AI and ML Models
+pricing_plan_professional_features_1: AI and Deep Learning Models
 pricing_plan_professional_features_2: Count Plants
 pricing_plan_professional_features_3: Crop and Disease Detection
 pricing_plan_professional_features_4: 5,000 images per month
 
 pricing_plan_full_name: Full Service
 pricing_plan_full_price: Contact Us
-pricing_plan_full_summary: Do you need help with drone piloting? We can also provide custom solutions for specific crop types based on your needs. Let us help you!
+pricing_plan_full_summary: Need drone pilots, custom AI, or a full service solution? We provide custom solutions for your crop type or your unique needs in any industry.
 pricing_plan_full_cta: Talk To Us
 pricing_plan_full_features_title: Custom Solution
 pricing_plan_full_features_1: Fully managed service
@@ -98,7 +98,13 @@ pricing_faq_a2: In case you are not satisfied with the service or missing any fe
 pricing_faq_q3: Can I cancel my plan?
 pricing_faq_a3: You can cancel your subscription any time from your account and let it expire back to the Free Plan.
 pricing_faq_q4: What happens if I exceed the monthly limit?
-pricing_faq_a4: Additional images beyond your plan limit are charged at $0.05 per image.
+pricing_faq_a4: Additional images beyond your plan limit are charged at $0.05 per image. "Images" refers to raw drone images you upload.
+pricing_faq_q5: Can I trial the Full Service plan?
+pricing_faq_a5: Contact us anytime to discuss our full service capabilities, schedule a live demo, or start out with a Proof Of Concept.
+pricing_faq_q6: How do I get drone images?
+pricing_faq_a6: You pilot a drone with an app (Litchi, Dronelink, FieldAgent, etc) in self-flying mode so that while the drone flies along a preset path, it captures images automatically with 80% overlap between images.
+pricing_faq_q7: How much does a drone pilot cost?
+pricing_faq_a7: Drone pilot service prices depend on many factors including the country and equipment, but it tends to be around $500-2,000 per day (about $2-20 per acre).
 
 hemp_title: Hemp
 hemp_header: Grow quality CBD that extractors want
