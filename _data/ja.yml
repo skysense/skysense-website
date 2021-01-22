@@ -26,7 +26,7 @@ index_solutions_growth_title: 各作物の生長率
 index_solutions_growth_text: AIベースで作物の数を数えたり、生長をモニタリングすることが可能です。生長に問題がある場合、問題をいち早く検知し収穫量を最大化したり、植物の表現形を判定したりすることができます。
 index2_how_title: 機能
 index2_how_drones_title: 自律飛行ドローン
-index2_how_drones_description: 4Kカメラとマルチスペクトルセンサーを搭載したドローンが自動操縦で飛行し、農場全体をマップ化します。(このままでOK!)
+index2_how_drones_description: 4Kカメラとマルチスペクトルセンサーを搭載したドローンが自動操縦で飛行し、農場全体をマップ化します。
 index2_how_process_title: AIを利用してデータ処理
 index2_how_process_description: 最先端のAIが撮影データを処理。植物、雑草、病害、その他の問題を識別し、発生状況（数量）を可視化します。
 index2_how_work_title: すぐに利用可能な結果
