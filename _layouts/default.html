@@ -85,8 +85,8 @@
           </div>
           <div class="left">
             {% if page.language == "en" %}
+            <a href="/{{ page.language }}/pricing/" {% if page.url == '/pricing/' %}class="active"{% endif %}>{{ locale.nav_pricing }}</a>
             <a href="/{{ page.language }}/hemp/" {% if page.url == '/hemp/' %}class="active"{% endif %}>{{ locale.nav_hemp }}</a>
-            <!--<a href="/{{ page.language }}/pricing/" {% if page.url == '/pricing/' %}class="active"{% endif %}>{{ locale.nav_pricing }}</a>-->
             {% endif %}
             <a href="/{{ page.language }}/about/" {% if page.url == '/about/' %}class="active"{% endif %}>{{ locale.nav_about }}</a>
             <a href="/{{ page.language }}/careers/" {% if page.url == '/careers/' %}class="active"{% endif %}>{{ locale.nav_careers }}</a>

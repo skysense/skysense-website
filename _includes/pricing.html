@@ -14,12 +14,12 @@
               <div class="preheader">{{ locale.pricing_plan_hobbyist_name }}</div>
               <div class="price">$0</div>
               <p class="summary">{{ locale.pricing_plan_hobbyist_summary }}</p>
-              <a class="button primary" href="https://dashboard.skysense.jp">{{ locale.pricing_plan_hobbyist_cta }}</a>
+              <a class="button primary" href="https://dashboard.skysense.jp?ref=free">{{ locale.pricing_plan_hobbyist_cta }}</a>
               <h4>{{ locale.pricing_plan_hobbyist_features_title }}:</h4>
               <ul>
                 <li>{{ locale.pricing_plan_hobbyist_features_1 }}</li>
-                <li>{{ locale.pricing_plan_hobbyist_features_2 }}</li>
-                <li>{{ locale.pricing_plan_hobbyist_features_3 }}</li>
+                <li><a href="/{{ page.language }}/#maps">{{ locale.pricing_plan_hobbyist_features_2 }}</a></li>
+                <li><a href="/{{ page.language }}/#health">{{ locale.pricing_plan_hobbyist_features_3 }}</a></li>
                 <li>{{ locale.pricing_plan_hobbyist_features_4 }}</li>
                 <li>{{ locale.pricing_plan_hobbyist_features_5 }} <a href="#additional-images">(*)</a></li>
               </ul>
@@ -30,13 +30,13 @@
               <div class="preheader">{{ locale.pricing_plan_professional_name }}</div>
               <div class="price">$100<span class="interval">{{ locale.pricing_plan_professional_interval }}</span></div>
               <p class="summary">{{ locale.pricing_plan_professional_summary }}</p>
-              <a class="button primary" href="https://dashboard.skysense.jp">{{ locale.pricing_plan_professional_cta }}</a>
+              <a class="button primary" href="https://dashboard.skysense.jp?ref=pro">{{ locale.pricing_plan_professional_cta }}</a>
               <h4>{{ locale.pricing_plan_professional_features_title }}:</h4>
               <ul>
                 <li>{{ locale.pricing_plan_professional_features_1 }}</li>
                 <li>{{ locale.pricing_plan_professional_features_2 }}</li>
-                <li>{{ locale.pricing_plan_professional_features_3 }}</li>
-                <li>{{ locale.pricing_plan_professional_features_4 }}</li>
+                <li><a href="/{{ page.language }}/#count">{{ locale.pricing_plan_professional_features_3 }}</a></li>
+                <li><a href="/{{ page.language }}/#diseases">{{ locale.pricing_plan_professional_features_4 }}</a></li>
                 <li>{{ locale.pricing_plan_professional_features_5 }} <a href="#additional-images">(*)</a></li>
               </ul>
             </div>
@@ -46,14 +46,14 @@
               <div class="preheader">{{ locale.pricing_plan_full_name }}</div>
               <div class="price">{{ locale.pricing_plan_full_price }}</div>
               <p class="summary">{{ locale.pricing_plan_full_summary }}</p>
-              <a class="button primary" href="/{{ page.language }}/contact/">{{ locale.pricing_plan_full_cta }}</a>
+              <a class="button primary" href="/{{ page.language }}/contact/?ref=full">{{ locale.pricing_plan_full_cta }}</a>
               <h4>{{ locale.pricing_plan_full_features_title }}:</h4>
               <ul>
                 <li>{{ locale.pricing_plan_full_features_1 }}</li>
                 <li>{{ locale.pricing_plan_full_features_2 }}</li>
                 <li>{{ locale.pricing_plan_full_features_3 }}</li>
-                <li>{{ locale.pricing_plan_full_features_4 }}</li>
-                <li>{{ locale.pricing_plan_full_features_5 }}</li>
+                <li><a href="/en/hemp/">{{ locale.pricing_plan_full_features_4 }}</a></li>
+                <li><a href="/{{ page.language }}/contact/?ref=full">{{ locale.pricing_plan_full_features_5 }}</a></li>
               </ul>
             </div>
           </div>
