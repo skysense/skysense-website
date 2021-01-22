@@ -9,6 +9,7 @@ main > .pricing {
     border: solid 2px $theme;
     padding: 50px 40px;
     border-radius: 20px;
+    margin-bottom: 20px;
   }
 
   .preheader {
@@ -46,6 +47,18 @@ main > .pricing {
 
   li {
     margin-top: 10px;
+  }
+
+  li a {
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .faq {
+    h3 {
+      margin: 40px 0 0 0;
+    }
   }
 
 }
