@@ -1,7 +1,7 @@
 site_title: Skysense
 site_description: Agricultural Intelligence From Drone Images
 
-nav_about: Company
+nav_about: Team
 nav_contact: Contact
 nav_careers: Jobs
 nav_hemp: Hemp
@@ -71,7 +71,7 @@ pricing_plan_hobbyist_features_4: Cloud hosted solution
 pricing_plan_hobbyist_features_5: 1,000 images per month
 
 pricing_plan_professional_name: Professional
-pricing_plan_professional_interval: /mo
+pricing_plan_professional_interval_per_month: /mo
 pricing_plan_professional_summary: Combine our easy to use Mapping Essentials with state of the art AI and deep learning to count plants, classify crops, and detect disease.
 pricing_plan_professional_cta: Get Started
 pricing_plan_professional_features_title: Advanced Intelligence
@@ -94,9 +94,8 @@ pricing_plan_full_features_5: Contact us to get a quote
 pricing_plan_full_features_6: Custom applications
 
 pricing_faq_header: Frequently Asked Questions
-
 pricing_faq_q1: How can I pay?
-pricing_faq_a1: You can pay with your Visa, Maestro, MasterCard, Diners Club and American Express card
+pricing_faq_a1: You can pay with your Visa, MasterCard, American Express, and Discover & Diners card.
 pricing_faq_q2: What's your refund policy?
 pricing_faq_a2: In case you are not satisfied with the service or missing any features you can ask for a refund in 30 days from your last payment.
 pricing_faq_q3: Can I cancel my plan?
@@ -111,8 +110,6 @@ pricing_faq_q7: How much does a drone pilot cost?
 pricing_faq_a7: Prices depend on many factors including country and equipment, but it tends to be $500-2,000 per day (about $2-20 per acre).
 pricing_faq_q8: Which plan includes the feature to see male hemp plant locations or "male hunting"?
 pricing_faq_a8: The Full Service plan is necessary because it's an exceptionally challenging feature that requires very specific piloting operations. Despite challenges, we completed product development and continue to innovate to pass on cost savings to customers.
-
-
 
 hemp_title: Hemp
 hemp_header: Grow quality CBD that extractors want
