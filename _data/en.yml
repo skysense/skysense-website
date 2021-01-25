@@ -55,6 +55,69 @@ index_advantage_text1: Skysense is the first provider of crop diagnostics powere
 index_advantage_text2: Backed by industry-leading AI experience and significant venture capital investment, Skysense delivers innovative data solutions that assist in crop stress mapping, disease detection, weed management, irrigation management, and more.​
 index_advantage_text3: Secure your competitive edge this growing season by using Skysense's unique technology!
 
+contact_title: Contact
+contact_message_success: Thank you, we'll get back to you as soon as possible!
+contact_message_failure: Sorry something went wrong, please try again!
+contact_preheader: Contact Skysense
+contact_header: How can we help?
+contact_description: Please enter your information and describe your inquiry, and we’ll get back to you as soon as possible.
+contact_field_full_name: Full Name
+contact_field_company: Company
+contact_field_job_title: Job Title
+contact_field_email: Email
+contact_field_message: Describe your inquiry
+contact_field_message_placeholder: For example, please share your location, farm size, crop type, and how we can help you.
+
+careers_title: Careers
+careers_preheader: Join the Team
+careers_header: Skysense is hiring!
+careers_description: We’re looking for hard-working, creative problem-solvers to help us transform the future of agricultural drone tech. If you are looking to join a tight-knit, talented team with the opportunity to initiate change and make a big impact, join us!
+careers_benefits_and_perks: Benefits and Perks
+careers_4_day_work_week: 4-Day Work Week
+careers_work_remote: Work Remote
+careers_flexible_vacation: Flexible Vacation
+careers_stock_options: Stock Options
+careers_relocation_package: Relocation Package
+careers_commuter_benefits: Commuter Benefits
+careers_insurance_coverage: Insurance Coverage
+careers_retirement_plan: Retirement Plan
+careers_roles_title: Open Roles
+careers_roles_dev: Engineering and Development
+careers_roles_data: Data Science, ML, and AI
+careers_roles_sales: Sales and Operations
+careers_principles: How Skysense is Different
+careers_principles1_title: Good Work
+careers_principles1_text: We do good work because we believe it has meaning and it makes an impact. We don't waste time doing bad work like long emails, excessive meetings, or micromanagement.
+careers_principles2_title: Impact
+careers_principles2_text: We solve problems that impact society, to change the world and help people’s lives. If you believe in positive change, everyone else can too. Our projects are things we are happy to work on.
+careers_principles3_title: Autonomy
+careers_principles3_text: People work long hours because they’re passionate not because they have to. We don't micromanage. We set goals without dictating tasks for a high individual level of autonomy.
+careers_principles4_title: Fail Frequently
+careers_principles4_text: We don’t blame people for mistakes, but rather encourage it because good work requires taking risks. We believe in taking risks by trying many controlled experiments and failing frequently.
+careers_principles5_title: Freedom
+careers_principles5_text: We have a flat organizational structure with a 4-day work week and we embrace remote work. We don't squander human potential with jobs or offices that people hate.
+
+about_title: About
+about_preheader: Who We Are
+about_header: Skysense in a few words
+about_description: Skysense empowers farmers to revolutionize agriculture by combining scientific imaging from above with artificial intelligence to quickly reveal critical insights that unlock new value.
+about_about1: Source affordable drones and multispectral cameras.
+about_about2: Teach customers to easily operate self-flying drones.
+about_about3: Process images into interactive maps with critical insights.
+about_about4: Custom R&D for new crops and integrations.
+about_team_header: Meet the team
+about_justin: Justin Clune
+about_justin_role: CEO
+about_justin_about: Justin previously founded, scaled, and exited the tech startup HouseCare. The idea for Skysense was seeded when he cultivated a 120-acre hemp farm. Justin was a scientific researcher for 4 years, including at Lawrence Berkeley National Laboratory. Justin holds a Master's in Engineering from the University of Tokyo, and a Bachelor’s in Business and Engineering from UC Berkeley.
+about_philippe: Philippe Remy
+about_philippe_role: Chief AI Officer
+about_philippe_about: Philippe has 13 years of experience in AI research engineering. He previously was the first key hire at Cogent Labs, a successful AI company. He coded 100+ open-source repos and has thousands of followers. Philippe holds a Master's in Statistical Mathematics and Probability from Imperial College London, and a Bachelor’s in Engineering from the French Grand Écoles.
+about_philip: Philip Bergqvist
+about_philip_role: Lead Developer
+about_philip_about:  Philip has more than 15 years of professional software development experience with a passion for solving real world problems. He has founded several successful software companies, including Unified Remote and AwardFares. Philip holds a Master's in Engineering from the University of Bristol with First Class Honours.
+about_join_header: Join Us!
+about_join_description: We're Hiring! We are looking for hard-working, creative problem-solvers to help us transform the future of agricultural drone tech. We are always looking for more people named Philip ;) If you are looking to join a tight-knit, talented team with the opportunity to initiate change and make a big impact, join us!
+
 pricing_title: Pricing
 pricing_preheader: Pricing
 pricing_header: Make drone maps for free
@@ -139,66 +202,3 @@ hemp_health_title: Prevent Stress
 hemp_health_description: Spot plant stress early to avoid an increase in THC. Stress heat map overlays are generated from standard RGB cameras (VARI) and multispectral cameras that capture near-infrared, invisible to the human eye (NDVI).
 hemp_maps_title: Hemp Intelligence
 hemp_maps_description: Image-based hemp intelligence is embedded in interactive farm maps, that the whole team uses to reduce labor, avoid pollination, and ensure compliance. Count plants, locate male plants, generate surface models, and monitor stress.
-
-contact_title: Contact
-contact_message_success: Thank you, we'll get back to you as soon as possible!
-contact_message_failure: Sorry something went wrong, please try again!
-contact_preheader: Contact Skysense
-contact_header: How can we help?
-contact_description: Please enter your information and describe your inquiry, and we’ll get back to you as soon as possible.
-contact_field_full_name: Full Name
-contact_field_company: Company
-contact_field_job_title: Job Title
-contact_field_email: Email
-contact_field_message: Describe your inquiry
-contact_field_message_placeholder: For example, please share your location, farm size, crop type, and how we can help you.
-
-careers_title: Careers
-careers_preheader: Join the Team
-careers_header: Skysense is hiring!
-careers_description: We’re looking for hard-working, creative problem-solvers to help us transform the future of agricultural drone tech. If you are looking to join a tight-knit, talented team with the opportunity to initiate change and make a big impact, join us!
-careers_benefits_and_perks: Benefits and Perks
-careers_4_day_work_week: 4-Day Work Week
-careers_work_remote: Work Remote
-careers_flexible_vacation: Flexible Vacation
-careers_stock_options: Stock Options
-careers_relocation_package: Relocation Package
-careers_commuter_benefits: Commuter Benefits
-careers_insurance_coverage: Insurance Coverage
-careers_retirement_plan: Retirement Plan
-careers_roles_title: Open Roles
-careers_roles_dev: Engineering and Development
-careers_roles_data: Data Science, ML, and AI
-careers_roles_sales: Sales and Operations
-careers_principles: How Skysense is Different
-careers_principles1_title: Good Work
-careers_principles1_text: We do good work because we believe it has meaning and it makes an impact. We don't waste time doing bad work like long emails, excessive meetings, or micromanagement.
-careers_principles2_title: Impact
-careers_principles2_text: We solve problems that impact society, to change the world and help people’s lives. If you believe in positive change, everyone else can too. Our projects are things we are happy to work on.
-careers_principles3_title: Autonomy
-careers_principles3_text: People work long hours because they’re passionate not because they have to. We don't micromanage. We set goals without dictating tasks for a high individual level of autonomy.
-careers_principles4_title: Fail Frequently
-careers_principles4_text: We don’t blame people for mistakes, but rather encourage it because good work requires taking risks. We believe in taking risks by trying many controlled experiments and failing frequently.
-careers_principles5_title: Freedom
-careers_principles5_text: We have a flat organizational structure with a 4-day work week and we embrace remote work. We don't squander human potential with jobs or offices that people hate.
-
-about_title: About
-about_preheader: Who We Are
-about_header: Skysense in a few words
-about_description: Skysense empowers farmers to revolutionize agriculture by combining scientific imaging from above with artificial intelligence to quickly reveal critical insights that unlock new value.
-about_about1: Source affordable drones and multispectral cameras.
-about_about2: Teach customers to easily operate self-flying drones.
-about_about3: Process images into interactive maps with critical insights.
-about_about4: Custom R&D for new crops and integrations.
-about_team_header: Meet the team
-about_justin: Justin Clune
-about_justin_role: CEO
-about_justin_about: Justin previously founded, scaled, and exited the tech startup HouseCare. The idea for Skysense was seeded when he cultivated a 120-acre hemp farm. Justin was a scientific researcher for 4 years, including at Lawrence Berkeley National Laboratory. Justin holds a Master's in Engineering from the University of Tokyo, and a Bachelor’s in Business and Engineering from UC Berkeley.
-about_philippe: Philippe Remy
-about_philippe_role: Chief AI Officer
-about_philippe_about: Philippe has 13 years of experience in AI research engineering. He previously was the first key hire at Cogent Labs, a successful AI company. He coded 100+ open-source repos and has thousands of followers. Philippe holds a Master's in Statistical Mathematics and Probability from Imperial College London, and a Bachelor’s in Engineering from the French Grand Écoles.
-about_philip: Philip Bergqvist
-about_philip_role: Lead Developer
-about_philip_about:  Philip has more than 15 years of professional software development experience with a passion for solving real world problems. He has founded several successful software companies, including Unified Remote and AwardFares. Philip holds a Master's in Engineering from the University of Bristol with First Class Honours.
-about_join_header: Join Us!
-about_join_description: We're Hiring! We are looking for hard-working, creative problem-solvers to help us transform the future of agricultural drone tech. We are always looking for more people named Philip ;) If you are looking to join a tight-knit, talented team with the opportunity to initiate change and make a big impact, join us!
