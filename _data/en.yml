@@ -124,6 +124,7 @@ pricing_header: Make drone maps for free
 pricing_description: Pricing caters to every use case, from hobbyists mapping for free, to industry professionals paying for a full service drone solution. Sign up without a credit card, and upgrade or downgrade at any time.
 
 pricing_plan_hobbyist_name: Hobbyist
+pricing_plan_hobbyist_price: $0
 pricing_plan_hobbyist_summary: Generate professional interactive maps, elevation models, 3D models, and point clouds from drone images. Credit card not required.
 pricing_plan_hobbyist_cta: Register Free
 pricing_plan_hobbyist_features_title: Mapping Essentials
@@ -134,6 +135,7 @@ pricing_plan_hobbyist_features_4: Cloud hosted solution
 pricing_plan_hobbyist_features_5: 1,000 images per month
 
 pricing_plan_professional_name: Professional
+pricing_plan_professional_price: $99
 pricing_plan_professional_interval_per_month: /mo
 pricing_plan_professional_summary: Combine our easy to use Mapping Essentials with state of the art AI and deep learning to count plants, classify crops, and detect disease.
 pricing_plan_professional_cta: Get Started

@@ -124,6 +124,7 @@ pricing_header: 無料でドローンマップを作成
 pricing_description: 無料でマッピングを行う愛好家の方から、フルサービスのドローンソリューションをお求めになる業界専門家の方まで、あらゆるユーザーの方に対応した価格をご用意しています。クレジットカードを使わずにサインアップし、いつでもアップグレードやダウングレードが可能です。
 
 pricing_plan_hobbyist_name: 愛好家
+pricing_plan_hobbyist_price: 0円
 pricing_plan_hobbyist_summary: ドローンの画像からプロ仕様のインタラクティブな地図、標高モデル、3Dモデル、点群を生成します。クレジットカードは必要ありません。
 pricing_plan_hobbyist_cta: 無料登録
 pricing_plan_hobbyist_features_title: マッピングエッセンシャルズ
@@ -134,6 +135,7 @@ pricing_plan_hobbyist_features_4: クラウド型ソリューション
 pricing_plan_hobbyist_features_5: 月間1,000画像
 
 pricing_plan_professional_name: 専門家
+pricing_plan_professional_price: 1万円
 pricing_plan_professional_interval_per_month: /月
 pricing_plan_professional_summary: 使いやすいマッピングエッセンシャルズと最先端のAIおよびディープラーニングを組み合わせて、植物の数を数えたり、作物を分類したり、病気を検出したりすることができます。
 pricing_plan_professional_cta: 始める
