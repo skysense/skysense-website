@@ -84,8 +84,8 @@
             </div>
           </div>
           <div class="left">
-            {% if page.language == "en" %}
             <a href="/{{ page.language }}/pricing/" {% if page.url == '/pricing/' %}class="active"{% endif %}>{{ locale.nav_pricing }}</a>
+            {% if page.language == "en" %}
             <a href="/{{ page.language }}/hemp/" {% if page.url == '/hemp/' %}class="active"{% endif %}>{{ locale.nav_hemp }}</a>
             {% endif %}
             <a href="/{{ page.language }}/about/" {% if page.url == '/about/' %}class="active"{% endif %}>{{ locale.nav_about }}</a>
