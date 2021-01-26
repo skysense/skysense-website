@@ -6,6 +6,7 @@ nav_contact: 連絡先
 nav_careers: 求人募集中です！
 nav_hemp: 大麻草
 nav_login: ログイン
+nav_pricing: 価格
 
 buttons_contact_us: お問い合わせ
 buttons_reach_out: ご応募はこちらから
@@ -116,3 +117,60 @@ about_philip_role: 主任開発者
 about_philip_about: プロの  ソフト ウェア開 発者として15年間経験を 積ん できました。これまで、UnifiedRemoteやAwardFaresなど、いくつもの有名ソ フト ウェア企 業の 立ち上 げに従事 。ブリストル大学で工学修士号（第1級優等学位）を取得。
 about_join_header: メンバー募集中！
 about_join_description: Skysenseでは、現在メンバーを募集中 です！農業用ドローンの未来 を拓くお手伝  いをしていた  だくため、真面 目でクリエイティブ、かつ課題に 立ち向かっていける果敢な人 材を探しています。（現在弊社にはPhilipが2名いますが ）同じお名前...Philipでも大歓迎(^^)。結 束感 のある 多彩な才能を持つチー ムに加わって、変化の火付け 役となり、社会に大きなインパクトを与えるチャンスが欲しいという方は、ぜひご連絡ください！
+
+pricing_title: 価格
+pricing_preheader: 価格
+pricing_header: 無料でドローンマップを作成
+pricing_description: 無料でマッピングを行う愛好家の方から、フルサービスのドローンソリューションをお求めになる業界専門家の方まで、あらゆるユーザーの方に対応した価格をご用意しています。クレジットカードを使わずにサインアップし、いつでもアップグレードやダウングレードが可能です。
+
+pricing_plan_hobbyist_name: 愛好家
+pricing_plan_hobbyist_summary: ドローンの画像からプロ仕様のインタラクティブな地図、標高モデル、3Dモデル、点群を生成します。クレジットカードは必要ありません。
+pricing_plan_hobbyist_cta: 無料登録
+pricing_plan_hobbyist_features_title: マッピングエッセンシャルズ
+pricing_plan_hobbyist_features_1: フライトデータを簡単にアップロード
+pricing_plan_hobbyist_features_2: マップとモデルを生成
+pricing_plan_hobbyist_features_3: NDVIおよびVARIプラントヘルス
+pricing_plan_hobbyist_features_4: クラウド型ソリューション
+pricing_plan_hobbyist_features_5: 月間1,000画像
+
+pricing_plan_professional_name: 専門家
+pricing_plan_professional_interval_per_month: /月
+pricing_plan_professional_summary: 使いやすいマッピングエッセンシャルズと最先端のAIおよびディープラーニングを組み合わせて、植物の数を数えたり、作物を分類したり、病気を検出したりすることができます。
+pricing_plan_professional_cta: 始める
+pricing_plan_professional_features_title: アドバンストインテリジェンス
+pricing_plan_professional_features_1: 愛好家向け機能
+pricing_plan_professional_features_2: AIおよびディープラーニングモデル
+pricing_plan_professional_features_3: 植物を数える
+pricing_plan_professional_features_4: 作物および病気の検出
+pricing_plan_professional_features_5: 月間5,000画像
+
+pricing_plan_full_name: フルサービス
+pricing_plan_full_price: お問い合わせ
+pricing_plan_full_summary: ドローンパイロット、カスタムAI、フルサービスソリューションが必要ですか？当社は、お客様の作物の種類や、あらゆる業界のお客様独自のニーズに合わせたカスタムソリューションを提供しています。
+pricing_plan_full_cta: お問い合わせ
+pricing_plan_full_features_title: カスタムソリューション
+pricing_plan_full_features_1: 完全管理型サービス
+pricing_plan_full_features_2: オンデマンドのドローン操縦
+pricing_plan_full_features_3: クラウド型またはオンプレミス型
+pricing_plan_full_features_4: 雄性ハンティングと表現型
+pricing_plan_full_features_5: お見積もりをご希望の方は、お問い合わせください。
+pricing_plan_full_features_6: カスタムアプリケーション
+
+pricing_faq_header: よくある質問
+pricing_faq_q1: 支払いについて
+pricing_faq_a1: Visa、MasterCard、American Express、Discover & Dinersカードがご利用いただけます。
+pricing_faq_q2: 返金規定について
+pricing_faq_a2: サービスにご満足いただけない場合や機能が不足している場合は、最後の支払いから30日以内に返金を求めることができます。
+pricing_faq_q3: プランのキャンセル方法
+pricing_faq_a3: アカウントからいつでも解約したり、フリープランに戻って有効期限が切れるようにすることができます。
+pricing_faq_q4: 月の制限を超えた場合について
+pricing_faq_a4: プランの上限を超えて画像を追加する場合、1枚につき0.05ドルかかります。「画像」とは、アップロードした未加工のドローン画像のことです。
+
+pricing_faq_q5: フルサービスプランのお試しについて
+pricing_faq_a5: 当社のフルサービスについてのご相談、ライブデモのご予約、概念実証の開始などについてはいつでもご連絡ください。
+pricing_faq_q6: ドローン画像の取得方法について
+pricing_faq_a6: お客様および請負業者がアプリ（Litchi、Dronelink、FieldAgentなど）を使ってドローンを自走モードで操縦し、ドローンがあらかじめ設定されたパスに沿って飛行している間に、画像間の80％のオーバーラップで自動的に画像を取得します。
+pricing_faq_q7: ドローンパイロットの価格について
+pricing_faq_a7: 価格は国や設備など数々の要素に左右されますが、1日500～2,000ドル（1エーカーあたり約2～20ドル）という傾向があります。
+pricing_faq_q8: 雄性麻植物の確認機能と「雄性ハンティング」が含まれるプランについて
+pricing_faq_a8: 極めて特殊な操縦が必要となる例外的に困難な機能であるため、フルサービスプランが必要となります。困難な状況ではありましたが、製品開発を完了し、お客様のコスト削減を実現するための革新を続けています。
