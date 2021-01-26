@@ -52,7 +52,11 @@
                 <li>{{ locale.pricing_plan_full_features_1 }}</li>
                 <li>{{ locale.pricing_plan_full_features_2 }}</li>
                 <li>{{ locale.pricing_plan_full_features_3 }}</li>
+                {% if page.language == "en" %}
                 <li><a href="/en/hemp/">{{ locale.pricing_plan_full_features_4 }}</a></li>
+                {% else %}
+                <li>{{ locale.pricing_plan_full_features_6 }}</li>
+                {% endif %}
                 <li><a href="/{{ page.language }}/contact/?ref=full">{{ locale.pricing_plan_full_features_5 }}</a></li>
               </ul>
             </div>
