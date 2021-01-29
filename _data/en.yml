@@ -127,7 +127,7 @@ pricing_plan_hobbyist_name: Hobbyist
 pricing_plan_hobbyist_price: $0
 pricing_plan_hobbyist_summary: Generate professional interactive maps, elevation models, 3D models, and point clouds from drone images. Credit card not required.
 pricing_plan_hobbyist_cta: Register Free
-pricing_plan_hobbyist_features_title: Mapping Essentials
+pricing_plan_hobbyist_features_title: "Mapping Essentials:"
 pricing_plan_hobbyist_features_1: Easily upload flight data
 pricing_plan_hobbyist_features_2: Generate maps and models
 pricing_plan_hobbyist_features_3: NDVI and VARI plant health
@@ -139,7 +139,7 @@ pricing_plan_professional_price: $99
 pricing_plan_professional_interval_per_month: /mo
 pricing_plan_professional_summary: Combine our easy to use Mapping Essentials with state of the art AI and deep learning to count plants, classify crops, and detect disease.
 pricing_plan_professional_cta: Get Started
-pricing_plan_professional_features_title: Advanced Intelligence
+pricing_plan_professional_features_title: "Advanced Intelligence:"
 pricing_plan_professional_features_1: All Hobbyist features
 pricing_plan_professional_features_2: AI and Deep Learning models
 pricing_plan_professional_features_3: Count plants
@@ -150,7 +150,7 @@ pricing_plan_full_name: Full Service
 pricing_plan_full_price: Contact Us
 pricing_plan_full_summary: Need drone pilots, custom AI, or a full service solution? We provide custom solutions for your crop type or your unique needs in any industry.
 pricing_plan_full_cta: Talk To Us
-pricing_plan_full_features_title: Custom Solution
+pricing_plan_full_features_title: "Custom Solution:"
 pricing_plan_full_features_1: Fully managed service
 pricing_plan_full_features_2: On-demand drone piloting
 pricing_plan_full_features_3: Cloud or On-Premise
