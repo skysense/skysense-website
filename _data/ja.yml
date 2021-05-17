@@ -1,5 +1,5 @@
 site_title: Skysense
-site_description: 品質と収穫量向上のための農業用人工知能
+site_description: ビジネスにAIを追加する
 
 nav_about: 会社情報
 nav_contact: 連絡先
@@ -7,6 +7,7 @@ nav_careers: 求人募集中です！
 nav_hemp: 大麻草
 nav_login: ログイン
 nav_pricing: 価格
+nav_solutions: ソリューション
 
 buttons_contact_us: お問い合わせ
 buttons_reach_out: ご応募はこちらから
@@ -15,45 +16,72 @@ buttons_apply_now: 今すぐ応募
 buttons_get_in_touch: 問い合わせる
 buttons_learn_more: さらに詳しく
 buttons_get_started: 利用開始
+buttons_get_demo: デモを入手
+buttons_try_free: 無料でお試しください
 
-index2_header: ドローンによる画像と、AIを駆使して農作物を守る
-index2_description: Skysenseは、自律飛行ドローンを使い撮影したデータをもとに、病害や、雑草をいち早く検知し、農作物の被害を最小限に抑える支援をします。
-index_solutions_title: ストレス、病害、生長のモニタリング
-index_solutions_stress_title: 作物のストレスマップ
-index_solutions_stress_text: 品質低下につながる作物のストレスを回避できます。作物から反射される人間の目には見えない近赤外線に基づいてストレスを計測します。
-index_solutions_disease_title: 作物の病害箇所の検知
-index_solutions_disease_text: どの位置で作物に病害が発生しているかをGoogle Mapsで閲覧できるため、病害が拡大して収穫量に影響が出る前に速やかに根絶できます。
-index_solutions_growth_title: 各作物の生長率
-index_solutions_growth_text: AIベースで作物の数を数えたり、生長をモニタリングすることが可能です。生長に問題がある場合、問題をいち早く検知し収穫量を最大化したり、植物の表現形を判定したりすることができます。
-index2_how_title: 機能
-index2_how_drones_title: 自律飛行ドローン
-index2_how_drones_description: 4Kカメラとマルチスペクトルセンサーを搭載したドローンが自動操縦で飛行し、農場全体をマップ化します。
-index2_how_process_title: AIを利用してデータ処理
-index2_how_process_description: 最先端のAIが撮影データを処理。植物、雑草、病害、その他の問題を識別し、発生状況（数量）を可視化します。
-index2_how_work_title: すぐに利用可能な結果
-index2_how_work_description: AIによって解析された結果は、インタラクティブなマップ上にすぐに表示されます。メンバー間で共有もでき、その情報をもとに効率的に作業を行うことができます。
-index2_count_title: 植物を数える
-index2_count_description: AIをベースに、特定の植物を検知して数量を測ることが可能です。植物と雑草の数をそれぞれ数え、植物の生長をモニタリングしていきます。モニタリングすることで、被害が発生した際、どのタイミングで被害が発生したのか、原因を見つけ出すサポートにもなります。
-index2_scout_title: 病害を探し出す
-index2_scout_description: 植物の健康状態を分類する指標NDVI(Normalized Difference Vegetation Index)に基づき、植物の病害を具体的に分類します。これは低高度飛行のドローンとAIを掛け合わせることで、実現可能となります。ドローンには、ハイパースペクトルカメラが装備されているので、病害を検知する精度が高いのが特徴です。
-index2_maps_title: マップとの連携
-index2_maps_description: 撮影画像の情報がインタラクティブに農地マップで確認ができるため、メンバーは、作業の優先順位付けや、農薬噴霧の最適化のほか、実験の評価にまで利用することができます。
-index2_health_title: 健康状態をモニタリング
-index2_health_description: 標準的なRGBカメラ（VARI）と、人間の目には見えない近赤外線を捉えるマルチスペクトルカメラから生成される画像を重ね合わせることで、植物のストレス状態を早期に見分けることができます。
-index2_surface_title: サーフェイスモデルを生成
-index2_surface_description: 畑などの農地を3Dマップ化する高精度のサーフェイスモデルを使い、水が流れる場所を把握するため、灌漑量の調整をすることができます。
-index_connect_title: お問い合わせはお気軽に！
-index_connect_text1: デモの  ご依頼  のほか、お客様独自の 事例を お聞 かせく  ださい。あらゆる作物に対応 いたします。Skysenseは、ドローン、画像解析、AIを掛け合わせ、お客様の事業を改善します。Skysenseは、お客様  の課題を情 熱を持って共に解決いたします。ドローンやカメラの選定から、カスタム可能なAIの開発まで、すべて細やかに対応いたします。
-index_connect_text2: Skysenseチームは、それぞれのお客様の問題を情熱を持ってともに解決いたします。規制や機器の選定からカスタムの画像アノテーションが可能な事前学習済みの深層学習アルゴリズムの開発まで、すべての細部を担当いたします。
-index2_hosting_title: ニーズに合ったホスティング
-index2_hosting_cloud_title: クラウドホスティング
-index2_hosting_cloud_description: クラ ウドで ホストされたソリューショ ンを利用し、どこからでもドローンで撮影した情報をアップロードすることができます。また、リアルタイ  ムでチー  ムともその情報が載ったマップを共有することが可能です。
-index2_hosting_onpremise_title: 施設内
-index2_hosting_onpremise_description: 施設内  にホスティングされたカスタム処理ハードウェアによって、インターネットの速度が原因で遅延することなく迅速に結果を確認することができます（クローズドβ版）。
-index_advantage_title: Skysenseの強み
-index_advantage_text1: Skysenseは世界 で初めて、AIをベースに、農作物を診断 する 技術 を日本 で展開 しています。
-index_advantage_text2: 著名な投資家 からの支援や、AIやプログラミングの技術力  を活かし、作物のストレスマップ化、作物の病害検知、収量の予測、雑草や灌漑 の管理など、お客様  のニー  ズに合わせたサポート機能を備えたソリューションを展開しています。
-index_advantage_text3: Skysenseの技術を活用して、今期さらなる収穫を目指しませんか？
+index_title:
+index_header: ビジネスにAIを追加する
+index_description: アノテーションワークフォースを備えたAI画像プラットフォーム
+index_how_title: 使い方
+index_how_upload_title: データのアップロード
+index_how_upload_text: 既存の画像データをアップロードするか、ドローンパイロットのチームでデータを調達するお手伝いをさせてください。
+index_how_annotate_title: 注釈を付ける
+index_how_annotate_text: オンラインツールを使用して自分でデータにラベルを付けるか、人力によるラベル付けの従業員を使用してください。
+index_how_models_title: モデルを適用する
+index_how_models_text: オブジェクト検出と画像分類のためのモデルをすばやく簡単に生成します。
+index_why_title: なぜスカイセンス？
+index_why_easy_title: 使いやすいクラウドソリューション
+index_why_easy_text: Skysenseプラットフォームは、クラウドでホストされるソリューションです。使いやすく、すばやく開始できます。数秒でアカウントを作成し、画像のアップロード、ラベル付け、処理を開始します。
+index_why_fast_title: 速いターンアラウンドタイム
+index_why_fast_text: ラベリング（人力によるラベリングの労働力）についてサポートが必要な場合は、1日に数百枚の画像を処理するお手伝いをします。
+index_why_cost_title: AI開発コストの削減
+index_why_cost_text: シンプルな基本価格、使用した分だけお支払いください。 AI Devの頭痛の種を、クラウドサービスと同じくらい簡単に、代理店よりも安価で透明性の高い価格でスピンアップおよびスピンダウンできる運用コストに変えることで、最小限のチームで洗練されたディープラーニングシステムを構築します。
+index_cases_ag_title: 農業
+index_cases_ag_text: ドローン画像からインテリジェンスで作物を保護します。 Skysenseは、自走式ドローンから農業情報を提供することにより、被害が発生する前に植物の病気や雑草を防ぐのに役立ちます。
+index_cases_hemp_title: 麻
+index_cases_hemp_text: エクストラクターが望む高品質のCBDを育てます。ドローンベースのAIでCBD％を増加させて、受粉を回避し、植物のストレスを監視し、コンプライアンスに準拠した収穫タイミングを確保します。
+index_custom_title: カスタムAI
+index_custom_text: ドローンサービスプロバイダーは、Skysenseを使用してカスタムAIモデルを構築し、顧客に新しいビジネスインテリジェンスソリューションを提供できるようにしています。私たちがどのようにあなたを助けることができるかについて話し合うために私たちに連絡してください。
+
+drones_title: ドローン
+drones_header: ドローンによる画像と、AIを駆使して農作物を守る
+drones_description: Skysenseは、自律飛行ドローンを使い撮影したデータをもとに、病害や、雑草をいち早く検知し、農作物の被害を最小限に抑える支援をします。
+drones_solutions_title: ストレス、病害、生長のモニタリング
+drones_solutions_stress_title: 作物のストレスマップ
+drones_solutions_stress_text: 品質低下につながる作物のストレスを回避できます。作物から反射される人間の目には見えない近赤外線に基づいてストレスを計測します。
+drones_solutions_disease_title: 作物の病害箇所の検知
+drones_solutions_disease_text: どの位置で作物に病害が発生しているかをGoogle Mapsで閲覧できるため、病害が拡大して収穫量に影響が出る前に速やかに根絶できます。
+drones_solutions_growth_title: 各作物の生長率
+drones_solutions_growth_text: AIベースで作物の数を数えたり、生長をモニタリングすることが可能です。生長に問題がある場合、問題をいち早く検知し収穫量を最大化したり、植物の表現形を判定したりすることができます。
+drones_how_title: 機能
+drones_how_drones_title: 自律飛行ドローン
+drones_how_drones_description: 4Kカメラとマルチスペクトルセンサーを搭載したドローンが自動操縦で飛行し、農場全体をマップ化します。
+drones_how_process_title: AIを利用してデータ処理
+drones_how_process_description: 最先端のAIが撮影データを処理。植物、雑草、病害、その他の問題を識別し、発生状況（数量）を可視化します。
+drones_how_work_title: すぐに利用可能な結果
+drones_how_work_description: AIによって解析された結果は、インタラクティブなマップ上にすぐに表示されます。メンバー間で共有もでき、その情報をもとに効率的に作業を行うことができます。
+drones_count_title: 植物を数える
+drones_count_description: AIをベースに、特定の植物を検知して数量を測ることが可能です。植物と雑草の数をそれぞれ数え、植物の生長をモニタリングしていきます。モニタリングすることで、被害が発生した際、どのタイミングで被害が発生したのか、原因を見つけ出すサポートにもなります。
+drones_scout_title: 病害を探し出す
+drones_scout_description: 植物の健康状態を分類する指標NDVI(Normalized Difference Vegetation Index)に基づき、植物の病害を具体的に分類します。これは低高度飛行のドローンとAIを掛け合わせることで、実現可能となります。ドローンには、ハイパースペクトルカメラが装備されているので、病害を検知する精度が高いのが特徴です。
+drones_maps_title: マップとの連携
+drones_maps_description: 撮影画像の情報がインタラクティブに農地マップで確認ができるため、メンバーは、作業の優先順位付けや、農薬噴霧の最適化のほか、実験の評価にまで利用することができます。
+drones_health_title: 健康状態をモニタリング
+drones_health_description: 標準的なRGBカメラ（VARI）と、人間の目には見えない近赤外線を捉えるマルチスペクトルカメラから生成される画像を重ね合わせることで、植物のストレス状態を早期に見分けることができます。
+drones_surface_title: サーフェイスモデルを生成
+drones_surface_description: 畑などの農地を3Dマップ化する高精度のサーフェイスモデルを使い、水が流れる場所を把握するため、灌漑量の調整をすることができます。
+drones_connect_title: お問い合わせはお気軽に！
+drones_connect_text1: デモの  ご依頼  のほか、お客様独自の 事例を お聞 かせく  ださい。あらゆる作物に対応 いたします。Skysenseは、ドローン、画像解析、AIを掛け合わせ、お客様の事業を改善します。Skysenseは、お客様  の課題を情 熱を持って共に解決いたします。ドローンやカメラの選定から、カスタム可能なAIの開発まで、すべて細やかに対応いたします。
+drones_connect_text2: Skysenseチームは、それぞれのお客様の問題を情熱を持ってともに解決いたします。規制や機器の選定からカスタムの画像アノテーションが可能な事前学習済みの深層学習アルゴリズムの開発まで、すべての細部を担当いたします。
+drones_hosting_title: ニーズに合ったホスティング
+drones_hosting_cloud_title: クラウドホスティング
+drones_hosting_cloud_description: クラ ウドで ホストされたソリューショ ンを利用し、どこからでもドローンで撮影した情報をアップロードすることができます。また、リアルタイ  ムでチー  ムともその情報が載ったマップを共有することが可能です。
+drones_hosting_onpremise_title: 施設内
+drones_hosting_onpremise_description: 施設内  にホスティングされたカスタム処理ハードウェアによって、インターネットの速度が原因で遅延することなく迅速に結果を確認することができます（クローズドβ版）。
+drones_advantage_title: Skysenseの強み
+drones_advantage_text1: Skysenseは世界 で初めて、AIをベースに、農作物を診断 する 技術 を日本 で展開 しています。
+drones_advantage_text2: 著名な投資家 からの支援や、AIやプログラミングの技術力  を活かし、作物のストレスマップ化、作物の病害検知、収量の予測、雑草や灌漑 の管理など、お客様  のニー  ズに合わせたサポート機能を備えたソリューションを展開しています。
+drones_advantage_text3: Skysenseの技術を活用して、今期さらなる収穫を目指しませんか？
 
 contact_title: 連絡先
 contact_message_success: ありがとうございます。可能な限り早くご返信いたします！

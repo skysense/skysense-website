@@ -1,174 +1,69 @@
 main > .index {
 
-  $opacity: 0.2;
+  h1 {
+    margin-top: 0;
+  }
 
-  .hero2 {
+  section.theme2 {
+    text-align: center;
+
+    a.button {
+      background: none;
+      border: solid 2px white;
+      color: white;
+      margin: 0 5px
+    }
+
+    a.button.primary {
+      background: white;
+      color: black;
+    }
+
+  }
+
+  .image {
+    padding: 50px;
+  }
+
+  .image img {
+    border-radius: 10px;
     overflow: hidden;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/img/drone.png');
-    background-size: cover;
-    background-position: top center;
-    position: relative;
-    color: white;
-    
-    img {
-      margin-top: 30px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    h1 {
-      font-size: 2.22em;
-    }
-
-    p {
-      font-size: 1.7em;
-      opacity: 0.8;
-      margin-bottom: 0;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    @media screen and (max-width: 700px) {
-      h1 {
-        font-size: 1.8em;
-      }
-      p {
-        font-size: 1.4em;
-        line-height: 1.2em;
-      }
-    }
+    border: solid 2px #eee;
   }
 
-  .hero2.hemp {
-    h1+p {
-      max-width: 900px;
-    }
-  }
-
+  /*
   .columns {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: -10px;
   }
 
   .column {
     flex-grow: 1;
     flex-basis: 0;
     text-align: left;
+    padding: 10px;
   }
 
-  .column h2 {
+  .column h3 {
     margin-top: 0;
   }
+  */
 
-  .columns .column:first-child {
-    margin: 0 30px 0 0;
-  }
-
-  .columns.reverse .column:first-child {
-    margin: 0 0 0 30px;
-  }
-
-  .columns .column.narrow {
-    flex-grow: 0.5;
-  }
-
-  .columns.reverse {
-    flex-direction: row-reverse;
-  }
-
-  @media screen and (max-width: 700px) {
+  /*
+  @media screen and (max-width: 900px) {
     .columns {
-      flex-direction: column !important;
+      flex-direction: column;
     }
     .column {
-      margin: 0 !important;
       width: 100%;
-      text-align: center;
     }
   }
+  */
 
-  img {
-    max-width: 100%;
-  }
-
-  .screens {
-    display: flex;
-    padding: 0 30px;
-
-    .screen {
-      flex-grow: 1;
-      flex-basis: 0;
-      border-radius: 4px;
-      overflow: hidden;
-      margin: 3px;
-      box-sizing: border-box;
-    }
-
-    img {
-      width: 100%;
-      height: 30vw;
-      max-height: 200px;
-      object-fit: cover;
-    }
-  }
-
-  .hero {
-    padding: 150px 0;
-    background-image: linear-gradient(rgba(0,0,0,$opacity), rgba(0,0,0,$opacity)), url('/assets/img/drone.png');
-    background-size: cover;
-    background-position: top center;
-    position: relative;
-    color: white;
-
-    @media screen and (max-width: 500px) {
-      & {
-        padding: 50px 0;
-      }
-    }
-
-    h1 {
-      font-size: 2.3em;
-    }
-
-    p {
-      font-size: 1.3em;
-      max-width: 700px;
-      margin: 0 auto;
-      font-weight: 400;
-    }
-
-    h1, p {
-      text-shadow: 1px 1px #444;
-    }
-
-    h1 + p {
-      margin-top: -30px;
-      margin-bottom: 30px;
-    }
-
-    .button {
-      padding: 13px 30px;
-    }
-
-  }
-
-  section {
-    text-align: center;
-  }
-
-  section.text {
-    text-align: left;
-
-    h2 {
-      margin-top: 0;
-      margin-bottom: 40px;
-    }
-
-    .button {
-      margin-top: 20px;
-    }
-
+  .buttons a {
+    margin-right: 10px;
   }
 
 }

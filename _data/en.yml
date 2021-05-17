@@ -1,5 +1,5 @@
 site_title: Skysense
-site_description: Agricultural Intelligence From Drone Images
+site_description: Add AI to your business
 
 nav_about: Team
 nav_contact: Contact
@@ -7,6 +7,7 @@ nav_careers: Jobs
 nav_hemp: Hemp
 nav_login: Dashboard
 nav_pricing: Pricing
+nav_solutions: Solutions
 
 buttons_contact_us: Contact Us
 buttons_reach_out: Reach Out To Us
@@ -15,45 +16,71 @@ buttons_apply_now: Apply Now
 buttons_get_in_touch: Get In Touch
 buttons_learn_more: Learn More
 buttons_get_started: Get Started
+buttons_get_demo: Get Demo
+buttons_try_free: Try it free
 
-index2_header: Protect Crops with Intelligence from Drone Images
-index2_description: Skysense helps you stop plant disease and weeds before the damage is done by providing agricultural intelligence from self-flying drones.
-index_solutions_title: Monitor every plant over time
-index_solutions_stress_title: Map plant stress
-index_solutions_stress_text: Spot stress before it reduces yield by monitoring near-infrared reflection of plants that is invisible to the human eye.
-index_solutions_disease_title: Find diseased plants
-index_solutions_disease_text: See diseased areas in an interactive map to eradicate the disease before it spreads to healthy plants.
-index_solutions_growth_title: Benchmark growth rate
-index_solutions_growth_text: Catch stunted growth, benchmark yield, and phenotype plants with AI-based plant counting and growth rate monitoring.
-index2_how_title: How it works
-index2_how_drones_title: Self-Flying Drones
-index2_how_drones_description: Drones fitted with 4K cameras and multispectral sensors fly on autopilot to map your entire farm.
-index2_how_process_title: Process Data using AI
-index2_how_process_description: State of the art machine learning processes the data to count and identify plants, weeds, diseases, and other issues.
-index2_how_work_title: Actionable Results
-index2_how_work_description: Get actionable diagnostics displayed onto an interactive map that your team uses to reduce labor and optimize work.
-index2_count_title: Count Plants
-index2_count_description: Deep learning AI is tuned to detect and count specific plant species. Count plants and weeds separately, monitor plant growth, and improve insurance claims.
-index2_scout_title: Scout Diseases
-index2_scout_description: Go beyond NDVI-based plant health to classify specific plant diseases. Made possible by applying AI to low-altitude drone flights. Equip the drone fleet with hyper-spectral cameras to maximize the detection accuracy.
-index2_maps_title: Interact with Maps
-index2_maps_description: Image-based intelligence is embedded in interactive farm maps, that the whole team uses to prioritize labor, optimize spraying, and evaluate experiments.
-index2_health_title: Monitor Health
-index2_health_description: Spot plant stress early with overlays generated from standard RGB cameras (VARI) and multispectral cameras that capture near-infrared, invisible to the human eye (NDVI).
-index2_surface_title: Generate Surface Models
-index2_surface_description: Improve irrigation decisions by understanding where water flows, using accurate surface models that map your field's 3D topography.
-index_connect_title: Need our expertise to solve a different problem?
-index_connect_text1: Contact us to schedule a meeting and share details about your unique use case or ideas. Skysense has brought together drones, scientific imaging, and AI for the first time to revolutionize your business.
-index_connect_text2: The Skysense team is excited to solve custom problems together and can take care of all the details from regulations and choice of equipment to developing fully trained deep learning algorithms with custom image annotation.
-index2_hosting_title: Hosting that suits your needs
-index2_hosting_cloud_title: Cloud Hosting
-index2_hosting_cloud_description: Upload and access your flights from anywhere and share maps with your team using our cloud hosted solution.
-index2_hosting_onpremise_title: On-Premise
-index2_hosting_onpremise_description: On-site hosting and custom processing hardware for fast results that aren't delayed by internet speeds (closed beta).
-index_advantage_title: The Skysense Advantage
-index_advantage_text1: Skysense is the first provider of crop diagnostics powered by deep learning AI in Japan.
-index_advantage_text2: Backed by industry-leading AI experience and significant venture capital investment, Skysense delivers innovative data solutions that assist in crop stress mapping, disease detection, weed management, irrigation management, and more.​
-index_advantage_text3: Secure your competitive edge this growing season by using Skysense's unique technology!
+index_header: Add AI to your business
+index_description: AI image platform with annotation workforce
+index_how_title: How it works
+index_how_upload_title: Upload Data
+index_how_upload_text: Upload your existing image data, or let us help you source data with our team of drone pilots.
+index_how_annotate_title: Annotate
+index_how_annotate_text: Label data by yourself using our online tools, or use our human-powered labeling workforce.
+index_how_models_title: Apply Models
+index_how_models_text: Quickly and easily generate models for object detection and image classification.
+index_why_title: Why Skysense?
+index_why_easy_title: Easy to use cloud solution
+index_why_easy_text: The Skysense platform is cloud-hosted solution. Easy to use and fast to get started. Create an account in seconds, start uploading, labeling, and processing images.
+index_why_fast_title: Fast turnaround time
+index_why_fast_text: If you need help with labeling (human-powered labeling workforce) then we can help you process hundreds of images per day.
+index_why_cost_title: Lower AI development cost
+index_why_cost_text: Simple base pricing, pay for what you use. Build sophisticated deep learning systems with a minimal team by turning the AI Dev headaches into an operational cost that you can spin up and down as easy as a cloud service and at a price that’s cheaper and more transparent than agencies.
+index_cases_ag_title: Agriculture
+index_cases_ag_text: Protect Crops with Intelligence from Drone Images. Skysense helps you stop plant disease and weeds before the damage is done by providing agricultural intelligence from self-flying drones.
+index_cases_hemp_title: Hemp
+index_cases_hemp_text: Grow quality CBD that extractors want. Increase CBD % with drone-based AI to avoid pollination, watch plant stress, and ensure compliant harvest timing.
+index_custom_title: Custom AI
+index_custom_text: Drone service providers are using Skysense to build custom AI models so that they can offer their customers new business intelligence solutions. Reach out to us to discuss how we can help you.
+
+drones_title: Drones
+drones_header: Protect Crops with Intelligence from Drone Images
+drones_description: Skysense helps you stop plant disease and weeds before the damage is done by providing agricultural intelligence from self-flying drones.
+drones_solutions_title: Monitor every plant over time
+drones_solutions_stress_title: Map plant stress
+drones_solutions_stress_text: Spot stress before it reduces yield by monitoring near-infrared reflection of plants that is invisible to the human eye.
+drones_solutions_disease_title: Find diseased plants
+drones_solutions_disease_text: See diseased areas in an interactive map to eradicate the disease before it spreads to healthy plants.
+drones_solutions_growth_title: Benchmark growth rate
+drones_solutions_growth_text: Catch stunted growth, benchmark yield, and phenotype plants with AI-based plant counting and growth rate monitoring.
+drones_how_title: How it works
+drones_how_drones_title: Self-Flying Drones
+drones_how_drones_description: Drones fitted with 4K cameras and multispectral sensors fly on autopilot to map your entire farm.
+drones_how_process_title: Process Data using AI
+drones_how_process_description: State of the art machine learning processes the data to count and identify plants, weeds, diseases, and other issues.
+drones_how_work_title: Actionable Results
+drones_how_work_description: Get actionable diagnostics displayed onto an interactive map that your team uses to reduce labor and optimize work.
+drones_count_title: Count Plants
+drones_count_description: Deep learning AI is tuned to detect and count specific plant species. Count plants and weeds separately, monitor plant growth, and improve insurance claims.
+drones_scout_title: Scout Diseases
+drones_scout_description: Go beyond NDVI-based plant health to classify specific plant diseases. Made possible by applying AI to low-altitude drone flights. Equip the drone fleet with hyper-spectral cameras to maximize the detection accuracy.
+drones_maps_title: Interact with Maps
+drones_maps_description: Image-based intelligence is embedded in interactive farm maps, that the whole team uses to prioritize labor, optimize spraying, and evaluate experiments.
+drones_health_title: Monitor Health
+drones_health_description: Spot plant stress early with overlays generated from standard RGB cameras (VARI) and multispectral cameras that capture near-infrared, invisible to the human eye (NDVI).
+drones_surface_title: Generate Surface Models
+drones_surface_description: Improve irrigation decisions by understanding where water flows, using accurate surface models that map your field's 3D topography.
+drones_connect_title: Need our expertise to solve a different problem?
+drones_connect_text1: Contact us to schedule a meeting and share details about your unique use case or ideas. Skysense has brought together drones, scientific imaging, and AI for the first time to revolutionize your business.
+drones_connect_text2: The Skysense team is excited to solve custom problems together and can take care of all the details from regulations and choice of equipment to developing fully trained deep learning algorithms with custom image annotation.
+drones_hosting_title: Hosting that suits your needs
+drones_hosting_cloud_title: Cloud Hosting
+drones_hosting_cloud_description: Upload and access your flights from anywhere and share maps with your team using our cloud hosted solution.
+drones_hosting_onpremise_title: On-Premise
+drones_hosting_onpremise_description: On-site hosting and custom processing hardware for fast results that aren't delayed by internet speeds (closed beta).
+drones_advantage_title: The Skysense Advantage
+drones_advantage_text1: Skysense is the first provider of crop diagnostics powered by deep learning AI in Japan.
+drones_advantage_text2: Backed by industry-leading AI experience and significant venture capital investment, Skysense delivers innovative data solutions that assist in crop stress mapping, disease detection, weed management, irrigation management, and more.​
+drones_advantage_text3: Secure your competitive edge this growing season by using Skysense's unique technology!
 
 contact_title: Contact
 contact_message_success: Thank you, we'll get back to you as soon as possible!
@@ -121,7 +148,7 @@ about_join_description: We're Hiring! We are looking for hard-working, creative 
 pricing_title: Pricing
 pricing_preheader: Pricing
 pricing_header: Make drone maps for free
-pricing_description: Pricing caters to every use case, from hobbyists mapping for free, to industry professionals paying for a full service drone solution. Sign up without a credit card, and upgrade or downgrade at any time.
+pricing_description: Pricing caters to every use case, from hobbyists, to industry professionals. Sign up without a credit card, and upgrade or downgrade at any time.
 
 pricing_plan_hobbyist_name: Hobbyist
 pricing_plan_hobbyist_price: $0

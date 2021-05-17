@@ -9,7 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="alternate" type="application/atom+xml" title="Skysense Blog" href="/feed.xml" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/meta/apple-touch-icon.png">
@@ -84,20 +84,17 @@
             </div>
           </div>
           <div class="left">
-            <a href="/{{ page.language }}/pricing/" {% if page.url == '/pricing/' %}class="active"{% endif %}>{{ locale.nav_pricing }}</a>
-            {% if page.language == "en" %}
-            <a href="/{{ page.language }}/hemp/" {% if page.url == '/hemp/' %}class="active"{% endif %}>{{ locale.nav_hemp }}</a>
-            {% endif %}
-            <a href="/{{ page.language }}/about/" {% if page.url == '/about/' %}class="active"{% endif %}>{{ locale.nav_about }}</a>
-            <a href="/{{ page.language }}/careers/" {% if page.url == '/careers/' %}class="active"{% endif %}>{{ locale.nav_careers }}</a>
-            <a href="/{{ page.language }}/contact/" {% if page.url == '/contact/' %}class="active"{% endif %}>{{ locale.nav_contact }}</a>
+            <a href="/{{ page.language }}/">{{ locale.nav_solutions }}</a>
+            <a href="/{{ page.language }}/pricing/" {% if page.title == 'pricing_title' %}class="active"{% endif %}>{{ locale.nav_pricing }}</a>
+            <a href="/{{ page.language }}/about/" {% if page.title == 'about_title' %}class="active"{% endif %}>{{ locale.nav_about }}</a>
+            <a href="/{{ page.language }}/careers/" {% if page.title == 'careers_title' %}class="active"{% endif %}>{{ locale.nav_careers }}</a>
+            <a href="/{{ page.language }}/contact/" {% if page.title == 'contact_title' %}class="active"{% endif %}>{{ locale.nav_contact }}</a>
             <!--
               <a href="/news-media/" {% if page.url == '/news-media/' %}class="active"{% endif %}>News & Media</a>
               <a href="/blog/" {% if page.url == '/blog/' %}class="active"{% endif %}>Blog</a>
             -->
           </div>
           <div class="right">
-            
             <a href="https://dashboard.skysense.jp">{{ locale.nav_login }}</a>
             {% if page.language == "en" %}
             <a href="/ja/{{ page.url | slice: 4,99 }}">日本語</a>

@@ -1,0 +1,42 @@
+
+.columns {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: left;
+}
+
+.column h2 {
+  margin-top: 0;
+}
+
+.columns .column:first-child {
+  margin: 0 30px 0 0;
+}
+
+.columns.reverse .column:first-child {
+  margin: 0 0 0 30px;
+}
+
+.columns .column.narrow {
+  flex-grow: 0.5;
+}
+
+.columns.reverse {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 700px) {
+  .columns {
+    flex-direction: column !important;
+  }
+  .column {
+    margin: 0 !important;
+    width: 100%;
+    text-align: center;
+  }
+}

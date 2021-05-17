@@ -1,67 +1,111 @@
 {% assign locale = site.data[page.language] %}
 
 <div class="index">
-  <section class="hero">
+
+  <section class="theme2">
     <div class="wrap">
       <h1>{{ locale.index_header }}</h1>
       <p>{{ locale.index_description }}</p>
-      <a href="javascript:document.querySelector('#features').scrollIntoView({ behavior: 'smooth' })" class="button">{{ locale.buttons_learn_more }}</a>
+      <div class="buttons">
+        <a class="button primary" href="https://calendly.com/jjclune/30min">{{ locale.buttons_get_demo }}</a>
+        <a class="button" href="https://dashboard.skysense.jp"">{{ locale.buttons_try_free }}</a>
+      </div>
     </div>
   </section>
-  <section id="features">
+  
+  <section class="center">
     <div class="wrap">
-      <h2>{{ locale.index_features_title }}</h2>
+      <h2>{{ locale.index_how_title }}</h2>
       <div class="icons">
         <div class="icon">
-          <i class="fa fa-helicopter"></i>
-          <div class="title">{{ locale.index_features_scouting_title }}</div>
-          <div class="description">{{ locale.index_features_scouting_text }}</div>
+          <i class="fa fa-upload"></i>
+          <div class="title">{{ locale.index_how_upload_title }}</div>
+          <div class="description">{{ locale.index_how_upload_text }}</div>
         </div>
-        <div class="icon"><i class="fa fa-brain"></i>
-          <div class="title">{{ locale.index_features_ai_title }}</div>
-          <div class="description">{{ locale.index_features_ai_text }}</div>
+        <div class="icon">
+          <i class="fa fa-pen"></i>
+          <div class="title">{{ locale.index_how_annotate_title }}</div>
+          <div class="description">{{ locale.index_how_annotate_text }}</div>
         </div>
-        <div class="icon"><i class="fa fa-map-marked-alt"></i>
-          <div class="title">{{ locale.index_features_map_title }}</div>
-          <div class="description">{{ locale.index_features_map_text }}</div>
+        <div class="icon">
+          <i class="fa fa-brain"></i>
+          <div class="title">{{ locale.index_how_models_title }}</div>
+          <div class="description">{{ locale.index_how_models_text }}</div>
         </div>
       </div>
     </div>
   </section>
-  <section class="alt text">
-    <div class="wrap">
-      <h2>{{ locale.index_advantage_title }}</h2>
-      <p>{{ locale.index_advantage_text1 }}</p>
-      <p>{{ locale.index_advantage_text2 }}</p>
-      <p>{{ locale.index_advantage_text3 }}</p>
-      <a href="/{{page.language}}/contact/" class="button">{{ locale.buttons_get_started }}</a>
-    </div>
-  </section>
+
   <section>
     <div class="wrap">
-      <h2>{{ locale.index_solutions_title }}</h2>
-      <div class="icons">
-        <div class="icon"><i class="fa fa-stethoscope"></i>
-          <div class="title">{{ locale.index_solutions_stress_title }}</div>
-          <div class="description">{{ locale.index_solutions_stress_text }}</div>
+      <h2>Why Skysense?</h2>
+      <div class="columns">
+        <div class="column">
+          <h3>{{ locale.index_why_easy_title }}</h3>
+          <p>{{ locale.index_why_easy_text }}</p>
         </div>
-        <div class="icon"><i class="fa fa-map"></i>
-          <div class="title">{{ locale.index_solutions_disease_title }}</div>
-          <div class="description">{{ locale.index_solutions_disease_text }}</div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <h3>{{ locale.index_why_fast_title }}</h3>
+          <p>{{ locale.index_why_fast_text }}</p>
         </div>
-        <div class="icon"><i class="fa fa-chart-pie"></i>
-          <div class="title">{{ locale.index_solutions_growth_title }}</div>
-          <div class="description">{{ locale.index_solutions_growth_text }}</div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <h3>{{ locale.index_why_cost_title }}</h3>
+          <p>{{ locale.index_why_cost_text }}</p>
+          <a class="button primary" href="/{{page.language}}/pricing/">{{ locale.nav_pricing }}</a>
         </div>
       </div>
     </div>
   </section>
-  <section class="theme text">
+  
+  <section>
     <div class="wrap">
-      <h2>{{ locale.index_connect_title }}</h2>
-      <p>{{ locale.index_connect_text1 }}</p>
-      <p>{{ locale.index_connect_text2 }}</p>
-      <a href="/{{page.language}}/contact/" class="button">{{ locale.buttons_contact_us }}</a>
+      <div class="columns">
+        <div class="column narrow">
+          <h2>{{ locale.index_cases_ag_title }}</h2>
+          <p>{{ locale.index_cases_ag_text }}</p>
+          <a class="button primary" href="/{{page.language}}/drones/">{{ locale.buttons_learn_more }}</a>
+        </div>
+        <div class="column">
+          <div class="screen"><img src="/assets/img/demo/dashboard-health.png" /></div>
+        </div>
+      </div>
     </div>
   </section>
+
+  {% if page.language == "en" %}
+  <section>
+    <div class="wrap">
+      <div class="columns reverse">
+        <div class="column narrow">
+          <h2>{{ locale.index_cases_hemp_title }}</h2>
+          <p>{{ locale.index_cases_hemp_text }}</p>
+          <a class="button primary" href="/{{page.language}}/hemp/">{{ locale.buttons_learn_more }}</a>
+        </div>
+        <div class="column">
+          <div class="screen"><img src="/assets/img/demo/dashboard-hemp.png" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="theme">
+    <div class="wrap">
+      <h2>{{ locale.index_custom_title }}</h2>
+      <p>{{ locale.index_custom_text }}</p>
+      <a class="button" href="/{{page.language}}/contact/">{{ locale.buttons_learn_more }}</a>
+    </div>
+  </section>
+  <!--
+  <section class="faq alt">
+    <div class="wrap">
+      <h2>Q&A</h2>
+    </div>
+  </section>
+  -->
+
 </div>

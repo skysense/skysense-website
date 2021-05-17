@@ -2,7 +2,7 @@
 header {
   padding: 14px 0;
   background: white;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
   z-index: 9;
   position: relative;
   line-height: 1.3;
@@ -10,6 +10,10 @@ header {
   position: sticky;
   top: 0;
 
+  .wrap {
+    max-width: none;
+  }
+  
   .brand {
     a:hover {
       border-color: white;
@@ -23,7 +27,6 @@ header {
   a {
     color: inherit;
     text-decoration: none;
-    font-family: $poppins;
     border-bottom: solid 1px white;
   }
 

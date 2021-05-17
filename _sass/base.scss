@@ -1,8 +1,7 @@
 $theme: #2e88fa;
-$poppins: "Poppins", "Roboto", "arial", sans-serif;
 
 body, input, textarea, select, button {
-  font-family: "Roboto", "Noto Sans JP", "arial", sans-serif;
+  font-family: "IBM Plex Sans", "Roboto", "Noto Sans JP", "arial", sans-serif;
   font-feature-settings: "palt";
   -webkit-font-smoothing: antialiased;
   font-size: 14pt;
@@ -21,7 +20,6 @@ main {
 h1, h2, h3, h4, h5 {
   font-weight: 500;
   line-height: 1.2;
-  font-family: $poppins;
 }
 
 h1 {
@@ -35,7 +33,7 @@ h2 {
 .wrap {
   margin: 0 auto;
   max-width: 1050px;
-  padding: 0 30px;
+  padding: 0 40px;
 }
 
 section {
@@ -62,6 +60,10 @@ section.alt {
   background: #fafbfc;
 }
 
+section.center {
+  text-align: center;
+}
+
 section.theme {
   // https://cssgradient.io/
   background: linear-gradient(120deg, $theme 0%, #2a69b9 100%);
@@ -70,6 +72,15 @@ section.theme {
     color: black;
     opacity: 0.6;
   }
+}
+
+section.theme2 {
+  background: #f0f6ff;
+  background: url('/assets/img/background.png');
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  padding: 140px 0;
 }
 
 hr {
