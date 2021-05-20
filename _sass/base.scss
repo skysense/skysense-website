@@ -36,6 +36,12 @@ h2 {
   padding: 0 40px;
 }
 
+@media screen and (max-width: 750px) {
+  .wrap {
+    padding: 0 20px;
+  }
+}
+
 section {
   margin: 0 auto;
   padding: 70px 0;
@@ -72,15 +78,6 @@ section.theme {
     color: black;
     opacity: 0.6;
   }
-}
-
-section.theme2 {
-  background: #f0f6ff;
-  background: url('/assets/img/background.png');
-  background-position: center center;
-  background-size: cover;
-  color: white;
-  padding: 140px 0;
 }
 
 hr {
