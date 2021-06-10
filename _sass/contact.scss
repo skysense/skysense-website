@@ -2,12 +2,15 @@
 main > .contact {
   background: #fafbfc;
   min-height: 100%;
+}
 
+.contact {
   h1, p {
     margin-right: 30px;
   }
 
   form {
+    color: black;
     background: white;
     padding: 50px;
     border-radius: 3px;

@@ -1,0 +1,142 @@
+{% assign locale = site.data[page.language] %}
+
+<div class="index">
+
+  <section class="theme2">
+    <div class="wrap">
+      <h1>Get labeled data faster</h1>
+      <p>Platform to annotate data, monitor quality, and iterate processes to get labeled data faster while saving engineers time.</p>
+      <div class="buttons">
+        <a class="button primary" href="https://calendly.com/jjclune/30min">Schedule Meeting</a>
+        <a class="button" href="/{{page.language}}/contact/">Contact Us</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="">
+    <div class="wrap">
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <p class="preheader">Mission</p>
+          <h2>Data labeling & annotation</h2>
+          <p>Increase labeled data and improve model accuracy quickly while saving your engineers time. We provide a one stop shop to create and manage labeled data. Create image annotations with automated supervision of annotators, both inside and outside the company. Use our secure platform for storing data in the cloud, or use our on-premise solutions for strict data privacy requirements.</p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div class="img">
+            <img src="/assets/img/labels.webp" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="preheader">Why Skysense</div>
+      <h2>The Skysense advantage</h2>
+      <p>Tell us what you are interested in and we will label your datasets in no time. Don't have any data? Not a problem, we will find and label the data you need. Our platform can store your data in the cloud, or in-premise if your have a strict data privacy requirement. We can also restrict the cloud to a specific region like Japan. You should consider Skysense if:</p>
+      <li>You have a problem that requires a large amount of data but you do not know where to start?</li>
+      <li>You already have some data and you need more to boost the accuracy of your models?</li>
+      <li>You spend too much time collecting data or label your own data?</li>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap narrow">
+      <p class="preheader">How it works</p>
+      <h2>Easily add AI to your business</h2>
+      <p>Oversee the process from uploading data, labeling it, and deploying a model, to iterating on the labeling guidelines and iterating on the model itself.</p>
+    </div>
+    <div class="wrap">
+      <div class="row">
+        <div class="col-md-3 col-xs-12">
+          <div class="step">
+            <i class="fa fa-upload"></i>
+            <h3>Upload Images</h3>
+            <p>Securely upload unlabeled images in one step to our cloud platform or on-premise. We can also restrict the cloud to a specific region like Japan.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <div class="step">
+            <i class="fa fa-pen"></i>
+            <h3>Label Data</h3>
+            <p>Either use our self-service labeling tools, or define the labeling guidelines and order labels from our professional annotators to increase labeled data quickly.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <div class="step">
+            <i class="fa fa-eye"></i>
+            <h3>Control Quality</h3>
+            <p>Automatically evaluate annotator quality, manage feedback, and update guidelines to iteratively improve the process to achieve higher accuracy AI models. </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <div class="step">
+            <i class="fa fa-brain"></i>
+            <h3>Deploy AI Model</h3>
+            <p>Deploy the trained model and use it in your application or export labels to use off platform. Inquire about AI model development consulting.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="wrap narrow">
+      <p class="preheader">Showcase</p>
+      <h2>See what we've worked on</h2>
+      <p>Explore some of the past projects we've worked on.</p>
+    </div>
+    <div class="wrap">
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <div class="step">
+            <div class="img"><img src="/assets/img/index/ag.png" /></div>
+            <h3>{{ locale.index_cases_ag_title }}</h3>
+            <p>{{ locale.index_cases_ag_text }}</p>
+            <a class="button primary" href="/{{page.language}}/drones/">{{ locale.buttons_learn_more }}</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div class="step">
+            <div class="img"><img src="/assets/img/index/annotate.png" /></div>
+            <h3>{{ locale.index_cases_hemp_title }}</h3>
+            <p>{{ locale.index_cases_hemp_text }}</p>
+            <a class="button primary" href="/{{page.language}}/hemp/">{{ locale.buttons_learn_more }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="contact">
+        <h2>Book a demo</h2>
+        <p>Fill in your details below to schedule a meeting with our team.</p>
+        <form method="POST" action="https://dashboard.skysense.jp/contact">
+          <label>{{ locale.contact_field_full_name }}</label>
+          <input type="text" name="name" required="required" />
+
+          <label>{{ locale.contact_field_company }}</label>
+          <input type="text" name="company" />
+
+          <label>{{ locale.contact_field_job_title }}</label>
+          <input type="text" name="title" />
+
+          <label>{{ locale.contact_field_email }}</label>
+          <input type="text" name="email" required="required" />
+
+          <label>{{ locale.contact_field_message }}</label>
+          <textarea name="message" required="required" placeholder="{{ locale.contact_field_message_placeholder }}"></textarea>
+
+          <button type="submit">{{ locale.buttons_contact_us }}</button>
+
+          <input type="hidden" name="honeypot" value="">
+          <input type="hidden" name="language" value="{{page.language}}">
+        </form>
+      </div>
+    </div>
+  </section>
+
+</div>

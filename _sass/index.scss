@@ -11,17 +11,13 @@ main > .index {
   }
 
   section.theme2 {
-    text-align: center;
     background: #f0f6ff;
-    background: url('/assets/img/background.png');
+    background: url('/assets/img/cool-background.png');
     background-position: center center;
     background-size: cover;
     color: white;
-    padding: 140px 0;
-      
-    .buttons a {
-      margin-right: 10px;
-    }
+    padding: 100px 0;
+    position: relative;
 
     a.button {
       background: none;
@@ -33,6 +29,11 @@ main > .index {
     a.button.primary {
       background: white;
       color: black;
+    }
+
+    p {
+      font-size: 1.5em;
+      font-weight: 300;
     }
 
     @media screen and (max-width: 750px) {
@@ -56,6 +57,54 @@ main > .index {
   section.text {
     h2 {
       margin-top: 0;
+    }
+  }
+
+  section.alt {
+    background: #f8f8f8;
+  }
+
+  .contact {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .step {
+    border: solid 1px #f0f0f0;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px;
+
+    .img {
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    p {
+      margin-top: 10px;
+    }
+
+    i.fa {
+      color: $theme;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+  }
+
+  section.alt .step {
+    background: white;
+    border: none;
+  }
+
+  .img {
+    padding: 30px;
+    img {
+      border-radius: 4px;
     }
   }
 
