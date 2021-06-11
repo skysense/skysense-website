@@ -19,7 +19,7 @@
         <div class="col-md-6 col-xs-12">
           <p class="preheader">Mission</p>
           <h2>Data labeling & annotation</h2>
-          <p>Increase labeled data and improve model accuracy quickly while saving your engineers time. We provide a one stop shop to create and manage labeled data. Create image annotations with automated supervision of annotators, both inside and outside the company. Use our secure platform for storing data in the cloud, or use our on-premise solutions for strict data privacy requirements.</p>
+          <p>Increase labeled data and improve AI model accuracy quickly while saving your engineers time. We provide a one stop shop to create and manage labeled data. Create image annotations with automated supervision of annotators, both inside and outside the company.</p>
         </div>
         <div class="col-md-6 col-xs-12">
           <div class="img">
@@ -34,10 +34,13 @@
     <div class="wrap">
       <div class="preheader">Why Skysense</div>
       <h2>The Skysense advantage</h2>
-      <p>Tell us what you are interested in and we will label your datasets in no time. Don't have any data? Not a problem, we will find and label the data you need. Our platform can store your data in the cloud, or in-premise if your have a strict data privacy requirement. We can also restrict the cloud to a specific region like Japan. You should consider Skysense if:</p>
-      <li>You have a problem that requires a large amount of data but you do not know where to start?</li>
-      <li>You already have some data and you need more to boost the accuracy of your models?</li>
-      <li>You spend too much time collecting data or label your own data?</li>
+      <p>Tell us your machine learning needs and we will quickly label your datasets accurately. Don’t have any data? No problem, we will find and label the data you need. Our platform can store your data in the cloud or on-premise. We can restrict the cloud to one region, like Japan. Skysense is commonly needed when:</p>
+      <ul>
+        <li>Your problem requires a lot of data, but you don’t know where to start.</li>
+        <li>You have some data, but you need more to boost the accuracy of your AI models.</li>
+        <li>You spend too much time collecting data or labeling data accurately at scale.</li>
+        <li>Your data includes many incorrect labels that you need to fix to boost the accuracy of your AI models.</li>
+      </ul>
     </div>
   </section>
 
@@ -45,7 +48,7 @@
     <div class="wrap narrow">
       <p class="preheader">How it works</p>
       <h2>Easily add AI to your business</h2>
-      <p>Oversee the process from uploading data, labeling it, and deploying a model, to iterating on the labeling guidelines and iterating on the model itself.</p>
+      <p>Oversee the process from uploading data, labeling it, and deploying a AI model, to iterating on the labeling guidelines and iterating on the AI model itself.</p>
     </div>
     <div class="wrap">
       <div class="row">
@@ -74,7 +77,7 @@
           <div class="step">
             <i class="fa fa-brain"></i>
             <h3>Deploy AI Model</h3>
-            <p>Deploy the trained model and use it in your application or export labels to use off platform. Inquire about AI model development consulting.</p>
+            <p>Deploy the trained AI model and use it in your application or export labels to use off platform. Receive AI model development consulting.</p>
           </div>
         </div>
       </div>
@@ -113,7 +116,7 @@
     <div class="wrap">
       <div class="contact">
         <h2>Book a demo</h2>
-        <p>Fill in your details below to schedule a meeting with our team.</p>
+        <p>Fill in your details below to contact us or meet with our team. Schedule now by clicking this calendar link.</p>
         <form method="POST" action="https://dashboard.skysense.jp/contact">
           <label>{{ locale.contact_field_full_name }}</label>
           <input type="text" name="name" required="required" />
@@ -127,8 +130,11 @@
           <label>{{ locale.contact_field_email }}</label>
           <input type="text" name="email" required="required" />
 
+          <label>Phone Number</label>
+          <input type="tel" name="phone" />
+
           <label>{{ locale.contact_field_message }}</label>
-          <textarea name="message" required="required" placeholder="{{ locale.contact_field_message_placeholder }}"></textarea>
+          <textarea name="message" required="required" placeholder="For example, please share your industry, team size, application, data type, and how we can help you."></textarea>
 
           <button type="submit">{{ locale.buttons_contact_us }}</button>
 
