@@ -18,8 +18,8 @@ buttons_learn_more: さらに詳しく
 buttons_get_started: 利用開始
 buttons_get_demo: デモを入手
 buttons_try_free: 無料でお試しください
+buttons_schedule_meeting: 会議のスケジュール
 
-index_title:
 index_header: ビジネスにAIを追加する
 index_description: アノテーションワークフォースを備えたAI画像プラットフォーム
 index_how_title: 使い方
@@ -36,12 +36,39 @@ index_why_fast_title: 速いターンアラウンドタイム
 index_why_fast_text: ラベリング（人力によるラベリングの労働力）についてサポートが必要な場合は、1日に数百枚の画像を処理するお手伝いをいたします。
 index_why_cost_title: AI開発コストの削減
 index_why_cost_text: シンプルな基本価格、使用分だけのお支払いで結構です。 AI開発の煩わしさを、簡単かつ透明性が高く安価な運用コストに変えることで、最小限のチームでも洗練されたディープラーニングシステムを構築することができます。
+index_cases_preheader: ショーケース
+index_cases_title: 私たちが取り組んできたものを見る
+index_cases_text: 私たちが取り組んできた過去のプロジェクトのいくつかを探索してください。
 index_cases_ag_title: 農業
 index_cases_ag_text: ドローン画像の情報を作物の保護に役立てます。 Skysenseは、自動飛行するドローンにより農地の情報を得ることにより、被害が発生する前に作物の病気を防いだり雑草対策に役立ちます。
 index_cases_hemp_title: 麻
 index_cases_hemp_text: CBD業者が望む高品質のCBDを育てることができます。ドローンベースのAIを用いて受粉を回避することでCBD抽出率を向上させ、植物のストレスを監視し、収穫に最適なタイミングを提示します。
 index_custom_title: カスタムAI
 index_custom_text: ドローンサービスプロバイダーは、Skysenseを使用してカスタムAIモデルを構築し、顧客に新しいビジネスインテリジェンスソリューションを提供できるようにしています。まずはお気軽にご連絡ください。
+
+labeling_header: ラベル付けされたデータをより速く取得する
+labeling_text: データに注釈を付け、品質を監視し、プロセスを繰り返して、エンジニアの時間を節約しながら、ラベル付けされたデータをより速く取得するためのプラットフォーム。
+labeling_mission_preheader: ミッション
+labeling_mission_title: データのラベル付けと注釈
+labeling_mission_text: エンジニアの時間を節約しながら、ラベル付けされたデータを増やし、AIモデルの精度をすばやく向上させます。ラベル付きデータを作成および管理するためのワンストップショップを提供します。社内外のアノテーターの自動監視を使用して画像注釈を作成します。
+labeling_why_preheader: Skysenseが選ばれる理由
+labeling_why_title: Skysenseの利点
+labeling_why_text: 「機械学習のニーズを教えてください。データセットに正確にすばやくラベルを付けます。データがありませんか？問題ありません。必要なデータを見つけてラベルを付けます。当社のプラットフォームは、データをクラウドまたはオンプレミスに保存できます。クラウドを日本のように1つの地域に制限できます。Skysenseは通常、次の場合に必要になります。」
+labeling_why_step_1: 問題には大量のデータが必要ですが、どこから始めればよいのかわかりません。
+labeling_why_step_2: いくつかのデータがありますが、AIモデルの精度を高めるにはさらに多くのデータが必要です。
+labeling_why_step_3: 大規模なデータの収集やデータの正確なラベル付けに多くの時間を費やしています。
+labeling_why_step_4: データには、AIモデルの精度を高めるために修正する必要のある多くの誤ったラベルが含まれています。
+labeling_how_preheader: 使い方
+labeling_how_title: AIをビジネスに簡単に追加
+labeling_how_text: データのアップロード、ラベル付け、AIモデルのデプロイから、ラベル付けガイドラインの反復とAIモデル自体の反復までのプロセスを監督します。
+labeling_how_upload_title: 画像をアップロードする
+labeling_how_upload_text: ラベルのない画像を1つのステップでクラウドプラットフォームまたはオンプレミスに安全にアップロードします。クラウドを日本のような特定の地域に制限することもできます。
+labeling_how_label_title: ラベルデータ
+labeling_how_label_text: セルフサービスのラベリングツールを使用するか、ラベリングガイドラインを定義し、プロのアノテーターにラベルを注文して、ラベル付きデータをすばやく増やします。
+labeling_how_quality_title: 品質管理
+labeling_how_quality_text: アノテーターの品質を自動的に評価し、フィードバックを管理し、ガイドラインを更新して、プロセスを繰り返し改善して、より精度の高い AI モデルを実現します。
+labeling_how_deploy_title: AI モデルのデプロイ
+labeling_how_deploy_text: トレーニング済みのAIモデルをデプロイし、アプリケーションで使用するか、ラベルをエクスポートしてプラットフォーム外で使用します。 AIモデル開発コンサルティングを受ける。
 
 drones_title: ドローン
 drones_header: ドローンによる画像と、AIを駆使して農作物を守る
@@ -89,12 +116,15 @@ contact_message_failure: 申し訳ございません。何らかのエラーが�
 contact_preheader: Skysenseに問い合わせる
 contact_header: どういったご用件でしょうか。
 contact_description: お問い合わせ内容をご記入の上、送信してください。可能な限り早くご返信いたします。
+contact_header_book_demo: デモを予約する
+contact_text_book_demo: 私たちに連絡するか、私たちのチームと会うためにあなたの詳細を以下に記入してください。 <a href="https://calendly.com/jjclune/30min">このカレンダーリンク</a>をクリックして今すぐスケジュールを設定してください。
 contact_field_full_name: 氏名
 contact_field_company: 会社名
 contact_field_job_title: 役職
 contact_field_email: メールアドレス
+contact_field_phone: 電話番号
 contact_field_message: お問い合わせ内容
-contact_field_message_placeholder: 例えば、御社の所在地、畑の大きさ、作物の種類、およびどのような支援をご希望かをお知らせください。
+contact_field_message_placeholder: たとえば、業界、チームの規模、アプリケーション、データタイプ、およびGoogleがどのように支援できるかを教えてください。
 
 careers_title: 求人情報
 careers_preheader: チームに加わる

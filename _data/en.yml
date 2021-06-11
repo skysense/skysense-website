@@ -18,6 +18,7 @@ buttons_learn_more: Learn More
 buttons_get_started: Get Started
 buttons_get_demo: Get Demo
 buttons_try_free: Try it free
+buttons_schedule_meeting: Schedule Meeting
 
 index_header: Add AI to your business
 index_description: AI image platform with annotation workforce
@@ -35,12 +36,39 @@ index_why_fast_title: Fast turnaround time
 index_why_fast_text: If you need help with labeling (human-powered labeling workforce) then we can help you process hundreds of images per day.
 index_why_cost_title: Lower AI development cost
 index_why_cost_text: Simple base pricing, pay for what you use. Build sophisticated deep learning systems with a minimal team by turning the AI Dev headaches into an operational cost that you can spin up and down as easy as a cloud service and at a price that’s cheaper and more transparent than agencies.
+index_cases_preheader: Showcase
+index_cases_title: See what we've worked on
+index_cases_text: Explore some of the past projects we've worked on.
 index_cases_ag_title: Agriculture
 index_cases_ag_text: Protect Crops with Intelligence from Drone Images. Skysense helps you stop plant disease and weeds before the damage is done by providing agricultural intelligence from self-flying drones.
 index_cases_hemp_title: Hemp
 index_cases_hemp_text: Grow quality CBD that extractors want. Increase CBD % with drone-based AI to avoid pollination, watch plant stress, and ensure compliant harvest timing.
 index_custom_title: Custom AI
 index_custom_text: Drone service providers are using Skysense to build custom AI models so that they can offer their customers new business intelligence solutions. Reach out to us to discuss how we can help you.
+
+labeling_header: Get labeled data faster
+labeling_text: Platform to annotate data, monitor quality, and iterate processes to get labeled data faster while saving engineers time.
+labeling_mission_preheader: Mission
+labeling_mission_title: Data labeling & annotation
+labeling_mission_text: Increase labeled data and improve AI model accuracy quickly while saving your engineers time. We provide a one stop shop to create and manage labeled data. Create image annotations with automated supervision of annotators, both inside and outside the company.
+labeling_why_preheader: Why Skysense
+labeling_why_title: The Skysense advantage
+labeling_why_text: "Tell us your machine learning needs and we will quickly label your datasets accurately. Don’t have any data? No problem, we will find and label the data you need. Our platform can store your data in the cloud or on-premise. We can restrict the cloud to one region, like Japan. Skysense is commonly needed when:"
+labeling_why_step_1: Your problem requires a lot of data, but you don’t know where to start.
+labeling_why_step_2: You have some data, but you need more to boost the accuracy of your AI models.
+labeling_why_step_3: You spend too much time collecting data or labeling data accurately at scale.
+labeling_why_step_4: Your data includes many incorrect labels that you need to fix to boost the accuracy of your AI models.
+labeling_how_preheader: How it works
+labeling_how_title: Easily add AI to your business
+labeling_how_text: Oversee the process from uploading data, labeling it, and deploying a AI model, to iterating on the labeling guidelines and iterating on the AI model itself.
+labeling_how_upload_title: Upload Images
+labeling_how_upload_text: Securely upload unlabeled images in one step to our cloud platform or on-premise. We can also restrict the cloud to a specific region like Japan.
+labeling_how_label_title: Label Data
+labeling_how_label_text: Either use our self-service labeling tools, or define the labeling guidelines and order labels from our professional annotators to increase labeled data quickly.
+labeling_how_quality_title: Control Quality
+labeling_how_quality_text: Automatically evaluate annotator quality, manage feedback, and update guidelines to iteratively improve the process to achieve higher accuracy AI models. 
+labeling_how_deploy_title: Deploy AI Model
+labeling_how_deploy_text: Deploy the trained AI model and use it in your application or export labels to use off platform. Receive AI model development consulting.
 
 drones_title: Drones
 drones_header: Protect Crops with Intelligence from Drone Images
@@ -88,12 +116,15 @@ contact_message_failure: Sorry something went wrong, please try again!
 contact_preheader: Contact Skysense
 contact_header: How can we help?
 contact_description: Please enter your information and describe your inquiry, and we’ll get back to you as soon as possible.
+contact_header_book_demo: Book a demo
+contact_text_book_demo: Fill in your details below to contact us or meet with our team. Schedule now by clicking <a href="https://calendly.com/jjclune/30min">this calendar link</a>.
 contact_field_full_name: Full Name
 contact_field_company: Company
 contact_field_job_title: Job Title
 contact_field_email: Email
+contact_field_phone: Phone Number
 contact_field_message: Describe your inquiry
-contact_field_message_placeholder: For example, please share your location, farm size, crop type, and how we can help you.
+contact_field_message_placeholder: For example, please share your industry, team size, application, data type, and how we can help you.
 
 careers_title: Careers
 careers_preheader: Join the Team

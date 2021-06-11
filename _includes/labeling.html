@@ -4,11 +4,11 @@
 
   <section class="theme2">
     <div class="wrap">
-      <h1>Get labeled data faster</h1>
-      <p>Platform to annotate data, monitor quality, and iterate processes to get labeled data faster while saving engineers time.</p>
+      <h1>{{ locale.labeling_header }}</h1>
+      <p>{{ locale.labeling_text }}</p>
       <div class="buttons">
-        <a class="button primary" href="https://calendly.com/jjclune/30min">Schedule Meeting</a>
-        <a class="button" href="/{{page.language}}/contact/">Contact Us</a>
+        <a class="button primary" href="https://calendly.com/jjclune/30min">{{ locale.buttons_schedule_meeting }}</a>
+        <a class="button" href="/{{page.language}}/contact/">{{ locale.buttons_contact_us }}</a>
       </div>
     </div>
   </section>
@@ -17,9 +17,9 @@
     <div class="wrap">
       <div class="row">
         <div class="col-md-6 col-xs-12">
-          <p class="preheader">Mission</p>
-          <h2>Data labeling & annotation</h2>
-          <p>Increase labeled data and improve AI model accuracy quickly while saving your engineers time. We provide a one stop shop to create and manage labeled data. Create image annotations with automated supervision of annotators, both inside and outside the company.</p>
+          <p class="preheader">{{ locale.labeling_mission_preheader }}</p>
+          <h2>{{ locale.labeling_mission_title }}</h2>
+          <p>{{ locale.labeling_mission_text }}</p>
         </div>
         <div class="col-md-6 col-xs-12">
           <div class="img">
@@ -32,52 +32,52 @@
 
   <section>
     <div class="wrap">
-      <div class="preheader">Why Skysense</div>
-      <h2>The Skysense advantage</h2>
-      <p>Tell us your machine learning needs and we will quickly label your datasets accurately. Don’t have any data? No problem, we will find and label the data you need. Our platform can store your data in the cloud or on-premise. We can restrict the cloud to one region, like Japan. Skysense is commonly needed when:</p>
+      <div class="preheader">{{ locale.labeling_why_preheader }}</div>
+      <h2>{{ locale.labeling_why_title }}</h2>
+      <p>{{ locale.labeling_why_text }}</p>
       <ul>
-        <li>Your problem requires a lot of data, but you don’t know where to start.</li>
-        <li>You have some data, but you need more to boost the accuracy of your AI models.</li>
-        <li>You spend too much time collecting data or labeling data accurately at scale.</li>
-        <li>Your data includes many incorrect labels that you need to fix to boost the accuracy of your AI models.</li>
+        <li>{{ locale.labeling_why_step_1 }}</li>
+        <li>{{ locale.labeling_why_step_2 }}</li>
+        <li>{{ locale.labeling_why_step_3 }}</li>
+        <li>{{ locale.labeling_why_step_4 }}</li>
       </ul>
     </div>
   </section>
 
   <section class="alt">
     <div class="wrap narrow">
-      <p class="preheader">How it works</p>
-      <h2>Easily add AI to your business</h2>
-      <p>Oversee the process from uploading data, labeling it, and deploying a AI model, to iterating on the labeling guidelines and iterating on the AI model itself.</p>
+      <p class="preheader">{{ locale.labeling_how_preheader }}</p>
+      <h2>{{ locale.labeling_how_title }}</h2>
+      <p>{{ locale.labeling_how_text }}</p>
     </div>
     <div class="wrap">
       <div class="row">
         <div class="col-md-3 col-xs-12">
           <div class="step">
             <i class="fa fa-upload"></i>
-            <h3>Upload Images</h3>
-            <p>Securely upload unlabeled images in one step to our cloud platform or on-premise. We can also restrict the cloud to a specific region like Japan.</p>
+            <h3>{{ locale.labeling_how_upload_title }}</h3>
+            <p>{{ locale.labeling_how_upload_text }}</p>
           </div>
         </div>
         <div class="col-md-3 col-xs-12">
           <div class="step">
             <i class="fa fa-pen"></i>
-            <h3>Label Data</h3>
-            <p>Either use our self-service labeling tools, or define the labeling guidelines and order labels from our professional annotators to increase labeled data quickly.</p>
+            <h3>{{ locale.labeling_how_label_title }}</h3>
+            <p>{{ locale.labeling_how_label_text }}</p>
           </div>
         </div>
         <div class="col-md-3 col-xs-12">
           <div class="step">
             <i class="fa fa-eye"></i>
-            <h3>Control Quality</h3>
-            <p>Automatically evaluate annotator quality, manage feedback, and update guidelines to iteratively improve the process to achieve higher accuracy AI models. </p>
+            <h3>{{ locale.labeling_how_quality_title }}</h3>
+            <p>{{ locale.labeling_how_quality_text }}</p>
           </div>
         </div>
         <div class="col-md-3 col-xs-12">
           <div class="step">
             <i class="fa fa-brain"></i>
-            <h3>Deploy AI Model</h3>
-            <p>Deploy the trained AI model and use it in your application or export labels to use off platform. Receive AI model development consulting.</p>
+            <h3>{{ locale.labeling_how_deploy_title }}</h3>
+            <p>{{ locale.labeling_how_deploy_text }}</p>
           </div>
         </div>
       </div>
@@ -86,9 +86,9 @@
   
   <section>
     <div class="wrap narrow">
-      <p class="preheader">Showcase</p>
-      <h2>See what we've worked on</h2>
-      <p>Explore some of the past projects we've worked on.</p>
+      <p class="preheader">{{ locale.index_cases_preheader }}</p>
+      <h2>{{ locale.index_cases_title }}</h2>
+      <p>{{ locale.index_cases_text }}</p>
     </div>
     <div class="wrap">
       <div class="row">
@@ -115,8 +115,8 @@
   <section class="alt">
     <div class="wrap">
       <div class="contact">
-        <h2>Book a demo</h2>
-        <p>Fill in your details below to contact us or meet with our team. Schedule now by clicking this calendar link.</p>
+        <h2>{{ locale.contact_header_book_demo }}</h2>
+        <p>{{ locale.contact_text_book_demo }}</p>
         <form method="POST" action="https://dashboard.skysense.jp/contact">
           <label>{{ locale.contact_field_full_name }}</label>
           <input type="text" name="name" required="required" />
@@ -130,11 +130,11 @@
           <label>{{ locale.contact_field_email }}</label>
           <input type="text" name="email" required="required" />
 
-          <label>Phone Number</label>
+          <label>{{ locale.contact_field_phone }}</label>
           <input type="tel" name="phone" />
 
           <label>{{ locale.contact_field_message }}</label>
-          <textarea name="message" required="required" placeholder="For example, please share your industry, team size, application, data type, and how we can help you."></textarea>
+          <textarea name="message" required="required" placeholder="{{ locale.contact_field_message_placeholder }}"></textarea>
 
           <button type="submit">{{ locale.buttons_contact_us }}</button>
 
