@@ -7,35 +7,162 @@
       <h1>{{ locale.index_header }}</h1>
       <p>{{ locale.index_description }}</p>
       <div class="buttons">
-        <a class="button primary" href="https://calendly.com/jjclune/30min">{{ locale.buttons_get_demo }}</a>
-        <a class="button" href="https://dashboard.skysense.jp"">{{ locale.buttons_try_free }}</a>
-      </div>
-    </div>
-  </section>
-  
-  <section class="center">
-    <div class="wrap">
-      <h2>{{ locale.index_how_title }}</h2>
-      <div class="icons">
-        <div class="icon">
-          <i class="fa fa-upload"></i>
-          <div class="title">{{ locale.index_how_upload_title }}</div>
-          <div class="description">{{ locale.index_how_upload_text }}</div>
-        </div>
-        <div class="icon">
-          <i class="fa fa-pen"></i>
-          <div class="title">{{ locale.index_how_annotate_title }}</div>
-          <div class="description">{{ locale.index_how_annotate_text }}</div>
-        </div>
-        <div class="icon">
-          <i class="fa fa-brain"></i>
-          <div class="title">{{ locale.index_how_models_title }}</div>
-          <div class="description">{{ locale.index_how_models_text }}</div>
-        </div>
+        <a class="button primary" href="https://calendly.com/jjclune/30min">{{ locale.buttons_schedule_meeting }}</a>
+        <a class="button" href="/{{page.language}}/contact/">{{ locale.buttons_contact_us }}</a>
       </div>
     </div>
   </section>
 
+  <section class="">
+    <div class="wrap">
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <p class="preheader">{{ locale.index_mission_preheader }}</p>
+          <h2>{{ locale.index_mission_title }}</h2>
+          <p>{{ locale.index_mission_text }}</p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div class="img">
+            <img src="/assets/img/labels.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="wrap">
+      <div class="preheader">{{ locale.index_why_preheader }}</div>
+      <h2>{{ locale.index_why_title }}</h2>
+      <p>{{ locale.index_why_text }}</p>
+      <h3>{{ locale.index_why_fast_title }}</h3>
+      <p>{{ locale.index_why_fast_text }}</p>
+      <h3>{{ locale.index_why_cost_title }}</h3>
+      <p>{{ locale.index_why_cost_text }}</p>
+      <h3>{{ locale.index_why_easy_title }}</h3>
+      <p>{{ locale.index_why_easy_text }}</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="preheader">{{ locale.index_features_preheader }}</div>
+      <h2>{{ locale.index_features_title }}</h2>
+      <h3>{{ locale.index_features_mapping_title }}</h3>
+      <p>{{ locale.index_features_mapping_text }} <a class="" href="/{{page.language}}/drones/">{{ locale.buttons_learn_more }}</a></p>
+      <h3>{{ locale.index_features_custom_title }}</h3>
+      <p>{{ locale.index_features_custom_text }}</p>
+      <h3>{{ locale.index_features_data_title }}</h3>
+      <p>{{ locale.index_features_data_text }}</p>
+      <h3>{{ locale.index_features_labeling_title }}</h3>
+      <p>{{ locale.index_features_labeling_text }} <a class="" href="/{{page.language}}/labeling/">{{ locale.buttons_learn_more }}</a></p>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap narrow">
+      <p class="preheader">{{ locale.index_how_preheader }}</p>
+      <h2>{{ locale.index_how_title }}</h2>
+      <p>{{ locale.index_how_text }}</p>
+    </div>
+    <div class="wrap">
+      <div class="row">
+        <div class="col-md-3 col-xs-12">
+          <div class="step">
+            <i class="fa fa-phone"></i>
+            <h3>{{ locale.index_how_contact_title }}</h3>
+            <p>{{ locale.index_how_contact_text }}</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <div class="step">
+            <i class="far fa-images"></i>
+            <h3>{{ locale.index_how_data_title }}</h3>
+            <p>{{ locale.index_how_data_text }}</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <div class="step">
+            <i class="fa fa-eye"></i>
+            <h3>{{ locale.index_how_process_title }}</h3>
+            <p>{{ locale.index_how_process_text }}</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <div class="step">
+            <i class="fa fa-brain"></i>
+            <h3>{{ locale.index_how_integrate_title }}</h3>
+            <p>{{ locale.index_how_integrate_text }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="wrap narrow">
+      <p class="preheader">{{ locale.index_cases_preheader }}</p>
+      <h2>{{ locale.index_cases_title }}</h2>
+      <p>{{ locale.index_cases_text }}</p>
+    </div>
+    <div class="wrap">
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <div class="step">
+            <div class="img"><img src="/assets/img/index/ag.png" /></div>
+            <h3>{{ locale.index_cases_ag_title }}</h3>
+            <p>{{ locale.index_cases_ag_text }}</p>
+            <a class="button primary" href="/{{page.language}}/drones/">{{ locale.buttons_learn_more }}</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div class="step">
+            <div class="img"><img src="/assets/img/index/annotate.png" /></div>
+            <h3>{{ locale.index_cases_hemp_title }}</h3>
+            <p>{{ locale.index_cases_hemp_text }}</p>
+            <a class="button primary" href="/{{page.language}}/hemp/">{{ locale.buttons_learn_more }}</a>
+          </div>
+        </div>
+        {% if page.language == "en" %}
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="contact">
+        <h2>{{ locale.contact_header_book_demo }}</h2>
+        <p>{{ locale.contact_text_book_demo }}</p>
+        <form method="POST" action="https://dashboard.skysense.jp/contact">
+          <label>{{ locale.contact_field_full_name }}</label>
+          <input type="text" name="name" required="required" />
+
+          <label>{{ locale.contact_field_company }}</label>
+          <input type="text" name="company" />
+
+          <label>{{ locale.contact_field_job_title }}</label>
+          <input type="text" name="title" />
+
+          <label>{{ locale.contact_field_email }}</label>
+          <input type="text" name="email" required="required" />
+
+          <label>{{ locale.contact_field_phone }}</label>
+          <input type="tel" name="phone" />
+
+          <label>{{ locale.contact_field_message }}</label>
+          <textarea name="message" required="required" placeholder="{{ locale.contact_field_message_placeholder }}"></textarea>
+
+          <button type="submit">{{ locale.buttons_contact_us }}</button>
+
+          <input type="hidden" name="honeypot" value="">
+          <input type="hidden" name="language" value="{{page.language}}">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--
   <section class="alt">
     <div class="wrap">
       <h2>Why Skysense?</h2>
@@ -61,49 +188,11 @@
     </div>
   </section>
   
-  <section>
-    <div class="wrap">
-      <div class="columns">
-        <div class="column narrow">
-          <h2>{{ locale.index_cases_ag_title }}</h2>
-          <p>{{ locale.index_cases_ag_text }}</p>
-          <a class="button primary" href="/{{page.language}}/drones/">{{ locale.buttons_learn_more }}</a>
-        </div>
-        <div class="column">
-          <div class="screen"><img src="/assets/img/demo/dashboard-health.png" /></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {% if page.language == "en" %}
-  <section>
-    <div class="wrap">
-      <div class="columns reverse">
-        <div class="column narrow">
-          <h2>{{ locale.index_cases_hemp_title }}</h2>
-          <p>{{ locale.index_cases_hemp_text }}</p>
-          <a class="button primary" href="/{{page.language}}/hemp/">{{ locale.buttons_learn_more }}</a>
-        </div>
-        <div class="column">
-          <div class="screen"><img src="/assets/img/demo/dashboard-hemp.png" /></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
   <section class="theme text">
     <div class="wrap">
       <h2>{{ locale.index_custom_title }}</h2>
       <p>{{ locale.index_custom_text }}</p>
       <a class="button" href="/{{page.language}}/contact/">{{ locale.buttons_learn_more }}</a>
-    </div>
-  </section>
-  <!--
-  <section class="faq alt">
-    <div class="wrap">
-      <h2>Q&A</h2>
     </div>
   </section>
   -->

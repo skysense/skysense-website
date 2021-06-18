@@ -1,5 +1,5 @@
 site_title: Skysense
-site_description: Add AI to your business
+site_description: Add AI to Your Business
 
 nav_about: Team
 nav_contact: Contact
@@ -20,22 +20,46 @@ buttons_get_demo: Get Demo
 buttons_try_free: Try it free
 buttons_schedule_meeting: Schedule Meeting
 
-index_header: Add AI to your business
-index_description: AI image platform with annotation workforce
-index_how_title: How it works
-index_how_upload_title: Upload Data
-index_how_upload_text: Upload your existing image data, or let us help you source data with our team of drone pilots.
-index_how_annotate_title: Annotate
-index_how_annotate_text: Label data by yourself using our online tools, or use our human-powered labeling workforce.
-index_how_models_title: Apply Models
-index_how_models_text: Quickly and easily generate models for object detection and image classification.
-index_why_title: Why Skysense?
-index_why_easy_title: Easy to use cloud solution
-index_why_easy_text: The Skysense platform is cloud-hosted solution. Easy to use and fast to get started. Create an account in seconds, start uploading, labeling, and processing images.
+index_header: Quickly Add AI to Your Business
+index_description: Comprehensive image data platform and AI development service to empower your applications with visual intelligence
+
+index_mission_preheader: Mission
+index_mission_title: What kind of AI?
+index_mission_text: Building high accuracy AI models for visual intelligence requires more than technology, it requires that skilled engineers and well supervised image annotators work closely together to accurately label large image datasets. Skysense provides the platform to manage the people and processes in one place to save time for your team, iteratively improve processes for higher accuracy, and optionally use our trained professionals to launch faster.
+
+index_why_preheader: Why Skysense
+index_why_title: The Skysense advantage
+index_why_text: Tell us what problem you need to solve with AI and we’ll help you with every step of the development process that you need. Whether you have data already or not, we will help you label data quickly at scale with sophisticated quality control processes to achieve higher accuracy AI models. Our platform conforms to the highest security and privacy standards too.
 index_why_fast_title: Fast turnaround time
-index_why_fast_text: If you need help with labeling (human-powered labeling workforce) then we can help you process hundreds of images per day.
+index_why_fast_text: If you need help with labeling data, our professionally trained and supervised workforce of image annotators can help you more quickly obtain enough labelled data for AI that works well. 
 index_why_cost_title: Lower AI development cost
-index_why_cost_text: Simple base pricing, pay for what you use. Build sophisticated deep learning systems with a minimal team by turning the AI Dev headaches into an operational cost that you can spin up and down as easy as a cloud service and at a price that’s cheaper and more transparent than agencies.
+index_why_cost_text: Simple base pricing, pay for what you use. Build sophisticated deep learning AI systems with a minimal team by turning the development headaches into an operational cost that you can spin up and down as easily as a cloud service. Pricing is cheaper and more transparent than agencies.
+index_why_easy_title: Easy to use cloud solution
+index_why_easy_text: The Skysense platform is cloud-hosted solution. Easy to transparently oversee the progress of AI development and the quality of labelled data. Use our workforce or use our tools to better manage your own workforce towards the same goal.
+
+index_features_preheader: Features
+index_features_title: All-in-one AI solution
+index_features_mapping_title: AI for Mapping & Drones
+index_features_mapping_text: Easily upload and process images from a drone flight into a smoothly stitched together orthophoto map. Create interactive maps and filters such as NDVI and VARI plant health, and surface models. Use AI models to count objects and classify them to reveal new business intelligence like tracking inventory and inspecting problems remotely.
+index_features_custom_title: Custom AI development
+index_features_custom_text: Full service solution for developing custom AI, including data collection, labeling, training, evaluation, and deploying AI models. Cloud hosted and self-hosted solutions available, specifically designed for Japan’s business and regulatory environments.
+index_features_data_title: Data Collection
+index_features_data_text: For customers without data, we can introduce a drone piloting service, find data providers, source publicly available data online, and offer a suite of data upload and management tools integrated with our data labeling and AI model deployment tools. 
+index_features_labeling_title: Labeling Tools
+index_features_labeling_text: Use our full service data labeling solution provided by our professionally trained and closely supervised workforce or use our self-service data labeling tools to better manage your own internal data labeling workforce.
+
+index_how_preheader: How it works
+index_how_title: Easily add AI to your business
+index_how_text: Oversee the process from uploading data, labeling it, and deploying a AI model, to iterating on the labeling guidelines and iterating on the AI model itself.
+index_how_contact_title: Contact Us for Evaluation
+index_how_contact_text: We will listen to your needs and help you determine what data to collect and what approach to labeling will enable your custom AI to satisfy those needs.
+index_how_data_title: Gather Data and Test
+index_how_data_text: Provide us with the data you already have or contract us to collect the data you need. We will build your AI starting with small datasets to prove feasibility affordably.
+index_how_process_title: Process and Iterate
+index_how_process_text: Quality image annotation at scale. We iteratively improve processes together to achieve higher accuracy and make your AI ready for production.
+index_how_integrate_title: Integrate AI your Business
+index_how_integrate_text: We deploy your production AI for use within your business operations and make it easy to integrate with your existing applications.
+
 index_cases_preheader: Showcase
 index_cases_title: See what we've worked on
 index_cases_text: Explore some of the past projects we've worked on.
@@ -46,7 +70,7 @@ index_cases_hemp_text: Grow quality CBD that extractors want. Increase CBD % wit
 index_custom_title: Custom AI
 index_custom_text: Drone service providers are using Skysense to build custom AI models so that they can offer their customers new business intelligence solutions. Reach out to us to discuss how we can help you.
 
-labeling_header: Get labeled data faster
+labeling_header: Get Labeled Data Faster
 labeling_text: Platform to annotate data, monitor quality, and iterate processes to get labeled data faster while saving engineers time.
 labeling_mission_preheader: Mission
 labeling_mission_title: Data labeling & annotation
