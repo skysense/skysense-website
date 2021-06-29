@@ -68,6 +68,7 @@
 
     <script>
       function track_click_calendar_link(callback) {
+        console.log('gtag: click calendar link');
         gtag('event', 'conversion', {
           'send_to': 'AW-346204423/ApelCK2W0ssCEIfSiqUB', // Click Calendar Link
           'event_callback': callback
@@ -75,6 +76,7 @@
         return false;
       }
       function track_submit_contact_form(callback) {
+        console.log('gtag: submit contact form');
         gtag('event', 'conversion', {
           'send_to': 'AW-346204423/730xCLmf98sCEIfSiqUB', // Submit Contact Form
           'event_callback': callback
@@ -82,6 +84,7 @@
         return false;
       }
       function gtag_ready() {
+        console.log('gtag: ready');
         document.addEventListener('DOMContentLoaded', () => {
 
           const links = document.querySelectorAll('a');
