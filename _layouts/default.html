@@ -85,38 +85,40 @@
       }
       function gtag_ready() {
         console.log('gtag: ready');
-        document.addEventListener('DOMContentLoaded', () => {
+        
+        //document.addEventListener('DOMContentLoaded', () => {
 
-          const links = document.querySelectorAll('a');
-          for (const link of links) {
-            const href = link.getAttribute('href');
-            if (href.includes('calendly')) {
-              link.addEventListener('click', (e) => {
-                e.preventDefault();
-                track_click_calendar_link((id) => {
-                  if (id.startsWith('AW-')) {
-                    document.location = href;
-                  }
-                });
-                return false;
-              });
-            }
-          }
-
-          const forms = document.querySelectorAll('form');
-          for (const form of forms) {
-            form.addEventListener('submit', (e) => {
+        const links = document.querySelectorAll('a');
+        for (const link of links) {
+          const href = link.getAttribute('href');
+          if (href.includes('calendly')) {
+            link.addEventListener('click', (e) => {
               e.preventDefault();
-              track_submit_contact_form((id) => {
+              track_click_calendar_link((id) => {
                 if (id.startsWith('AW-')) {
-                  form.submit();
+                  document.location = href;
                 }
               });
               return false;
             });
           }
+        }
 
-        });
+        const forms = document.querySelectorAll('form');
+        for (const form of forms) {
+          form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            track_submit_contact_form((id) => {
+              if (id.startsWith('AW-')) {
+                form.submit();
+              }
+            });
+            return false;
+          });
+        }
+
+        //});
+        
       }
     </script>
 
