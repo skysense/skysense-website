@@ -64,16 +64,6 @@
 
     {% if jekyll.environment == "production" %}
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162420404-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-162420404-1');
-      gtag('config', 'AW-346204423');
-    </script>
-
     <!-- https://support.google.com/google-ads/answer/6331304#zippy=%2Cset-up-conversion-tracking-using-the-global-site-tag -->
 
     <script>
@@ -91,6 +81,50 @@
         });
         return false;
       }
+      function gtag_ready() {
+        document.addEventListener('DOMContentLoaded', () => {
+
+          const links = document.querySelectorAll('a');
+          for (const link of links) {
+            const href = link.getAttribute('href');
+            if (href.includes('calendly')) {
+              link.addEventListener('click', (e) => {
+                e.preventDefault();
+                track_click_calendar_link((id) => {
+                  if (id.startsWith('AW-')) {
+                    document.location = href;
+                  }
+                });
+                return false;
+              });
+            }
+          }
+
+          const forms = document.querySelectorAll('form');
+          for (const form of forms) {
+            form.addEventListener('submit', (e) => {
+              e.preventDefault();
+              track_submit_contact_form((id) => {
+                if (id.startsWith('AW-')) {
+                  form.submit();
+                }
+              });
+              return false;
+            });
+          }
+
+        });
+      }
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script onload="gtag_ready()" async src="https://www.googletagmanager.com/gtag/js?id=UA-162420404-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-162420404-1');
+      gtag('config', 'AW-346204423');
     </script>
 
     <!-- Facebook Pixel Code -->
@@ -116,41 +150,6 @@
     <script async defer data-website-id="30bf6211-6f89-4455-bb81-cefa20a7e31d" src="https://umami.skysense.jp/umami.js"></script>
 
     {% endif %}
-
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-
-        const links = document.querySelectorAll('a');
-        for (const link of links) {
-          const href = link.getAttribute('href');
-          if (href.includes('calendly')) {
-            link.addEventListener('click', (e) => {
-              e.preventDefault();
-              track_click_calendar_link((id) => {
-                if (id.startsWith('AW-')) {
-                  document.location = href;
-                }
-              });
-              return false;
-            });
-          }
-        }
-
-        const forms = document.querySelectorAll('form');
-        for (const form of forms) {
-          form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            track_submit_contact_form((id) => {
-              if (id.startsWith('AW-')) {
-                form.submit();
-              }
-            });
-            return false;
-          });
-        }
-
-      });
-    </script>
 
   </head>
   <body class="{{ page.language }}">
