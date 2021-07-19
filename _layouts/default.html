@@ -91,7 +91,7 @@
           const links = document.querySelectorAll('a');
           for (const link of links) {
             const href = link.getAttribute('href');
-            if (href.includes('calendly') || href.includes('timerex')) {
+            if (href.includes('meetings.hubspot.com')) {
               link.addEventListener('click', (e) => {
                 e.preventDefault();
                 track_click_calendar_link((id) => {
