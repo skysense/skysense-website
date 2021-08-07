@@ -67,6 +67,18 @@ index_cases_ag_title: 農業
 index_cases_ag_text: ドローン画像から得た情報で農作物を守ります。Skysenseは、自律飛行するドローンから農作物に関する情報を提供することで、お客様が作物の病気や雑草の被害を未然に防げるよう支援します。
 index_cases_hemp_title: 麻
 index_cases_hemp_text: 抽出者が求める高品質なCBDを育てられます。ドローンに搭載されたAIで受粉を抑制し、植物のストレスを監視し、適切な収穫時期を確保することで、CBDの含有率（％）を高めます。
+index_cases_wine_title: ブドウ畑
+index_cases_wine_text: 収穫スケジュールを最適化し、リーフロールなどの一般的なブドウの病気を予防し、病気の可能性がある赤い葉を識別します。
+index_cases_rice_title: 米作り
+index_cases_rice_text: 作物のバイオマスのモニタリング、病害虫の被害の早期発見、雑草の状態の把握、灌漑用水の管理などにより、人件費を削減し、成長を最適化することができます。
+index_cases_forest_title: 森林管理
+index_cases_forest_text: 持続可能な伐採のための樹木計数、火災の早期発見のための景観調査、火災前後の安全性評価などを効率的に行うことができます。
+index_cases_infra_title: インフラ設備
+index_cases_infra_text: Skysenseは、ドローンを使った高度な大規模マッピングやプランニングを行うために必要なツールを提供します。保守運用のためのカスタムAI/MLモデルを適用します。
+index_cases_solar_title: ソーラーパネル
+index_cases_solar_text: 大規模なソーラーパネルの検査、コンポーネントのメンテナンス、欠陥、クラック、不良の相互接続、一時的な影を検査します。手持ちの方法よりも早く、正確に検査できます。
+index_cases_rail_title: 鉄道
+index_cases_rail_text: AI/MLを使って鉄道の保守・測量作業を自動化し、枕木の監視や計数などの大規模な作業を迅速に行います。
 
 labeling_header: ラベル付けされたデータをより速く手に入れる
 labeling_text: データのアノテーション、品質の監視、ラベル付きデータをより迅速に入手するためのプロセスの反復を行い、エンジニアの時間を節約できるプラットフォームを提供します。
