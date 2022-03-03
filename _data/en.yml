@@ -63,6 +63,10 @@ index_how_integrate_text: We deploy your production AI for use within your busin
 index_cases_preheader: Showcase
 index_cases_title: See what we've worked on
 index_cases_text: Explore some of the past projects we've worked on.
+index_cases_roof_detection_title: Roof Detection
+index_cases_roof_detection_text: Lead Generation for the Roofing Industry. Advanced rooftop analysis reports. Detect rooftop size, height, and condition. Find rooftops for repair and solar panel or HVAC installation.
+index_cases_roof_condition_title: Roof Condition
+index_cases_roof_condition_text: Using power AI and computer vision techniques we can automatically detect thousands of stained and damaged rooftops over large areas of land, quickly and easily.
 index_cases_ag_title: Agriculture
 index_cases_ag_text: Protect Crops with Intelligence from Drone Images. Skysense helps you stop plant disease and weeds before the damage is done by providing agricultural intelligence from self-flying drones.
 index_cases_hemp_title: Hemp
@@ -105,6 +109,10 @@ labeling_how_quality_title: Control Quality
 labeling_how_quality_text: Automatically evaluate annotator quality, manage feedback, and update guidelines to iteratively improve the process to achieve higher accuracy AI models. 
 labeling_how_deploy_title: Deploy AI Model
 labeling_how_deploy_text: Deploy the trained AI model and use it in your application or export labels to use off platform. Receive AI model development consulting.
+
+rooftop_title: Rooftop
+rooftop_header: Lead Generation for the Roofing Industry
+rooftop_description: Advanced rooftop analysis reports. Detect rooftop size, height, and condition. Find rooftops for repair and solar panel or HVAC installation.
 
 drones_title: Drones
 drones_header: Protect Crops with Intelligence from Drone Images

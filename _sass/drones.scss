@@ -46,6 +46,10 @@ main > .drones {
     }
   }
 
+  .hero2.roof {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/img/roof-background.png');
+  }
+
   img {
     max-width: 100%;
   }
