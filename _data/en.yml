@@ -39,6 +39,8 @@ index_why_easy_text: The Skysense platform is cloud-hosted solution. Easy to tra
 
 index_features_preheader: Features
 index_features_title: All-in-one AI solution
+index_features_roof_title: AI for Roofing
+index_features_roof_text: Generate advanced rooftop analysis reports. Detect rooftop size, height, and condition. Find rooftops for repair and solar panel or HVAC installation.
 index_features_mapping_title: AI for Mapping & Drones
 index_features_mapping_text: Easily upload and process images from a drone flight into a smoothly stitched together orthophoto map. Create interactive maps and filters such as NDVI and VARI plant health, and surface models. Use AI models to count objects and classify them to reveal new business intelligence like tracking inventory and inspecting problems remotely.
 index_features_custom_title: Custom AI development
@@ -112,7 +114,7 @@ labeling_how_deploy_text: Deploy the trained AI model and use it in your applica
 
 rooftop_title: Rooftop
 rooftop_header: Lead Generation for the Roofing Industry
-rooftop_description: Advanced rooftop analysis reports. Detect rooftop size, height, and condition. Find rooftops for repair and solar panel or HVAC installation.
+rooftop_description: Generate advanced rooftop analysis reports. Detect rooftop size, height, and condition. Find rooftops for repair and solar panel or HVAC installation.
 
 drones_title: Drones
 drones_header: Protect Crops with Intelligence from Drone Images
