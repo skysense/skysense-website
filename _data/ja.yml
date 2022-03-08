@@ -27,6 +27,14 @@ index_mission_preheader: ミッション
 index_mission_title: どんなAIなのか？
 index_mission_text: ビジュアルインテリジェンスのための正確なAIモデルを構築するには、熟練したエンジニアが、よく監督された画像アノテーターと密接に協力して、大規模な画像データセットに正しくラベルを付ける必要があります。Skysenseは、人とプロセスを一元的に管理するプラットフォームを提供することで、お客様のチームの時間を節約し、より高い精度のためにプロセスを反復的に改善し、オプションとして弊社のトレーニングを受けた専門家によりローンチを迅速化できます。
 
+index_roof_preheader: 屋根ふき
+index_roof_title: 屋根ふき産業向けのリード生成ツール
+index_roof_text: 今すぐSkysenseツールを使用して、お住まいの地域または全国の都市で修理の対象となる屋根を見つけてください。 私たちのツールは、強力なAIとコンピュータービジョンテクノロジーに依存しています。<br> <br>あらゆる種類の屋根材を検出し、屋根のサイズ、高さ、およびその状態（汚れ、水害、その他の状態）を推定できます。
+
+index_ag_preheader: 農業
+index_ag_title: ドローンによる画像と、AIを駆使して農作物を守る
+index_ag_text: Skysenseは、自律飛行ドローンを使い撮影したデータをもとに、病害や、雑草をいち早く検知し、農作物の被害を最小限に抑える支援をします。
+
 index_why_preheader: Skysenseを選ぶ理由
 index_why_title: Skysenseの強み
 index_why_text: お客様が解決すべき問題を教えていただければ、AI開発プロセスを全段階でサポートします。すでにデータをお持ちの方も、そうでない方も、より精度の高いAIモデルを実現できるように、洗練された品質管理プロセスを用いて、迅速に大規模のデータをラベリングするお手伝いをします。また、弊社のプラットフォームは、最高のセキュリティとプライバシー基準に準拠しています。
@@ -103,6 +111,27 @@ labeling_how_quality_title: 品質管理
 labeling_how_quality_text: アノテーターの品質を自動的に評価し、フィードバックを管理し、ガイドラインを更新してプロセスを反復的に改善し、より高精度なAIモデルを実現できます。 
 labeling_how_deploy_title: AIモデルのデプロイ
 labeling_how_deploy_text: 訓練されたAIモデルをデプロイして、アプリケーション上で利用したり、ラベルをエクスポートしてプラットフォーム外で使用したりすることができます。AIモデル開発のコンサルティングを受ける。
+
+rooftop_title: 屋上
+rooftop_header: 屋根産業の潜在顧客
+rooftop_description: 高度な屋上分析レポートを生成します。 屋上のサイズ、高さ、および状態を検出します。 修理およびソーラーパネルまたはHVACの設置のための屋上を見つけます。
+
+rooftop_overview_title: 衛星画像を実用的なデータに変える
+rooftop_overview_text: パワードAI /コンピュータービジョン技術を使用して、衛星画像から屋上情報を検出および抽出します。</br>私たちのモデルは、広い領域から数十万の屋上を非常に迅速に処理できます。
+rooftop_material_title: 屋上タイプ/材料検出
+rooftop_material_text: 屋根をタイプ（フラット、傾斜…）、素材（金属…）、色で分類します。
+rooftop_condition_title: 屋上コンディション
+rooftop_condition_text: 屋上の状態は、さまざまなカテゴリに分類されます（きれい/汚れ/損傷…）。
+rooftop_height_title: 屋上の高さと情報
+rooftop_height_text: 建物の高さ、年齢、ビジネス情報を自動的に抽出します。
+rooftop_report_title: 高度な屋上分析レポート
+rooftop_report_text: インタラクティブな屋上分析レポートを閲覧します。ニーズに合った屋上を簡単にフィルタリング、検索、検査できます。
+rooftop_sort_title: サイズと高さで屋上を並べ替える
+rooftop_sort_text: 屋上のサイズと建物の高さの属性で結果を並べ替えます。
+rooftop_damaged_title: 損傷した屋根を見つける（重い汚れや構造的損傷）
+rooftop_damaged_text: 損傷したすべての屋上をワンクリックで見つけます。
+rooftop_stained_title: 汚れた屋根を見つける（例：水害）
+rooftop_stained_text: 結果をすばやくフィルタリングして、水害を受けた屋上を選択します。
 
 drones_title: ドローン
 drones_header: ドローンによる画像と、AIを駆使して農作物を守る

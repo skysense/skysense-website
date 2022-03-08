@@ -27,6 +27,14 @@ index_mission_preheader: Mission
 index_mission_title: What kind of AI?
 index_mission_text: Building accurate AI models for visual intelligence requires that skilled engineers collaborate closely with well supervised image annotators to correctly label large image datasets. Skysense provides the platform to manage the people and processes in one place to save time for your team, iteratively improve processes for higher accuracy, and optionally use our trained professionals to launch faster.
 
+index_roof_preheader: Roofing
+index_roof_title: Lead Generation tool for the Roofing Industry
+index_roof_text: Use Skysense tools now to find rooftops susceptible to be repaired in your region or any city across the country. Our tools rely on powerful AI and computer vision technology.<br><br>We can detect all types of roof material, estimate the roof size, height and its conditions (stains, water damage, and other conditions).
+
+index_ag_preheader: Agriculture
+index_ag_title: Protect Crops with Intelligence from Drone Images
+index_ag_text: Skysense helps you stop plant disease and weeds before the damage is done by providing agricultural intelligence from self-flying drones.
+
 index_why_preheader: Why Skysense
 index_why_title: The Skysense advantage
 index_why_text: Tell us what problem you need to solve and we’ll help you with every step of the AI development process. Whether you have data already or not, we will help you label data quickly at scale with sophisticated quality control processes to achieve higher accuracy AI models. Our platform conforms to the highest security and privacy standards too.
@@ -115,6 +123,23 @@ labeling_how_deploy_text: Deploy the trained AI model and use it in your applica
 rooftop_title: Rooftop
 rooftop_header: Lead Generation for the Roofing Industry
 rooftop_description: Generate advanced rooftop analysis reports. Detect rooftop size, height, and condition. Find rooftops for repair and solar panel or HVAC installation.
+
+rooftop_overview_title: Turn Satellite Imagery into Actionable Data
+rooftop_overview_text: We use powered AI/computer vision techniques to detect and extract rooftop information from satellite imagery.</br>Our models can process hundreds of thousands of rooftops from large areas, all that very quickly.
+rooftop_material_title: Rooftop Type/Material Detection
+rooftop_material_text: Categorize rooftops by type (flat, slanted…), material (metal…), and color.
+rooftop_condition_title: Rooftop Condition
+rooftop_condition_text: Rooftop conditions are classified in different categories (clean/stained/damaged…).
+rooftop_height_title: Rooftop Height and Information
+rooftop_height_text: Extract building height, age and business information automatically.
+rooftop_report_title: Advanced Rooftop Analysis Report
+rooftop_report_text: Browse interactive rooftop analysis reports. It is easy to filter, search, and inspect rooftops suitable for your needs.
+rooftop_sort_title: Sort rooftops by size and height
+rooftop_sort_text: Sort results by attributes rooftop size and building height.
+rooftop_damaged_title: Find damaged rooftops (heavy stains or structural damage)
+rooftop_damaged_text: Find all the damaged rooftops with a single click.
+rooftop_stained_title: Find stained rooftops (e.g. water damage)
+rooftop_stained_text: Quickly filter results to select water-damaged rooftops.
 
 drones_title: Drones
 drones_header: Protect Crops with Intelligence from Drone Images
