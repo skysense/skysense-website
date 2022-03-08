@@ -71,6 +71,10 @@ index_how_integrate_text: 本番用のAIをお客様の業務向けにデプロ�
 index_cases_preheader: ショーケース
 index_cases_title: 弊社が取り組んできたことをご覧ください
 index_cases_text: これまでに手がけたプロジェクトをご紹介します。
+index_cases_roof_detection_title: 屋根の検出
+index_cases_roof_detection_text: 屋根ふき産業の潜在顧客。 高度な屋上分析レポート。 屋上のサイズ、高さ、および状態を検出します。 修理およびソーラーパネルまたはHVACの設置のための屋上を見つけます。
+index_cases_roof_condition_title: 屋根の状態
+index_cases_roof_condition_text: パワーAIとコンピュータービジョン技術を使用して、広大な土地の何千もの汚れや損傷した屋根をすばやく簡単に自動的に検出できます。
 index_cases_ag_title: 農業
 index_cases_ag_text: ドローン画像から得た情報で農作物を守ります。Skysenseは、自律飛行するドローンから農作物に関する情報を提供することで、お客様が作物の病気や雑草の被害を未然に防げるよう支援します。
 index_cases_hemp_title: 麻
