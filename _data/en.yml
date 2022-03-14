@@ -37,11 +37,11 @@ index_ag_text: Skysense helps you stop plant disease and weeds before the damage
 
 index_why_preheader: Why Skysense
 index_why_title: The Skysense advantage
-index_why_text: Tell us what problem you need to solve and we’ll help you with every step of the AI development process. Whether you have data already or not, we will help you label data quickly at scale with sophisticated quality control processes to achieve higher accuracy AI models. Our platform conforms to the highest security and privacy standards too.
+index_why_text: Tell us what problem you need to solve and we'll help you with every step of the AI development process. Whether you have data already or not, we will help you label data quickly at scale with sophisticated quality control processes to achieve higher accuracy AI models. Our platform conforms to the highest security and privacy standards too.
 index_why_fast_title: Fast turnaround time
 index_why_fast_text: Labeling data is slow, so use our professionally trained and supervised workforce of image annotators to quickly obtain enough labelled data for AI that works better.
 index_why_cost_title: Lower AI development cost
-index_why_cost_text: Simply pay for what you use with pricing that’s cheaper and more transparent than agencies. Build sophisticated deep learning AI systems with a minimal team by turning the development headaches into an operational cost that you can spin up and down as easily as a cloud service.
+index_why_cost_text: Simply pay for what you use with pricing that's cheaper and more transparent than agencies. Build sophisticated deep learning AI systems with a minimal team by turning the development headaches into an operational cost that you can spin up and down as easily as a cloud service.
 index_why_easy_title: Easy to use cloud solution
 index_why_easy_text: The Skysense platform is cloud-hosted solution. Easy to transparently oversee the progress of AI development and the quality of labelled data. Use our workforce or use our tools to better manage your own workforce towards the same goal.
 
@@ -52,7 +52,7 @@ index_features_roof_text: Generate advanced rooftop analysis reports. Detect roo
 index_features_mapping_title: AI for Mapping & Drones
 index_features_mapping_text: Easily upload and process images from a drone flight into a smoothly stitched together orthophoto map. Create interactive maps and filters such as NDVI and VARI plant health, and surface models. Use AI models to count objects and classify them to reveal new business intelligence like tracking inventory and inspecting problems remotely.
 index_features_custom_title: Custom AI development
-index_features_custom_text: Full service solution for developing custom AI, including data collection, labeling, training, evaluation, and deploying AI models. Cloud hosted and self-hosted solutions available, specifically designed for Japan’s business and regulatory environments.
+index_features_custom_text: Full service solution for developing custom AI, including data collection, labeling, training, evaluation, and deploying AI models. Cloud hosted and self-hosted solutions available, specifically designed for Japan's business and regulatory environments.
 index_features_data_title: Data Collection
 index_features_data_text: For customers without data, we can introduce a drone piloting service, find data providers, source publicly available data online, and offer a suite of data upload and management tools integrated with our data labeling and AI model deployment tools. 
 index_features_labeling_title: Labeling Tools
@@ -103,8 +103,8 @@ labeling_mission_title: Data labeling & annotation
 labeling_mission_text: Increase labeled data and improve AI model accuracy quickly while saving your engineers time. We provide a one stop shop to create and manage labeled data. Create image annotations with automated supervision of annotators, both inside and outside the company.
 labeling_why_preheader: Why Skysense
 labeling_why_title: The Skysense advantage
-labeling_why_text: "Tell us your machine learning needs and we will quickly label your datasets accurately. Don’t have any data? No problem, we will find and label the data you need. Our platform can store your data in the cloud or on-premise. We can restrict the cloud to one region, like Japan. Skysense is commonly needed when:"
-labeling_why_step_1: Your problem requires a lot of data, but you don’t know where to start.
+labeling_why_text: "Tell us your machine learning needs and we will quickly label your datasets accurately. Don't have any data? No problem, we will find and label the data you need. Our platform can store your data in the cloud or on-premise. We can restrict the cloud to one region, like Japan. Skysense is commonly needed when:"
+labeling_why_step_1: Your problem requires a lot of data, but you don't know where to start.
 labeling_why_step_2: You have some data, but you need more to boost the accuracy of your AI models.
 labeling_why_step_3: You spend too much time collecting data or labeling data accurately at scale.
 labeling_why_step_4: Your data includes many incorrect labels that you need to fix to boost the accuracy of your AI models.
@@ -178,7 +178,7 @@ drones_hosting_onpremise_title: On-Premise
 drones_hosting_onpremise_description: On-site hosting and custom processing hardware for fast results that aren't delayed by internet speeds (closed beta).
 drones_advantage_title: The Skysense Advantage
 drones_advantage_text1: Skysense is the first provider of crop diagnostics powered by deep learning AI in Japan.
-drones_advantage_text2: Backed by industry-leading AI experience and significant venture capital investment, Skysense delivers innovative data solutions that assist in crop stress mapping, disease detection, weed management, irrigation management, and more.​
+drones_advantage_text2: Backed by industry-leading AI experience and significant venture capital investment, Skysense delivers innovative data solutions that assist in crop stress mapping, disease detection, weed management, irrigation management, and more.
 drones_advantage_text3: Secure your competitive edge this growing season by using Skysense's unique technology!
 
 contact_title: Contact
@@ -186,7 +186,7 @@ contact_message_success: Thank you, we'll get back to you as soon as possible!
 contact_message_failure: Sorry something went wrong, please try again!
 contact_preheader: Contact Skysense
 contact_header: How can we help?
-contact_description: Please enter your information and describe your inquiry, and we’ll get back to you as soon as possible.
+contact_description: Please enter your information and describe your inquiry, and we'll get back to you as soon as possible.
 contact_header_book_demo: Book a demo
 contact_text_book_demo: Fill in your details below to contact us or meet with our team. Schedule now by clicking <a href="https://meetings.hubspot.com/sky-sense">this calendar link</a>.
 contact_field_full_name: Full Name
@@ -200,7 +200,7 @@ contact_field_message_placeholder: For example, please share your industry, team
 careers_title: Careers
 careers_preheader: Join the Team
 careers_header: Skysense is hiring!
-careers_description: We’re looking for hard-working, creative problem-solvers to help us transform the future of agricultural drone tech. If you are looking to join a tight-knit, talented team with the opportunity to initiate change and make a big impact, join us!
+careers_description: We're looking for hard-working, creative problem-solvers to help us transform the future of agricultural drone tech. If you are looking to join a tight-knit, talented team with the opportunity to initiate change and make a big impact, join us!
 careers_benefits_and_perks: Benefits and Perks
 careers_4_day_work_week: 4-Day Work Week
 careers_work_remote: Work Remote
@@ -218,11 +218,11 @@ careers_principles: How Skysense is Different
 careers_principles1_title: Good Work
 careers_principles1_text: We do good work because we believe it has meaning and it makes an impact. We don't waste time doing bad work like long emails, excessive meetings, or micromanagement.
 careers_principles2_title: Impact
-careers_principles2_text: We solve problems that impact society, to change the world and help people’s lives. If you believe in positive change, everyone else can too. Our projects are things we are happy to work on.
+careers_principles2_text: We solve problems that impact society, to change the world and help people's lives. If you believe in positive change, everyone else can too. Our projects are things we are happy to work on.
 careers_principles3_title: Autonomy
-careers_principles3_text: People work long hours because they’re passionate not because they have to. We don't micromanage. We set goals without dictating tasks for a high individual level of autonomy.
+careers_principles3_text: People work long hours because they're passionate not because they have to. We don't micromanage. We set goals without dictating tasks for a high individual level of autonomy.
 careers_principles4_title: Fail Frequently
-careers_principles4_text: We don’t blame people for mistakes, but rather encourage it because good work requires taking risks. We believe in taking risks by trying many controlled experiments and failing frequently.
+careers_principles4_text: We don't blame people for mistakes, but rather encourage it because good work requires taking risks. We believe in taking risks by trying many controlled experiments and failing frequently.
 careers_principles5_title: Freedom
 careers_principles5_text: We have a flat organizational structure with a 4-day work week and we embrace remote work. We don't squander human potential with jobs or offices that people hate.
 
@@ -237,10 +237,10 @@ about_about4: Custom R&D for new crops and integrations.
 about_team_header: Meet the team
 about_justin: Justin Clune
 about_justin_role: CEO
-about_justin_about: Justin previously founded, scaled, and exited the tech startup HouseCare. The idea for Skysense was seeded when he cultivated a 120-acre hemp farm. Justin was a scientific researcher for 4 years, including at Lawrence Berkeley National Laboratory. Justin holds a Master's in Engineering from the University of Tokyo, and a Bachelor’s in Business and Engineering from UC Berkeley.
+about_justin_about: Justin previously founded, scaled, and exited the tech startup HouseCare. The idea for Skysense was seeded when he cultivated a 120-acre hemp farm. Justin was a scientific researcher for 4 years, including at Lawrence Berkeley National Laboratory. Justin holds a Master's in Engineering from the University of Tokyo, and a Bachelor's in Business and Engineering from UC Berkeley.
 about_philippe: Philippe Remy
 about_philippe_role: Chief AI Officer
-about_philippe_about: Philippe has 13 years of experience in AI research engineering. He previously was the first key hire at Cogent Labs, a successful AI company. He coded 100+ open-source repos and has thousands of followers. Philippe holds a Master's in Statistical Mathematics and Probability from Imperial College London, and a Bachelor’s in Engineering from the French Grand Écoles.
+about_philippe_about: Philippe has 13 years of experience in AI research engineering. He previously was the first key hire at Cogent Labs, a successful AI company. He coded 100+ open-source repos and has thousands of followers. Philippe holds a Master's in Statistical Mathematics and Probability from Imperial College London, and a Bachelor's in Engineering from the French Grand Écoles.
 about_philip: Philip Bergqvist
 about_philip_role: Lead Developer
 about_philip_about:  Philip has more than 15 years of professional software development experience with a passion for solving real world problems. He has founded several successful software companies, including Unified Remote and AwardFares. Philip holds a Master's in Engineering from the University of Bristol with First Class Honours.
@@ -316,7 +316,7 @@ hemp_features_ai_text: Deep learning AI counts hemp plants and weeds, finds male
 hemp_features_map_title: Male plant map
 hemp_features_map_text: Images are processed into actionable diagnostics displayed via an interactive map that your whole team uses to reduce labor and optimize spraying.
 hemp_advantage_title: The Skysense Advantage
-hemp_advantage_text1: Skysense is the world’s first provider of AI-powered crop diagnostics for hemp, working with some of America’s fastest growing hemp farms and CBD extractors.
+hemp_advantage_text1: Skysense is the world's first provider of AI-powered crop diagnostics for hemp, working with some of America's fastest growing hemp farms and CBD extractors.
 hemp_advantage_text2: Backed by an unparalleled combination of hemp and AI experience, and significant venture capital investment, we deliver innovative data solutions that assist in crop stress mapping, eradicating male plants quickly, compliant harvest planning, weed management, irrigation management, and more.​
 hemp_advantage_text3: Secure your competitive edge this growing season by using Skysense's unique technology!
 hemp_solutions_title: Monitor every hemp plant over time
