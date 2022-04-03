@@ -123,32 +123,32 @@ rooftop_title: 屋上
 rooftop_header: 屋上産業の潜在顧客
 rooftop_description: 高度な屋上分析レポートを生成します。 屋上のサイズ、高さ、および状態を検出します。 修理およびソーラーパネルまたはHVACの設置のための屋上を見つけます。
 
-rooftop_overview_title: 衛星画像を実用的なデータに変える
+rooftop_overview_title: 衛星画像を実用的なデータに変換
 rooftop_overview_text: パワードAI /コンピュータービジョン技術を使用して、衛星画像から屋上情報を検出および抽出します。</br>私たちのモデルは、広い領域から数十万の屋上を非常に迅速に処理できます。
-rooftop_material_title: 屋上タイプ/材料検出
-rooftop_material_text: 屋上をタイプ（フラット、傾斜…）、素材（金属…）、色で分類します。
-rooftop_condition_title: 屋上コンディション
-rooftop_condition_text: 屋上の状態は、さまざまなカテゴリに分類されます（きれい/汚れ/損傷…）。
-rooftop_height_title: 屋上の高さと情報
-rooftop_height_text: 建物の高さ、年齢、ビジネス情報を自動的に抽出します。
+rooftop_material_title: 屋上の種類・材質検出
+rooftop_material_text: 屋上の種類（平面、斜面...）、材質（金属...）、色で屋上を分類。
+rooftop_condition_title: 外壁・屋上等の点検
+rooftop_condition_text: 屋上の状態は、さまざまなカテゴリに分類されます（外壁・屋上などのが綺麗な状態、ひび割れ、劣化）。
+rooftop_height_title: 屋上高さと事業所情報
+rooftop_height_text: 建物の高さ、築年数、事業所情報を自動抽出します。
 rooftop_report_title: 高度な屋上分析レポート
 rooftop_report_text: インタラクティブな屋上分析レポートを閲覧します。ニーズに合った屋上を簡単にフィルタリング、検索、検査できます。
-rooftop_sort_title: サイズと高さで屋上を並べ替える
-rooftop_sort_text: 屋上のサイズと建物の高さの属性で結果を並べ替えます。
-rooftop_damaged_title: 損傷した屋上を見つける（重い汚れや構造的損傷）
-rooftop_damaged_text: 損傷したすべての屋上をワンクリックで見つけます。
+rooftop_sort_title: 屋上の大きさ・高さで並び替え
+rooftop_sort_text: 屋上面積と建物の高さの属性で結果を並べ替えます。
+rooftop_damaged_title: 破損した屋上（ひどい汚れや構造的な損傷）を探す
+rooftop_damaged_text: ワンクリックで破損した屋上をすべて検索します。
 rooftop_stained_title: 汚れた屋上を見つける（例：水害）
 rooftop_stained_text: 結果をすばやくフィルタリングして、水害を受けた屋上を選択します。
 
 drones_title: ドローン
 drones_header: ドローンによる画像と、AIを駆使して農作物を守る
-drones_description: Skysenseは、自律飛行ドローンを使い撮影したデータをもとに、病害や、雑草をいち早く検知し、農作物の被害を最小限に抑える支援をします。
-drones_solutions_title: ストレス、病害、生長のモニタリング
-drones_solutions_stress_title: 作物のストレスマップ
-drones_solutions_stress_text: 品質低下につながる作物のストレスを回避できます。作物から反射される人間の目には見えない近赤外線に基づいてストレスを計測します。
+drones_description: Skysenseは、自律飛行ドローンを使い撮影したデータをもとに、病害や、雑草をいち早く検知し、農作物の被害を未然に防ぐことを支援します。
+drones_solutions_title: 作物のストレス、病害、成長のモニタリング
+drones_solutions_stress_title: 植物のストレスを地図上に表示
+drones_solutions_stress_text: 人間の目には見えない植物の近赤外線反射をモニターすることで、収穫量を低下させる前にストレスを発見することができます。
 drones_solutions_disease_title: 作物の病害箇所の検知
 drones_solutions_disease_text: どの位置で作物に病害が発生しているかをGoogle Mapsで閲覧できるため、病害が拡大して収穫量に影響が出る前に速やかに対処することができます。
-drones_solutions_growth_title: 各作物の生長率
+drones_solutions_growth_title: 各作物の成長率
 drones_solutions_growth_text: AIベースで作物の数を数えたり、生長をモニタリングすることが可能です。生長に問題がある場合、問題をいち早く検知し収穫量を最大化したり、植物の表現形を判定したりすることができます。
 drones_how_title: 機能
 drones_how_drones_title: 自律飛行ドローン
@@ -162,7 +162,7 @@ drones_count_description: AIをベースに、特定の植物を検知して数�
 drones_scout_title: 病害を探し出す
 drones_scout_description: 植物の健康状態を分類する指標NDVI(Normalized Difference Vegetation Index)に基づき、植物の病害を具体的に分類します。これは低高度飛行のドローンとAIを掛け合わせることで、実現可能となります。ドローンには、ハイパースペクトルカメラが装備されているので、病害を検知する精度が高いのが特徴です。
 drones_maps_title: マップとの連携
-drones_maps_description: 撮影画像の情報がインタラクティブに農地マップで確認ができるため、メンバーは、作業の優先順位付けや、農薬噴霧の最適化のほか、実験の評価にまで利用することができます。
+drones_maps_description: 撮影画像の情報が連携して農地マップで確認ができるため、チーム全体で、作業の優先順位付けや、農薬噴霧の最適化のほか、実験の評価にまで利用することができます。
 drones_health_title: 健康状態をモニタリング
 drones_health_description: 標準的なRGBカメラ（VARI）と、人間の目には見えない近赤外線を捉えるマルチスペクトルカメラから生成される画像を重ね合わせることで、植物のストレス状態を早期に見分けることができます。
 drones_surface_title: サーフェイスモデルを生成
