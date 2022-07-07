@@ -16,9 +16,14 @@
 
         <div class="col-md-6 col-xs-12">
           <div class="col">
-            <div class="preheader">{{ locale.contact_preheader }}</div>
-            <h1>{{ locale.contact_header }}</h1>
-            <p>{{ locale.contact_description }}</p>
+            <div class="preheader">{{ locale.consultation_preheader }}</div>
+            <h1>{{ locale.consultation_header }}</h1>
+            <p>{{ locale.consultation_description }}</p>
+            <ul>
+              <li>{{ locale.consultation_q1 }}</li>
+              <li>{{ locale.consultation_q2 }}</li>
+              <li>{{ locale.consultation_q3 }}</li>
+            </ul>
           </div>
         </div>
 
@@ -40,10 +45,7 @@
               <label>{{ locale.contact_field_phone }}</label>
               <input type="tel" name="phone" />
 
-              <label>{{ locale.contact_field_message }}</label>
-              <textarea name="message" required="required" placeholder="{{ locale.contact_field_message_placeholder }}"></textarea>
-
-              <button type="submit">{{ locale.buttons_contact_us }}</button>
+              <button type="submit">{{ locale.buttons_submit }}</button>
 
               <input type="hidden" name="honeypot" value="">
               <input type="hidden" name="language" value="{{page.language}}">

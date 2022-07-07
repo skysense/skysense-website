@@ -19,6 +19,8 @@ buttons_get_started: 利用開始
 buttons_get_demo: デモを入手
 buttons_try_free: 無料でお試しください
 buttons_schedule_meeting: ミーティングの予約
+buttons_consultation: 無料のAI導入、活用に関する相談
+buttons_submit: 送信
 
 index_header: お客様のビジネスに素早くAIを追加
 index_description: 包括的な画像データプラットフォームとAI開発サービスで、お客様の用途に合わせてビジュアルインテリジェンスを提供
@@ -182,7 +184,7 @@ drones_advantage_text3: Skysenseの技術を活用して、今期収穫量の向
 
 contact_title: 連絡先
 contact_message_success: ありがとうございます。可能な限り早くご返信いたします！
-contact_message_failure: 申し訳ございません。何らかのエラーが発生しました。再度お試しください！ hello@skysense.jp
+contact_message_failure: 申し訳ございません。何らかのエラーが発生しました。再度お試しください！ (hello@skysense.jp)
 contact_preheader: Skysenseに問い合わせる
 contact_header: どういったご用件でしょうか。
 contact_description: お問い合わせ内容をご記入の上、送信してください。可能な限り早くご返信いたします。
@@ -195,6 +197,14 @@ contact_field_email: メールアドレス
 contact_field_phone: 電話番号
 contact_field_message: お問い合わせ内容
 contact_field_message_placeholder: お客様の業種、チーム規模、アプリケーション、データタイプ、弊社へのご要望などをご入力ください。
+
+consultation_title: 無料のAI導入、活用に関する相談
+consultation_preheader: サービス紹介
+consultation_header: 無料のAI導入、活用に関する相談
+consultation_description: 連絡先情報を入力してください。無料のAIコンサルテーションのスケジュールについてご連絡いたします。
+consultation_q1: どんなAI？
+consultation_q2: それはどれくらいしますか？
+consultation_q3: どのようなユースケースとアプリケーションですか？
 
 careers_title: 求人情報
 careers_preheader: チームに加わる

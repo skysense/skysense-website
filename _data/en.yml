@@ -19,6 +19,8 @@ buttons_get_started: Get Started
 buttons_get_demo: Get Demo
 buttons_try_free: Try it free
 buttons_schedule_meeting: Schedule Meeting
+buttons_consultation: Get Free AI Consultation
+buttons_submit: Submit
 
 index_header: Quickly Add AI to Your Business
 index_description: Comprehensive image data platform and AI development service to empower your applications with visual intelligence
@@ -183,7 +185,7 @@ drones_advantage_text3: Secure your competitive edge this growing season by usin
 
 contact_title: Contact
 contact_message_success: Thank you, we'll get back to you as soon as possible!
-contact_message_failure: Sorry something went wrong, please try again!
+contact_message_failure: Sorry something went wrong, please try again! (hello@skysense.jp)
 contact_preheader: Contact Skysense
 contact_header: How can we help?
 contact_description: Please enter your information and describe your inquiry, and we'll get back to you as soon as possible.
@@ -196,6 +198,14 @@ contact_field_email: Email
 contact_field_phone: Phone Number
 contact_field_message: Describe your inquiry
 contact_field_message_placeholder: For example, please share your industry, team size, application, data type, and how we can help you.
+
+consultation_title: AI Consultation
+consultation_preheader: AI Consultation
+consultation_header: Free AI Consultation
+consultation_description: Please enter your contact information and we will reach out to you about scheduling a free AI consultation.
+consultation_q1: What kind of AI?
+consultation_q2: How much does it cost?
+consultation_q3: What use-cases and applications?
 
 careers_title: Careers
 careers_preheader: Join the Team

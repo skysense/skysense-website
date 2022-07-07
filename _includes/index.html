@@ -7,6 +7,10 @@
       <h1>{{ locale.index_header }}</h1>
       <p>{{ locale.index_description }}</p>
       <div class="buttons">
+        <a class="button primary umami--click--consultation-button" href="/{{page.language}}/consultation/">{{ locale.buttons_consultation }}</a>
+      </div>
+      <!--
+      <div class="buttons">
         {% if page.language == "ja" %}
         <a class="button primary umami--click--schedule-meeting-button" href="https://meetings.hubspot.com/ayako-sasaki">{{ locale.buttons_schedule_meeting }}</a>
         {% else %}
@@ -14,6 +18,7 @@
         {% endif %}
         <a class="button umami--click--contact-us-button" href="/{{page.language}}/contact/">{{ locale.buttons_contact_us }}</a>
       </div>
+      -->
     </div>
   </section>
 
