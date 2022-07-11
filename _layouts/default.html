@@ -69,6 +69,8 @@
     <!-- https://support.google.com/google-ads/answer/6331304#zippy=%2Cset-up-conversion-tracking-using-the-global-site-tag -->
 
     <script>
+
+      /*
       function track_click_calendar_link(callback) {
         console.log('gtag: click calendar link');
         gtag('event', 'conversion', {
@@ -77,6 +79,7 @@
         });
         return false;
       }
+      
       function track_submit_contact_form(callback) {
         console.log('gtag: submit contact form');
         gtag('event', 'conversion', {
@@ -85,8 +88,10 @@
         });
         return false;
       }
+      */
+
       function gtag_ready() {
-        console.log('gtag: ready');
+        /*console.log('gtag: ready');
         $(() => {
           const links = document.querySelectorAll('a');
           for (const link of links) {
@@ -117,6 +122,7 @@
             });
           }
         });
+        */
       }
     </script>
 
