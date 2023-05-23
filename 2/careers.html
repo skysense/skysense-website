@@ -1,0 +1,48 @@
+---
+layout: layout
+title: Careers
+---
+
+<h2 class="mt-24 text-3xl sm:text-4xl font-bold text-gray-900">Work with us</h2>
+<p class="mt-6 text-lg leading-8 text-gray-600">We're looking for hard-working, creative problem-solvers to help us transform the future of agricultural drone tech. If you are looking to join a tight-knit, talented team with the opportunity to initiate change and make a big impact, join us!</p>
+
+<h3 class="text-2xl font-semibold mt-16 mb-8">Open positions</h3>
+<div class="space-y-3">
+  {% for job in site.data.careers.positions %}
+  <a class="block border rounded-lg p-4 underline hover:border-gray-400 transition-color" href="/2/contact/">{{ job.title }}</a>
+  {% endfor %}
+</div>
+
+<h3 class="text-2xl font-semibold mt-16 mb-8">How Skysense is different</h3>
+<div class="grid sm:grid-cols-2 gap-4">
+  <div class="rounded-2xl bg-gray-100 p-6">
+    <h4 class="text-lg font-semibold mb-2">Good Work</h4>
+    <p class="text-gray-600">We do good work because we believe it has meaning and it makes an impact. We don't waste time doing bad work like long emails, excessive meetings, or micromanagement.</p>
+  </div>
+  <div class="rounded-2xl bg-gray-100 p-6">
+    <h4 class="text-lg font-semibold mb-2">Impact</h4>
+    <p class="text-gray-600">We solve problems that impact society, to change the world and help people's lives. If you believe in positive change, everyone else can too. Our projects are things we are happy to work on.</p>
+  </div>
+  <div class="rounded-2xl bg-gray-100 p-6">
+    <h4 class="text-lg font-semibold mb-2">Autonomy</h4>
+    <p class="text-gray-600">People work long hours because they're passionate not because they have to. We don't micromanage. We set goals without dictating tasks for a high individual level of autonomy.</p>
+  </div>
+  <div class="rounded-2xl bg-gray-100 p-6">
+    <h4 class="text-lg font-semibold mb-2">Fail Frequently</h4>
+    <p class="text-gray-600">We don't blame people for mistakes, but rather encourage it because good work requires taking risks. We believe in taking risks by trying many controlled experiments and failing frequently.</p>
+  </div>
+  <div class="rounded-2xl bg-gray-100 p-6">
+    <h4 class="text-lg font-semibold mb-2">Freedom</h4>
+    <p class="text-gray-600">We have a flat organizational structure with a 4-day work week and we embrace remote work. We don't squander human potential with jobs or offices that people hate.</p>
+  </div>
+</div>
+
+<h3 class="text-2xl font-semibold mt-16 mb-8">Benefits and perks</h3>
+<ul class="grid md:grid-cols-3 gap-4">
+  {% for benefit in site.data.careers.benefits %}
+  <li class="flex items-center">
+    <svg class="text-skysense h-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path></svg>
+    <span class="ml-2">{{ benefit }}</span>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,47 @@
+---
+layout: layout
+title: Company
+---
+
+<h2 class="mt-24 text-3xl sm:text-4xl font-bold text-gray-900">Seeding the future with AI</h2>
+<p class="mt-6 text-lg leading-8 text-gray-600">Our goal is to use our expertise and experience to make a positive impact by stopping plant disease. We are passionate about leveraging technology to improve the world around us, and we are excited to work with you to achieve our shared goals. We also have strong connections and first-hand experience in the agriculture industry, enabling us to understand the industry's unique challenges and opportunities.</p>
+
+<h2 class="text-2xl sm:text-3xl font-medium mt-16">Meet the founders</h2>
+<p class="text-lg text-gray-600 mt-4">Serial tech entrepreneurs with a background in tech, AI/ML, engineering, science, and startups.</p>
+
+<div class="mt-16">
+  {% for member in site.data.team.founders %}
+  <div class="md:flex items-center mb-8">
+    <div class="basis-64">
+      <img class="rounded-3xl h-56 w-56 object-cover object-center" src="{{ member.photo }}" />
+    </div>
+    <div class="flex-1 py-2">
+      <h3 class="font-semibold">{{ member.name }}</h3>
+      <p class="text-gray-600">{{ member.title }}</p>
+      <p class="text-gray-600 mt-2 leading-7">{{ member.description }}</p>
+      {% if member.linkedin %}
+      <div class="mt-2">
+        <a class="text-gray-400" href="{{ member.linkedin }}" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24ZM96,176a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0ZM88,96a12,12,0,1,1,12-12A12,12,0,0,1,88,96Zm96,80a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140Z"></path></svg>
+        </a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="mt-16 sm:text-center">
+  <h2 class="text-2xl sm:text-3xl font-medium mt-16">Meet our team</h2>
+  <p class="text-lg text-gray-600 mt-4">We're a dynamic group of individuals who are passionate about what we do.</p>
+
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-center mt-16">
+    {% for member in site.data.team.members %}
+    <div>
+      <img class="rounded-full mx-auto h-56 w-56 object-cover object-center mb-8" src="{{ member.photo }}" />
+      <h3 class="font-semibold mt-2">{{ member.name }}</h3>
+      <p class="text-gray-600">{{ member.title }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>

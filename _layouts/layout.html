@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            skysense: '#2e88fa',
+          },
+          container: {
+            screens: {
+              'sm': '640px',
+              'md': '768px',
+              'lg': '1024px',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+
+  <nav class="container-fluid px-6 py-4">
+    <div class="hidden md:flex items-center">
+      <div class="flex flex-1">
+        <a href="/2/">
+          <img src="https://skysense.jp/assets/img/logo.jpg" class="max-h-10" />
+        </a>
+      </div>
+      <div class="flex space-x-8">
+        <a href="/2/solutions/" class="font-semibold">Solutions</a>
+        <a href="/2/pricing/" class="font-semibold">Pricing</a>
+        <a href="/2/company/" class="font-semibold">Company</a>
+        <a href="/2/contact/" class="font-semibold">Contact</a>
+        <a href="/2/careers/" class="font-semibold">Jobs <span class="ml-1 text-sm bg-green-600 text-white rounded-lg px-2 py-1">Hiring</span></a>
+      </div>
+      <div class="flex flex-1 justify-end">
+        <a href="/2/contact" class="transition-colors border px-4 py-2 rounded-3xl border-skysense bg-skysense text-white hover:bg-white hover:text-skysense">Talk to sales</a>
+      </div>
+    </div>
+    <details class="md:hidden">
+      <summary class="flex justify-between select-none cursor-pointer">
+        <img src="https://skysense.jp/assets/img/logo.jpg" class="max-h-10" />
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#222020" viewBox="0 0 256 256"><path d="M224,120v16a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V120a8,8,0,0,1,8-8H216A8,8,0,0,1,224,120Zm-8,56H40a8,8,0,0,0-8,8v16a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V184A8,8,0,0,0,216,176Zm0-128H40a8,8,0,0,0-8,8V72a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V56A8,8,0,0,0,216,48Z"></path></svg>
+      </summary>
+      <div class="mt-4 flex flex-col divide-y">
+        <a href="/2/solutions/" class="py-3">Solutions</a>
+        <a href="/2/pricing/" class="py-3">Pricing</a>
+        <a href="/2/company/" class="py-3">Company</a>
+        <a href="/2/contact/" class="py-3">Contact</a>
+        <a href="/2/careers/" class="py-3">Jobs <span class="ml-1 text-sm bg-green-600 text-white rounded-lg px-2 py-1">Hiring</span></a>
+        <a href="/2/contact" class="mt-4 transition-colors border px-4 py-2 rounded-md border-skysense bg-skysense text-white hover:bg-white hover:text-skysense">Talk to sales</a>
+      </div>
+    </details>
+  </nav>
+  
+  <main class="container mx-auto px-8">
+    {{content}}
+  </main>
+
+  <footer class="bg-gray-800 text-gray-300 p-16 mt-32">
+    <div class="container mx-auto">
+      <img src="/assets/img/logo_footer.png" class="h-16">
+      <p class="py-4">Seeding the future with AI</p>
+      <div class="flex space-x-4">
+        <a href="https://www.facebook.com/skysense.jp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path></svg>
+        </a>
+        <a href="https://www.instagram.com/skysense.jp/">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg>
+        </a>
+        <a href="https://www.linkedin.com/company/71068840/">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" viewBox="0 0 256 256"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path></svg>
+        </a>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
+        <div>
+          <h3 class="font-semibold text-white">Product</h3>
+          <ul>
+            <li>
+              <a href="/2/solutions/">Solutions</a>
+            </li>
+            <li>
+              <a href="/2/pricing/">Pricing</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">About</h3>
+          <ul>
+            <li><a href="/2/company/">Company</a></li>
+            <li><a href="/2/company/">Leadership</a></li>
+            <li><a href="/2/company/">Team</a></li>
+            <li><a href="/2/careers/">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">Contact</h3>
+          <ul>
+            <li><a href="/2/contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">Legal</h3>
+          <ul>
+            <li><a href="/terms/">Terms</a></li>
+            <li><a href="/privacy/">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 mt-8 pt-8">
+        <p class="text-sm text-gray-400">© 2023 Skysense, Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

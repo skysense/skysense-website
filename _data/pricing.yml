@@ -1,0 +1,15 @@
+- title: Basic Sampling
+  description: Our quickest and cheapest analysis, suitable for high-altitude drone or satellite based imagery. We can help you to capture data quickly and apply AI models.
+  price: $1-5
+
+- title: High-Resolution Sampling
+  description: High-resolution and specialized sampling (e.g. multi-spectral data). Suitable for medium to high altitude drone based imagery.
+  price: $5-20
+
+- title: Comprehensive Low Altitude
+  description: Our most advanced and comprehensive solution for the highest level of resolution, suitable for low-altitude drone based imagery.
+  price: $20+
+
+- title: Custom Solutions
+  description: We know that every client has unique requirements. Feel free to reach out to us and we can come up with a custom solution that fits your needs.
+  price: Custom

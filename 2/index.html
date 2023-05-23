@@ -1,0 +1,121 @@
+---
+layout: layout
+title: 
+---
+
+<header class="mx-auto max-w-xl py-16 sm:py-32 text-center">
+  <h1 class="text-5xl sm:text-6xl font-bold mb-4">AI and Digital Maps for Agriculture</h1>
+  <p>Skysense helps you stop plant disease and weeds before the damage is done by providing agricultural intelligence from satellites and self-flying drones.</p>
+</header>
+
+<section>
+  <div class="text-center">
+    <h2 class="text-4xl font-medium mb-8">What's your crop type?</h2>
+  </div>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {% for solution in site.data.solutions %}
+    {% if solution.type %}
+    <div>
+      <img class="rounded-3xl h-64 w-full object-cover" src="{{ solution.image }}" />
+      <h3 class="text-xl font-light mt-2">{{ solution.type }}</h3>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="pt-16">
+  <div class="text-center">
+    <h2 class="text-4xl font-medium mb-8">Capture, analyze, act</h2>
+  </div>
+  <div class="space-y-8">
+    <div class="rounded-3xl bg-gray-100 p-16">
+      <h3 class="text-2xl">Data Capture</h3>
+      <p>From satellite imagery to drones fitted with 4K cameras and multispectral sensors fly on autopilot to map your entire farm.</p>
+      <p>Quickly canvas large areas and difficult terrain. See what’s more obvious from above, with a whole new perspective than feet on the ground.</p>
+    </div>
+    <div class="rounded-3xl bg-gray-100 p-16">
+      <h3 class="text-2xl">Powerful Software and AI</h3>
+      <p>State of the art machine learning processes the data to count and identify plants, weeds, diseases, and other issues.</p>
+      <p>Giving drones hundreds of human eyes, with industry expert domain-specific knowledge. Do what one human can do, but a million times faster.</p>
+    </div>
+    <div class="rounded-3xl bg-gray-100 p-16">
+      <h3 class="text-2xl">Actionable Results</h3>
+      <p>Get actionable diagnostics displayed onto an interactive map that your team uses to reduce labor and optimize work.</p>
+      <p>Cut out “search” from “search and rescue”. Field crews and GPS tractors go directly to map pins to stop disease without “search”</p>
+    </div>
+  </div>
+</section>
+
+<section class="pt-16">
+  <div class="text-center">
+    <h2 class="text-4xl font-medium mb-8">The Skysense Advantage</h2>
+    <p class="text-lg text-gray-600 mt-4">Even just 1 in 10,000 plants can massively impact crop yield ultimately costing farms millions of dollars in lost profit.</p>
+  </div>
+  <div class="grid md:grid-cols-2 gap-8">
+    <div class="rounded-3xl bg-gray-100 p-16">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#222020" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm40-68a28,28,0,0,1-28,28h-4v8a8,8,0,0,1-16,0v-8H104a8,8,0,0,1,0-16h36a12,12,0,0,0,0-24H116a28,28,0,0,1,0-56h4V72a8,8,0,0,1,16,0v8h16a8,8,0,0,1,0,16H116a12,12,0,0,0,0,24h24A28,28,0,0,1,168,148Z"></path></svg>
+      </div>
+      <h3 class="text-2xl mt-4">Reduce labor intensive work and high labor costs</h3>
+    </div>
+    <div class="rounded-3xl bg-gray-100 p-16">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#222020" viewBox="0 0 256 256"><path d="M240,56v64a8,8,0,0,1-16,0V75.31l-82.34,82.35a8,8,0,0,1-11.32,0L96,123.31,29.66,189.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0L136,140.69,212.69,64H168a8,8,0,0,1,0-16h64A8,8,0,0,1,240,56Z"></path></svg>
+      </div>
+      <h3 class="text-2xl mt-4">Increase productivity by covering vast areas</h3>
+    </div>
+    <div class="rounded-3xl bg-gray-100 p-16">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#222020" viewBox="0 0 256 256"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path></svg>
+      </div>
+      <h3 class="text-2xl mt-4">Disease identification requires deep domain-specific knowledge</h3>
+    </div>
+    <div class="rounded-3xl bg-gray-100 p-16">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#222020" viewBox="0 0 256 256"><path d="M128,24C74.17,24,32,48.6,32,80v96c0,31.4,42.17,56,96,56s96-24.6,96-56V80C224,48.6,181.83,24,128,24Zm80,104c0,9.62-7.88,19.43-21.61,26.92C170.93,163.35,150.19,168,128,168s-42.93-4.65-58.39-13.08C55.88,147.43,48,137.62,48,128V111.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64ZM69.61,53.08C85.07,44.65,105.81,40,128,40s42.93,4.65,58.39,13.08C200.12,60.57,208,70.38,208,80s-7.88,19.43-21.61,26.92C170.93,115.35,150.19,120,128,120s-42.93-4.65-58.39-13.08C55.88,99.43,48,89.62,48,80S55.88,60.57,69.61,53.08ZM186.39,202.92C170.93,211.35,150.19,216,128,216s-42.93-4.65-58.39-13.08C55.88,195.43,48,185.62,48,176V159.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64V176C208,185.62,200.12,195.43,186.39,202.92Z"></path></svg>
+      </div>
+      <h3 class="text-2xl mt-4">Faster access to difficult to obtain data</h3>
+    </div>
+  </div>
+</section>
+
+<section class="pt-16">
+  <h2 class="text-4xl font-medium text-center mb-16">Where to find us</h2>
+  <div class="grid lg:grid-cols-3 gap-8">
+    {% for event in site.data.events %}
+    <div>
+      <div class="border rounded-3xl p-8">
+        <a href="{{ event.link}}" target="_blank">
+          <img class="h-24 lg:h-36 mx-auto object-contain" src="{{ event.logo }}" />
+        </a>
+      </div>
+      <h3 class="text-xl font-light mt-4">{{ event.title }}</h3>
+      <a class="underline text-skysense" href="{{ event.link }}" target="_blank">Learn More</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="bg-gray-100 mt-16 p-16 text-center rounded-3xl">
+  <div class="text-center">
+    <h2 class="text-xl mb-4">Powered by the world class tech and backed by the world's best investors & advisors from</h2>
+  </div>
+  <div class="flex">
+    {% for partner in site.data.partners %}
+    <div class="p-4">
+      <img class="h-12  mx-auto object-contain" src="{{ partner.logo }}" />
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="pt-16">
+  <div>
+    <div class="text-center">
+      <h2 class="text-4xl font-medium mt-16">Get in touch</h2>
+      <p class="text-lg text-gray-600 mt-4">Fill in your details below to contact us or meet with our team</p>
+    </div>
+    {% include contact-form.html %}
+  </div>
+</section>
