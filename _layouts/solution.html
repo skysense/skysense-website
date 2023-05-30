@@ -1,0 +1,49 @@
+---
+layout: layout
+---
+
+<style>
+  .markdown-content h1 {
+    font-size: 30pt;
+  }
+  .markdown-content h2 {
+    font-size: 20pt;
+  }
+  .markdown-content h1,
+  .markdown-content h2,
+  .markdown-content h3,
+  .markdown-content h4,
+  .markdown-content p {
+    margin-top: 1em;
+  }
+  .markdown-content ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  .markdown-content img {
+    border-radius: 1.5rem;
+    object-fit: cover;
+    width: 100%;
+    max-height: 24rem;
+  }
+</style>
+
+<div class="mt-8 sm:mt-24 mx-auto">
+  <h1 class="text-4xl sm:text-6xl font-bold text-gray-900">{{ page.title }}</h1>
+  {% if page.image %}
+  <img class="mt-6 mb-6 rounded-3xl w-full max-h-96 object-cover" src="{{ page.image }}" />
+  {% endif %}
+</div>
+
+<div class="markdown-content">
+  {{content}}
+</div>
+
+<div class="mt-6 rounded-3xl p-8 bg-skysense text-white text-center">
+  <h3 class="text-2xl">Learn more about how Skysense can help you</h3>
+  <div class="mt-4">
+    <a class="rounded-md bg-white text-gray-800 px-6 py-2" href="/contact">Talk to sales</a>
+  </div>
+</div>
+
+<div class="text-sm text-gray-400 mt-8">Prompt: <code>{{ page.prompt }}</code></div>

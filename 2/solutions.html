@@ -3,23 +3,36 @@ layout: layout
 title: Pricing
 ---
 
+<style>
+  .line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+</style>
+
 <div class="mt-24 mx-auto max-w-2xl sm:text-center">
   <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">What we've worked on</h2>
   <p class="mt-6 text-lg leading-8 text-gray-600">Learn more about the crops we've worked on and how we can help you.</p>
 </div>
 
 <div class="mt-16">
-  {% for solution in site.data.solutions %}
+  {% for solution in site.solutions %}
   {% if solution.title %}
     <div class="rounded-3xl ring-1 ring-gray-200 mt-8 overflow-hidden bg-gray-50">
       <div class="lg:flex">
         <div class="lg:basis-64">
-          <img class="w-full h-64 object-cover" src="{{ solution.image }}" />
+          <a href="{{ solution.url }}">
+            <img class="w-full h-64 object-cover" src="{{ solution.image }}" />
+          </a>
         </div>
         <div class="flex-1 p-8">
-          <h3 class="text-2xl font-bold text-gray-900">{{ solution.title }}</h3>
-          <p class="mt-6 text-base leading-7 text-gray-600">{{ solution.description }}</p>
-          <a class="block mt-6 underline text-skysense" href="/2/solution/">Learn More</a>
+          <a href="{{ solution.url }}">
+            <h3 class="text-2xl font-bold text-gray-900">{{ solution.title }}</h3>
+            <p class="mt-2 text-base leading-7 text-gray-600 line-clamp">{{ solution.excerpt | strip_html }}</p>
+          </a>
+          <a class="block mt-2 underline text-skysense" href="{{ solution.url }}">Learn More</a>
         </div>
       </div>
     </div>

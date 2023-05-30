@@ -1,4 +1,7 @@
 
+- type: Precision Agriculture
+  image: https://skysense.jp/assets/img/index/ag.png
+
 - type: Weed Management
   image: /assets/img/crops/weeds.jpg
 
@@ -62,3 +65,6 @@
 - title: Forest Management
   description: Efficiently perform tree counting for sustainable logging, survey landscapes for early fire detection, and safety assessment before and after fires.
   image: /assets/img/crops/forest.jpg
+
+- title: Drones for Precision Agriculture
+  description: SkySense is a leading provider of drones for precision agriculture. Our drones are equipped with state-of-the-art sensors that allow us to collect data on crops, fields, and livestock. This data can be used to improve crop yields, reduce crop damage, and improve animal welfare.

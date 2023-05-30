@@ -39,3 +39,7 @@ defaults:
       path: "assets"
     values:
       image: true
+
+collections:
+  solutions:
+    output: true
