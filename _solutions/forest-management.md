@@ -1,12 +1,11 @@
 ---
 layout: solution
-title: Transforming Forest Management through Advanced Technology and AI
 prompt: skysense is a company that uses drones, aircraft imagery and satellite imagery together with ai to provide forest management solutions. this includes tree species identification and land surveying. target customer is land owners, land buyers, and governments. write a short landing page for this
-title: Transforming Forest Management through Advanced Technology and AI
+title: Transforming Forest Management using AI and Machine Learning
 image: /assets/img/solutions/forest/sample.jpeg
 ---
 
-Are you a landowner, land buyer, or government entity looking to optimize your forest management practices? Skysense is your trusted partner, harnessing the power of drones, aircraft imagery, satellite imagery, and cutting-edge artificial intelligence (AI) to provide comprehensive forest management solutions. Our innovative technology enables accurate tree species identification and precise land surveying, empowering you to make informed decisions and effectively manage your valuable forest resources.
+Our innovative technology enables precise tree species identification and accurate land surveying, equipping you with the information needed to make informed decisions and effectively manage your valuable forest resources. Experience the future of forest management with Skysense by leveraging the power of drones, aircraft imagery, satellite imagery, and cutting-edge artificial intelligence (AI) to deliver comprehensive forest management solutions. 
 
 ## Unlock the Potential of Forest Management with Skysense:
 

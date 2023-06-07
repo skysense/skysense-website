@@ -13,7 +13,10 @@ layout: layout
   .markdown-content h2,
   .markdown-content h3,
   .markdown-content h4,
-  .markdown-content p {
+  .markdown-content p,
+  .markdown-content ul,
+  .markdown-content ol,
+  .markdown-content li {
     margin-top: 1em;
   }
   .markdown-content ul {
@@ -25,6 +28,9 @@ layout: layout
     object-fit: cover;
     width: 100%;
     max-height: 24rem;
+  }
+  .markdown-content p {
+    line-height: 1.5em;
   }
 </style>
 
@@ -46,4 +52,6 @@ layout: layout
   </div>
 </div>
 
+<!--
 <div class="text-sm text-gray-400 mt-8">Prompt: <code>{{ page.prompt }}</code></div>
+-->

@@ -1,13 +1,13 @@
 ---
 layout: solution
 prompt: skysense is a company that uses drone imagery and satellite imagery together with ai to provide solutions for vineyards. this includes mapping, plant counting, detecting plant disease, and other problems common to wine production. target customer is vineyard owners and managers. write a landing page for this. make sure to list examples of common plant disease for wine production.
-title: Revolutionizing Vineyard Management with Advanced Technology and AI
+title: "Vineyard Management: Modern Solutions for Optimal Growth"
 image: /assets/img/solutions/wine/wine.png
 ---
 
-Are you a vineyard owner or manager searching for innovative solutions to optimize your wine production? Skysense is your trusted partner, harnessing the power of drone imagery, satellite imagery, and cutting-edge artificial intelligence (AI) to provide comprehensive vineyard management solutions. From precise mapping and plant counting to detecting plant diseases and addressing common wine production challenges, our state-of-the-art technology empowers you to make informed decisions and unlock the full potential of your vineyard.
+Skysense harnesses the power of drone imagery, satellite imagery, and cutting-edge artificial intelligence (AI) to provide comprehensive vineyard management solutions. From precise mapping and plant counting to detecting plant diseases and addressing common wine production challenges, our state-of-the-art technology empowers you to make informed decisions and unlock the full potential of your vineyard.
 
-**Elevate Vineyard Management with Skysense:**
+## Elevate Vineyard Management with Skysense
 
 1. **Accurate Mapping and Plant Counting:** Skysense utilizes high-resolution drone and satellite imagery, combined with advanced AI algorithms, to create accurate maps of your vineyard. Identify and count individual plants, determine vine spacing, and optimize vineyard layout for improved resource allocation and efficient operations.
 

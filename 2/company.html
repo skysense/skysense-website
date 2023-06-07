@@ -3,7 +3,7 @@ layout: layout
 title: Company
 ---
 
-<h2 class="mt-24 text-3xl sm:text-4xl font-bold text-gray-900">Seeding the future with AI</h2>
+<h2 class="mt-8 sm:mt-24 text-3xl sm:text-4xl font-bold text-gray-900">Seeding the future with AI</h2>
 <p class="mt-6 text-lg leading-8 text-gray-600">Our goal is to use our expertise and experience to make a positive impact by stopping plant disease. We are passionate about leveraging technology to improve the world around us, and we are excited to work with you to achieve our shared goals. We also have strong connections and first-hand experience in the agriculture industry, enabling us to understand the industry's unique challenges and opportunities.</p>
 
 <h2 class="text-2xl sm:text-3xl font-medium mt-16">Meet the founders</h2>
@@ -13,7 +13,7 @@ title: Company
   {% for member in site.data.team.founders %}
   <div class="md:flex items-center mb-8">
     <div class="basis-64">
-      <img class="rounded-3xl h-56 w-56 object-cover object-center" src="{{ member.photo }}" />
+      <img class="bg-skysense/10 rounded-full h-56 w-56 object-cover object-center" src="{{ member.photo }}" />
     </div>
     <div class="flex-1 py-2">
       <h3 class="font-semibold">{{ member.name }}</h3>
@@ -38,7 +38,7 @@ title: Company
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-center mt-16">
     {% for member in site.data.team.members %}
     <div>
-      <img class="rounded-full mx-auto h-56 w-56 object-cover object-center mb-8" src="{{ member.photo }}" />
+      <img class="bg-skysense/10 rounded-full mx-auto h-56 w-56 object-cover object-center mb-8" src="{{ member.photo }}" />
       <h3 class="font-semibold mt-2">{{ member.name }}</h3>
       <p class="text-gray-600">{{ member.title }}</p>
     </div>

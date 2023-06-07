@@ -1,0 +1,16 @@
+- hint: Data Capture
+  title: Satellite imagery to drones fitted with 4K cameras and multispectral sensors fly on autopilot to map your farm
+  text: Quickly canvas large areas and difficult terrain. See what’s more obvious from above, with a whole new perspective than feet on the ground.
+  image: /assets/img/features/plantdetectiondrone.png
+
+- hint: Powerful Software and AI
+  title: State of the art machine learning to count, identify, measure plants, weeds, diseases, and other issues
+  text: Giving drones hundreds of human eyes, with industry expert domain-specific knowledge. Do what one human can do, but a million times faster.
+  image: /assets/img/features/hemp.png
+  reverse: true
+
+- hint: Actionable Results
+  title: Actionable diagnostics with an interactive map and custom reports to reduce labor and optimize work
+  text: Cut out “search” from “search and rescue”. Field crews and GPS tractors go directly to map pins to stop disease without “search”
+  image: /assets/img/features/app.png
+  color: bg-blue-50

@@ -1,8 +1,8 @@
 ---
 layout: solution
 prompt: skysense is a company that uses drones together with ai for precision agriculture. we offer services like mapping and orthophotos, plant health mapping, biomass counting, finding plant stress, benchmarking growth rates, generate surface models, plant counting, plant detection, plant disease detection, and weed management. write a landing page for this. make sure to include keywords like precision agriculture, crop protection, sustainability, agtech, agriculture technology, drone mapping, drone surveying, drone inspection, drone data analysis, drone software, drone hardware, drone training, drone certification, precision agriculture drones, precision agriculture surveying, precision agriculture inspection, precision agriculture data analysis, precision agriculture software, precision agriculture hardware, precision agriculture training, precision agriculture certification
-title: Empowering Precision Agriculture through Drone and AI Technology
-image: /assets/img/scenic.jpg
+title: Precision Agriculture through Drone and AI Technology
+image: https://skysense.jp/assets/img/index/ag.png
 ---
 
 Skysense combines the power of drones and artificial intelligence (AI) to revolutionize the way you manage your crops. Our comprehensive range of services, including mapping and orthophotos, plant health mapping, biomass counting, plant stress detection, and weed management, empowers you to make data-driven decisions, enhance crop protection, and drive sustainable practices in the modern era of agriculture.
