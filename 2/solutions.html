@@ -1,24 +1,26 @@
 ---
 layout: layout
-title: Pricing
+title: Solutions
 ---
 
-<div class="mt-8 sm:mt-24 mx-auto max-w-2xl sm:text-center">
-  <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">See what we've been working on</h2>
-  <p class="mt-6 text-lg leading-8 text-gray-600">Learn more about the crops we've worked on and how we can help you.</p>
+<main class="container mx-auto px-8">
+
+<div class="mt-8 md:mt-24 md:text-center">
+  <h2 class="text-3xl md:text-5xl font-bold">See what we've been working on</h2>
+  <p class="mt-6 text-xl leading-8 text-gray-600">Learn more about the crops we've worked on and how we can help you.</p>
 </div>
 
 <div class="mt-16">
   {% for solution in site.solutions %}
   {% if solution.title %}
-    <div class="rounded-3xl ring-1 ring-gray-200 mt-8 overflow-hidden bg-gray-50">
+    <div class="py-8 lg:border-t">
       <div class="lg:flex">
-        <div class="lg:basis-64">
+        <div class="lg:basis-56">
           <a href="{{ solution.url }}">
-            <img class="w-full h-64 object-cover" src="{{ solution.image }}" />
+            <img class="w-full h-56 object-cover rounded-3xl" src="{{ solution.image }}" />
           </a>
         </div>
-        <div class="flex-1 p-8">
+        <div class="flex-1 px-8 py-4">
           <a href="{{ solution.url }}">
             <h3 class="text-2xl font-bold text-gray-900">{{ solution.title }}</h3>
             <p class="mt-2 text-base leading-7 text-gray-600 line-clamp">{{ solution.excerpt | strip_html }}</p>
@@ -30,3 +32,5 @@ title: Pricing
   {% endif %}
   {% endfor %}
 </div>
+
+</main>

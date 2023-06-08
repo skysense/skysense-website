@@ -3,6 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% if page.title %}
+  <title>{{ page.title }} | Skysense</title>
+  <meta property="og:title" content="{{ page.title }}" />
+  {% else %}
+  <title>Skysense</title>
+  <meta property="og:title" content="Skysense" />
+  {% endif %}
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/meta/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/meta/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/meta/favicon-16x16.png">
+
+  
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:image" content="{{site.url}}/assets/img/share.png" />
+  
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -37,6 +54,56 @@
       overflow: hidden;
     }
   </style>
+
+  {% if jekyll.environment == "production" %}
+
+  <!-- Google tag (gtag.js) - GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MSGZW5HE63"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MSGZW5HE63');
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '345028557231634');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1"
+    src="https://www.facebook.com/tr?id=345028557231634&ev=PageView
+    &noscript=1"/>
+  </noscript>
+
+  <!-- Meta Pixel Code (New Skysense Ad Account) -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '572609511171875');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=572609511171875&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  {% endif %}
 
 </head>
 <body>
@@ -75,8 +142,8 @@
     </details>
   </nav>
   
+  {{content}}
   <main class="container mx-auto px-8">
-    {{content}}
   </main>
 
   <footer class="bg-gray-800 text-gray-300 p-16 mt-32">

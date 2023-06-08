@@ -3,8 +3,12 @@ layout: layout
 title: Company
 ---
 
-<h2 class="mt-8 sm:mt-24 text-3xl sm:text-4xl font-bold text-gray-900">Seeding the future with AI</h2>
-<p class="mt-6 text-lg leading-8 text-gray-600">Our goal is to use our expertise and experience to make a positive impact by stopping plant disease. We are passionate about leveraging technology to improve the world around us, and we are excited to work with you to achieve our shared goals. We also have strong connections and first-hand experience in the agriculture industry, enabling us to understand the industry's unique challenges and opportunities.</p>
+<main class="container mx-auto px-8">
+
+<div class="mt-8 md:mt-24">
+  <h2 class="text-3xl md:text-5xl font-bold text-skysense">Seeding the future with AI</h2>
+  <p class="mt-6 text-xl leading-8 text-gray-600">Our goal is to use our expertise and experience to make a positive impact by stopping plant disease. We are passionate about leveraging technology to improve the world around us, and we are excited to work with you to achieve our shared goals. We also have strong connections and first-hand experience in the agriculture industry, enabling us to understand the industry's unique challenges and opportunities.</p>
+</div>
 
 <h2 class="text-2xl sm:text-3xl font-medium mt-16">Meet the founders</h2>
 <p class="text-lg text-gray-600 mt-4">Serial tech entrepreneurs with a background in tech, AI/ML, engineering, science, and startups.</p>
@@ -13,7 +17,7 @@ title: Company
   {% for member in site.data.team.founders %}
   <div class="md:flex items-center mb-8">
     <div class="basis-64">
-      <img class="bg-skysense/10 rounded-full h-56 w-56 object-cover object-center" src="{{ member.photo }}" />
+      <img class="bg-skysense/10 rounded-full h-56 w-56 object-cover object-center mb-4 md:mb-0" src="{{ member.photo }}" />
     </div>
     <div class="flex-1 py-2">
       <h3 class="font-semibold">{{ member.name }}</h3>
@@ -45,3 +49,5 @@ title: Company
     {% endfor %}
   </div>
 </div>
+
+</main>
