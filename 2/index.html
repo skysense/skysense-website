@@ -30,7 +30,8 @@ title: AI and Digital Maps for Agriculture
     </div>
 
     <div class="my-24 grid md:grid-cols-3 gap-4 md:gap-8">
-      {% for solution in site.solutions limit:3 %}
+      {% assign sorted = site.solutions | sort: 'date' | reverse  %}
+      {% for solution in sorted limit:3 %}
       <a href="{{ solution.url }}" class="group">
         <div class="relative rounded-3xl overflow-hidden h-56 w-full bg-[url({{ solution.image }})] bg-cover bg-center">
           <!--<img class="rounded-3xl h-48 w-full object-cover" src="{{ solution.image }}" />-->

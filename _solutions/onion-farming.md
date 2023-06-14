@@ -4,6 +4,7 @@ title: Your Solution to Efficient Weed Management in Onion Farming
 prompt: skysense is a company that uses drones and ai to combat plant disease and provides weed management solutions. target customer is farm owners. write a short landing page outlining the challenges of weed control in onion farming and why they should use skysense
 title: Your Solution to Efficient Weed Management in Onion Farming
 image: /assets/img/solutions/onions/model.png
+date: 2023-06-10
 ---
 
 Skysense brings a revolutionary approach to weed control for onion farmers, leveraging the remarkable capabilities of drones and artificial intelligence (AI). Our specifically tailored solutions target the challenges faced by onion farmers in managing stubborn weeds, providing time, labor, and resource savings while optimizing yields. Experience the power of Skysense as we empower you to combat weeds effectively, ensuring the growth and productivity of your valuable onion crops. Embrace a new era of weed control with Skysense and take control of your farming success.

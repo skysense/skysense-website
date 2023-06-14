@@ -3,6 +3,7 @@ layout: solution
 prompt: skysense is a company that uses drone imagery and satellite imagery together with ai to provide solutions for rice farming. this includes mapping, plant counting, detecting plant disease, and other problems common to rice production. target customer is rice farm owners and managers. write a landing page for this. make sure to list examples of common plant disease for rice farming.
 title: "Empowering Rice Farming: Maximizing Yield and Efficiency for Farmers"
 image: /assets/img/solutions/rice/rice.png
+date: 2023-06-07
 ---
 
 Unlock the true potential of your rice farming venture with Skysense. Our commitment to innovation drives us to leverage the latest advancements in drone imagery, satellite data, and cutting-edge artificial intelligence (AI). Experience a new paradigm in rice production as we deliver comprehensive solutions tailored specifically for the challenges you face. From precise mapping and accurate plant counting to proactive disease detection and effective problem-solving, our advanced technology empowers you to make informed decisions that optimize the productivity of your rice fields. Embrace the future of rice farming with Skysense and elevate your operations to unprecedented levels of success.

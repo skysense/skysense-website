@@ -11,7 +11,8 @@ title: Solutions
 </div>
 
 <div class="mt-16">
-  {% for solution in site.solutions %}
+  {% assign sorted = site.solutions | sort: 'date' | reverse  %}
+  {% for solution in sorted %}
   {% if solution.title %}
     <div class="py-8 lg:border-t">
       <div class="lg:flex">

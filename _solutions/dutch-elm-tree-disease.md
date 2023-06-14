@@ -3,6 +3,7 @@ layout: solution
 prompt: skysense is a company that uses drones and satellite imagery together with ai to detect and map dutch elm tree disease. target customer is land owners, city tree management, forest management and governments that want to control dutch elm tree disease. write a landing page for this. make sure to include summarize what dutch elm tree disease is, why it's a problem, why it's important to detect and identify diseased trees, and why this is a difficult problem to solve without ai.
 title: Dutch Elm Tree Disease Management with Advanced Technology and AI
 image: /assets/img/solutions/elm/graph.png
+date: 2023-06-13
 ---
 
 Skysense leads the way in Dutch Elm Tree Disease detection and prevention, employing a combination of drones, satellite imagery, and cutting-edge artificial intelligence (AI). Our pioneering solutions equip you with the tools to proactively combat this damaging disease, ensuring the vitality and visual appeal of your elm tree population. With our advanced technology, you can stay ahead of the curve in preserving the health and longevity of your cherished elm trees.
