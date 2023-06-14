@@ -17,19 +17,19 @@ title: AI and Digital Maps for Agriculture
   <div class="absolute inset-0 bg-gradient-to-b from-white to-white/10"></div>
   <!-- bg-white/70  -->
   <main class="container mx-auto px-8 relative">
-    <header class="mx-auto max-w-xl pt-8 md:pt-16 lg:pt-32 text-center">
+    <header class="mx-auto max-w-xl pt-8 md:pt-16 lg:pt-24 text-center">
       <h1 class="text-5xl sm:text-6xl font-bold mb-4">AI and Digital Maps for Agriculture</h1>
       <p class="text-lg">Skysense helps stop plant disease and weeds before the damage is done by providing agricultural intelligence from satellites and self-flying drones.</p>
     </header>
 
     <div class="text-center mt-4 sm:mb-8 sm:flex sm:justify-center">
       <a class="ring-1 rounded-full flex mx-auto text-skysense/90 px-5 py-1.5 hover:text-skysense justify-center" href="/2/solutions/">
-        <span>Read all of our recent case studies</span>
+        <span>Explore all of our recent case studies</span>
         <svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
       </a>
     </div>
 
-    <div class="mt-16 mb-24 grid md:grid-cols-3 gap-4 md:gap-8">
+    <div class="my-24 grid md:grid-cols-3 gap-4 md:gap-8">
       {% for solution in site.solutions limit:3 %}
       <a href="{{ solution.url }}" class="group">
         <div class="relative rounded-3xl overflow-hidden h-56 w-full bg-[url({{ solution.image }})] bg-cover bg-center">
@@ -52,7 +52,7 @@ title: AI and Digital Maps for Agriculture
 </div>
 
 <section class="p-8">
-  <div class="flex flex-wrap justify-center">
+  <div class="flex flex-wrap lg:flex-nowrap justify-center">
     {% for partner in site.data.partners %}
     <div class="p-4">
       <img class="h-12 min-h-12 mx-auto object-contain grayscale opacity-40" src="{{ partner.logo }}" />
@@ -94,9 +94,9 @@ title: AI and Digital Maps for Agriculture
   </div>
   <div class="space-y-8">
     {% for feature in site.data.features %}
-    <div class="border rounded-3xl py-12 px-8 flex flex-col md:flex-row md:items-center {% if feature.reverse %}md:flex-row-reverse{% endif %}">
+    <div class="border rounded-3xl py-6 px-4 md:py-12 md:px-8 flex flex-col md:flex-row md:items-center {% if feature.reverse %}md:flex-row-reverse{% endif %}">
       <div class="md:w-1/2 p-2 md:p-8 space-y-2">
-        <div class="uppercase text-skysense font-bold">{{ feature.hint }}</div>
+        <div class="uppercase text-skysense font-semibold">{{ feature.hint }}</div>
         <h3 class="text-3xl leading-9">{{ feature.title }}</h3>
         <p class="text-gray-600">{{ feature.text }}</p>
       </div>
@@ -144,28 +144,36 @@ title: AI and Digital Maps for Agriculture
   </div>
 </section>
 
-<section class="mt-24">
-  <div class="text-center">
-    <h2 class="text-3xl md:text-4xl font-medium mb-4">Where to find us</h2>
-    <p class="text-lg text-gray-600 mb-8">Speak to us at some of the biggest AgTech events around the world.</p>
-  </div>
-  <div class="grid lg:grid-cols-3 gap-8">
-    {% for event in site.data.events %}
-    <div>
-      <div class="border rounded-3xl p-8">
-        <a href="{{ event.link}}" target="_blank">
-          <img class="h-16 lg:h-24 mx-auto object-contain" src="{{ event.logo }}" />
-        </a>
+</main>
+
+<div class="bg-gray-100">
+  <div class="">
+    <section class="mt-24 container mx-auto px-8 py-24">
+      <div class="text-center">
+        <h2 class="text-3xl md:text-4xl font-medium mb-4">Where to find us</h2>
+        <p class="text-lg text-gray-600 mb-8">Speak to us at some of the biggest AgTech events around the world.</p>
       </div>
-      <!--
-      <h3 class="text-xl font-light mt-4">{{ event.title }}</h3>
-      <a class="underline text-skysense" href="{{ event.link }}" target="_blank">Learn More</a>
-      -->
-    </div>
-    {% endfor %}
-    <!--<a href="#">Learn more</a>-->
+      <div class="grid lg:grid-cols-3 gap-2 md:gap-8">
+        {% for event in site.data.events %}
+        <div>
+          <div class="border rounded-3xl p-2 md:p-4 lg:p-8 bg-white">
+            <a href="{{ event.link}}" target="_blank">
+              <img class="h-8 md:h-16 lg:h-24 mx-auto object-contain" src="{{ event.logo }}" />
+            </a>
+          </div>
+          <!--
+          <h3 class="text-xl font-light mt-4">{{ event.title }}</h3>
+          <a class="underline text-skysense" href="{{ event.link }}" target="_blank">Learn More</a>
+          -->
+        </div>
+        {% endfor %}
+        <!--<a href="#">Learn more</a>-->
+      </div>
+    </section>
   </div>
-</section>
+</div>
+
+<main class="container mx-auto">
 
 <!--
 <section class="bg-gray-100 p-16">
