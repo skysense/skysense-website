@@ -1,24 +1,23 @@
-
-- type: Precision Agriculture
-- type: Weed Management
-- type: Hemp and CBD
-- type: Forestry, Forest Management, Lumber
-- type: Plant Health
-- type: Wine, Vineyards
-- type: Rice Farming
-- type: Greenhouses, Horticulture
-- type: Onion Farming
-- type: Organic Farming
-- type: Dutch Elm
-- type: Corn
-- type: Soybeans, Dry beans
+- type: Almonds, Pistachios, Peanuts
+- type: Apples, Strawberries, Grapes, Oranges, Blueberries
 - type: Barley, Oats, Wheat, Hay
 - type: Cattle, milk, chickens, eggs, hogs, turkeys
-- type: Floriculture
+- type: Corn
 - type: Cotton
-- type: Apples, Strawberries, Grapes, Oranges, Blueberries
-- type: Almonds, Pistachios, Peanuts
+- type: Dutch Elm
+- type: Floriculture
+- type: Forestry, Forest Management, Lumber
+- type: Greenhouses, Horticulture
+- type: Hemp and CBD
+- type: Onion Farming
+- type: Organic Farming
+- type: Plant Health
 - type: Potatoes, Lettuce, Tomatoes, Beets
+- type: Precision Agriculture
+- type: Rice Farming
 - type: Sorghum
+- type: Soybeans, Dry beans
 - type: Surgarcane
+- type: Weed Management
+- type: Wine, Vineyards
 - type: Something else?
