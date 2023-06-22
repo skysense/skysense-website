@@ -7,7 +7,7 @@ language: en
 We respect your privacy and the confidentiality of information that you give us. We are committed to protecting your information. In the course of providing financial products and services, we need to collect and maintain certain personal information. This Privacy Policy answers some questions about what personal information we collect and why, what we do with it, and how we protect it.
 
 ## About Us
-Skysense Inc. (“Skysense” or “We” or “Us”) is the sole owner of skysense.jp website (“Website”) and all of the information collected on it. Skysense collects information from users in several ways through the Website.
+Skysense Inc. (“Skysense” or “We” or “Us”) is the sole owner of skysense.jp and skysense.ag website (“Website”) and all of the information collected on it. Skysense collects information from users in several ways through the Website.
 The Privacy Policy discloses how we collect, process, store and share information including the following:
 Personal information being collected via Website by Skysense
 How we use the personal information collected
@@ -50,7 +50,7 @@ Google will store this information. Please refer to Google's privacy policy to g
 ## Areas where we don’t collect personal information
 
 ### Links to other sites
-At our discretion We can add links (web links) to other websites from our Website. These websites can be run by third parties with separate and independent privacy policies. We, therefore, have no responsibility or liability for the content, activities or privacy policies of those linked sites. We suggest you read the privacy policy of each and every site that you visit. We remind you that this Privacy Policy applies only to information collected by our Website (skysense.jp).
+At our discretion We can add links (web links) to other websites from our Website. These websites can be run by third parties with separate and independent privacy policies. We, therefore, have no responsibility or liability for the content, activities or privacy policies of those linked sites. We suggest you read the privacy policy of each and every site that you visit. We remind you that this Privacy Policy applies only to information collected by our Website (skysense.jp and skysense.ag).
 
 ### Advertising
 We may display advertising on the website but do not give our advertisers any information about you. Advertisers are able to see general statistics that include the amount of impressions and clicks.

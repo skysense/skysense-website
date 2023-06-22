@@ -1,8 +1,8 @@
 encoding: UTF-8
 
-url: "https://skysense.jp"
+url: "https://skysense.ag"
 title: Skysense
-description: Add AI to your Business
+description: AI and Digital Maps for Agriculture
 
 markdown: kramdown
 highlighter: rouge

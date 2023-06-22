@@ -1,6 +1,6 @@
 
 - type: Precision Agriculture
-  image: https://skysense.jp/assets/img/index/ag.png
+  image: /assets/img/index/ag.png
 
 - type: Weed Management
   image: /assets/img/crops/weeds.jpg
@@ -33,14 +33,14 @@
   description: Skysense has developed a state-of-the-art AI model to detect diseased elm trees.
 
 - title: Plant health and crop counting
-  image: https://skysense.jp/assets/img/index/ag.png
+  image: /assets/img/index/ag.png
 
 - type: Organic Farming
   image: /assets/img/crops/organic.jpg
 
 - title: Protect Crops with Intelligence from Drone Images
   description: Skysense helps you stop plant disease and weeds before the damage is done by providing agricultural intelligence from self-flying drones.
-  image: https://skysense.jp/assets/img/index/ag2.png
+  image: /assets/img/index/ag2.png
 
 - title: Weed Management
   description: asd ajlsdjalsdkjalsd kjaöldkjaösl kjasöldjaösdkj asöldkjasö lkdjaölsdk jaösld kajösldk ajsldasöldk ajsö.
