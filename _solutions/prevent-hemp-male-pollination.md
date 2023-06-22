@@ -3,7 +3,7 @@ layout: solution
 prompt: skysense is a company that uses drones with ai to find and remove male hemp plants. this helps farmers grow quality CBD that extractors want, and increase their CBD % with drone-based AI to avoid pollination, watch plant stress, and ensure compliant harvest timing.
 title: The Leading Experts in Detection and Removal of Male Hemp Plants
 image: /assets/img/solutions/hemp/hemp.png
-date: 2023-06-08
+date: 2023-06-12
 ---
 
 The leading experts in detection and removal of male hemp plants

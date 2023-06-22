@@ -1,23 +1,81 @@
-- type: Almonds, Pistachios, Peanuts
-- type: Apples, Strawberries, Grapes, Oranges, Blueberries
-- type: Barley, Oats, Wheat, Hay
-- type: Cattle, milk, chickens, eggs, hogs, turkeys
-- type: Corn
-- type: Cotton
-- type: Dutch Elm
-- type: Floriculture
-- type: Forestry, Forest Management, Lumber
-- type: Greenhouses, Horticulture
-- type: Hemp and CBD
-- type: Onion Farming
-- type: Organic Farming
-- type: Plant Health
-- type: Potatoes, Lettuce, Tomatoes, Beets
-- type: Precision Agriculture
-- type: Rice Farming
-- type: Sorghum
-- type: Soybeans, Dry beans
-- type: Surgarcane
-- type: Weed Management
-- type: Wine, Vineyards
-- type: Something else?
+- category: Agriculture
+  types:
+    - name: Precision Agriculture
+      url: /solutions/drones-for-precision-agriculture/
+    - name: Forestry
+      url: /solutions/forest-management/
+    - name: Forest Management
+      url: /solutions/forest-management/
+    - name: Lumber
+- category: Specialty Crops
+  types:
+    - name: Hemp and Cannabis
+    - name: Wine
+      url: /solutions/vineyards/
+    - name: Vineyards
+      url: /solutions/vineyards/
+    - name: Organic Farming
+      url: /solutions/organic-farming/
+- category: Plant Health
+  types:
+    - name: Weed Management
+      url: /solutions/weed-management/
+    - name: Dutch Elm Disease
+      url: /solutions/dutch-elm-tree-disease/
+- category: Grains
+  types:
+    - name: Barley
+    - name: Oats
+    - name: Wheat
+    - name: Hay
+    - name: Sorghum
+    - name: Rice
+      url: /solutions/rice-farming/
+    - name: Sugarcane
+- category: Vegetables
+  types:
+    - name: Onions
+      url: /solutions/onion-farming/
+    - name: Lettuce
+    - name: Tomatoes
+    - name: Beets
+- category: Nuts
+  types:
+    - name: Almonds
+    - name: Pistachios
+    - name: Peanuts
+- category: Fruit
+  types:
+    - name: Apples
+    - name: Strawberries
+    - name: Grapes
+    - name: Oranges
+    - name: Blueberries
+- category: Cattle
+  types:
+    - name: Cattle
+    - name: Milk
+    - name: Chickens
+    - name: Eggs
+    - name: Hogs
+    - name: Turkeys
+- category: Starch
+  types:
+    - name: Corn
+    - name: Potatoes
+- category: Legumes
+  types:
+    - name: Soybeans
+    - name: Dry beans
+- category: Floral
+  types:
+    - name: Greenhouses
+    - name: Horticulture
+    - name: Floriculture
+    - name: Sunflowers
+- category: Herbs
+  types:
+    - name: Mint
+- category: Something else?
+  types:
+    - name: Talk to sales

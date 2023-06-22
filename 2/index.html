@@ -13,6 +13,10 @@ title: AI and Digital Maps for Agriculture
 </div>
 -->
 
+<!--
+<img src="/assets/img/m300.png" class="absolute z-10 w-[400px]" style="top: 0; left: -100px" />
+-->
+
 <div class="bg-[url(/assets/img/scenic4-small.jpg)] bg-cover bg-center py-8 relative">
   <div class="absolute inset-0 bg-gradient-to-b from-white to-white/10"></div>
   <!-- bg-white/70  -->
@@ -24,7 +28,7 @@ title: AI and Digital Maps for Agriculture
 
     <div class="text-center mt-4 sm:mb-8 sm:flex sm:justify-center">
       <a class="ring-1 rounded-full flex mx-auto text-skysense/90 px-5 py-1.5 hover:text-skysense justify-center" href="/2/solutions/">
-        <span>Explore all of our recent case studies</span>
+        <span>Explore our case studies</span>
         <svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
       </a>
     </div>
@@ -57,13 +61,12 @@ title: AI and Digital Maps for Agriculture
   <div class="flex flex-wrap lg:flex-nowrap justify-center">
     {% for partner in site.data.partners %}
     <div class="p-4">
-      <img class="h-12 min-h-12 mx-auto object-contain grayscale opacity-40" src="{{ partner.logo }}" />
+      <img class="h-8 md:h-12 mx-auto object-contain grayscale opacity-30" src="{{ partner.logo }}" />
     </div>
     {% endfor %}
   </div>
 </section>
 
-<main class="container mx-auto px-8">
 <!--
 <img class="w-full max-h-96 object-cover rounded-3xl" src="/assets/img/scenic.jpg" />
 <img class="w-full object-cover rounded-3xl" src="/assets/img/farm.jpg" />
@@ -94,6 +97,31 @@ title: AI and Digital Maps for Agriculture
     <h2 class="text-3xl md:text-5xl font-medium mb-4">Capture, analyze, act</h2>
     <p class="text-lg text-gray-600 mb-8">Full-service solutions from data acquisition, analysis, and reporting.</p>
   </div>
+  {% for feature in site.data.features %}
+  <main class="container mx-auto p-8">
+    <div class="flex flex-col md:flex-row gap-8 md:gap-16 md:items-center {% if feature.reverse %}md:flex-row-reverse{% endif %}">
+      <div class="md:w-1/2">
+        <div class="space-y-2">
+          <div class="uppercase text-skysense font-semibold">{{ feature.hint }}</div>
+          <h3 class="text-2xl md:text-3xl leading-9">{{ feature.title }}</h3>
+          <p class="text-gray-600">{{ feature.text }}</p>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <img src="{{ feature.image }}" class="rounded-3xl object-cover max-h-96 w-full {{ feature.color }}" />
+      </div>
+    </div>
+  </main>
+  {% endfor %}
+</section>
+<main class="container mx-auto px-8">
+
+<!--
+<section class="mt-24">
+  <div class="text-center">
+    <h2 class="text-3xl md:text-5xl font-medium mb-4">Capture, analyze, act</h2>
+    <p class="text-lg text-gray-600 mb-8">Full-service solutions from data acquisition, analysis, and reporting.</p>
+  </div>
   <div class="space-y-8">
     {% for feature in site.data.features %}
     <div class="border rounded-3xl py-6 px-4 md:py-12 md:px-8 flex flex-col md:flex-row md:items-center {% if feature.reverse %}md:flex-row-reverse{% endif %}">
@@ -109,95 +137,148 @@ title: AI and Digital Maps for Agriculture
     {% endfor %}
   </div>
 </section>
+-->
 
 <section class="mt-16 p-8 md:p-16 bg-blue-50 rounded-3xl">
   <div class="text-center">
     <h2 class="text-3xl md:text-4xl font-medium mb-4">What's your crop type?</h2>
     <p class="text-lg text-gray-600 mb-8">No matter the crop type, we have you covered.</p>
   </div>
-  <ul>
+  <select class="md:hidden border rounded-full p-2 w-full" onchange="document.location.href=this.value">
+    <option></option>
     {% for crop in site.data.crops %}
-    <li class="border-t py-2">
-      <a href="{%if crop.url %}{{crop.url}}{% else %}/2/contact/{% endif %}" class="flex items-center">
-        <span>{{ crop.type }}</span>
-        <div class="ml-auto">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#222020" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path></svg>
-        </div>
-      </a>
-    </li>
+    <optgroup label="{{ crop.category }}">
+      {% for type in crop.types %}
+      <option value="{%if type.url %}{{type.url}}{% else %}/2/contact/{% endif %}">{{ type.name }}{% if type.url %} ★{% endif %}</option>
+      {% endfor %}
+    </optgroup>
     {% endfor %}
-  </ul>
-</section>
-  
-<section class="mt-24">
-  <div class="text-center">
-    <h2 class="text-3xl md:text-4xl font-medium mb-4">The Skysense Advantage</h2>
-    <p class="text-lg text-gray-600 mb-8">Even just 1 in 10,000 plants can massively impact crop yield costing millions of dollars in lost profit.</p>
+  </select>
+  <div class="hidden md:block">
+    {% for crop in site.data.crops %}
+    <div class="mt-4 mb-2 text-sm font-semibold">{{ crop.category }}</div>
+    <div class="flex flex-wrap">
+      {% for type in crop.types %}
+      <a href="{%if type.url %}{{type.url}}{% else %}/2/contact/{% endif %}" class="inline-block bg-skysense text-white rounded-full py-2 px-4 mr-2 mb-2">{{ type.name }}{% if type.url %} ★{% endif %}</a>
+      {% endfor %}
+    </div>
+    {% endfor %}
   </div>
-  <div class="grid md:grid-cols-2 gap-8 mt-8">
-    {% for advantage in site.data.advantage %}
-    <div class="rounded-3xl {{ advantage.color }} p-8 md:p-16">
+</section>
+
+</main>
+
+<section class="mt-24 md:p-16 bg-slate-800 text-white">
+  <div class="container mx-auto p-8">
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-medium mb-4">
+          <a href="https://hempscouter.com/" target="_blank">HempScouter</a>  
+        </h2>
+        <p class="text-lg mb-8">Our industry leading solution for finding and removing male hemp plants. Skysense is the world's first provider of AI-powered crop diagnostics for hemp, working with some of America's largest and fastest growing hemp farms and CBD extractors.</p>
+        <p class="text-lg mb-8">Backed by an unparalleled combination of experience with hemp and AI research, we deliver innovative data solutions that assist in crop stress mapping, eradicating male plants quickly, compliant harvest planning, weed management, irrigation management, and more.</p>
+        <a class="rounded-xl border border-white text-white px-6 py-3 inline-block" href="https://hempscouter.com/" target="_blank">Visit HempScouter</a>
+      </div>
+      <div>
+        <video autoplay="1" loop="1" muted="1" playsinline="1" poster="https://hempscouter.com/img/preview.jpg" class=" rounded-3xl w-full h-full object-cover">
+          <source src="https://hempscouter.com/video2.mp4" type="video/mp4">Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mt-24">
+  <div class="container mx-auto p-8">
+    <div class="text-center">
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">How it works</h2>
+      <p class="text-lg text-gray-600 mb-8">Easily add AI to your business.</p>
+    </div>
+    <div class="grid md:grid-cols-4 gap-8 mt-8">
+      {% for item in site.data.how %}
+      <div>
+        <h3 class="text-xl md:text-2xl mt-4">{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="mt-24 bg-gray-50">
+  <div class="container mx-auto px-8 py-24">
+    <div class="text-center">
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">State of the Art Hardware and Equipment</h2>
+      <p class="text-lg text-gray-600 mb-8">We employ the latest and greatest hardware, while also matching your farm size, budget, and requirements. Depending on budget or need for low altitude flights, we can even work with best in class consumer drones like the DJI Air 2S, with low propeller down draft, can be used indoors, and customized with 3D printed drone accessories.</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-12 mt-8">
+      {% for hardware in site.data.hardware %}
       <div class="">
-        {{ advantage.icon }}
-      </div>
-      <h3 class="text-xl md:text-2xl mt-4">{{ advantage.title }}</h3>
-    </div>
-    {% endfor %}
-  </div>
-</section>
-
-</main>
-
-<div class="bg-gray-100">
-  <div class="">
-    <section class="mt-24 container mx-auto px-8 py-24">
-      <div class="text-center">
-        <h2 class="text-3xl md:text-4xl font-medium mb-4">Where to find us</h2>
-        <p class="text-lg text-gray-600 mb-8">Speak to us at some of the biggest AgTech events around the world.</p>
-      </div>
-      <div class="grid lg:grid-cols-3 gap-2 md:gap-8">
-        {% for event in site.data.events %}
-        <div>
-          <div class="border rounded-3xl p-2 md:p-4 lg:p-8 bg-white">
-            <a href="{{ event.link}}" target="_blank">
-              <img class="h-8 md:h-16 lg:h-24 mx-auto object-contain" src="{{ event.logo }}" />
-            </a>
-          </div>
-          <!--
-          <h3 class="text-xl font-light mt-4">{{ event.title }}</h3>
-          <a class="underline text-skysense" href="{{ event.link }}" target="_blank">Learn More</a>
-          -->
+        <div class="">
+          <img src="{{ hardware.image }}" class="rounded-2xl w-full h-48 object-cover" />
         </div>
-        {% endfor %}
-        <!--<a href="#">Learn more</a>-->
+        <h3 class="text-xl md:text-2xl mt-4">{{ hardware.title }}</h3>
+        <p class="text-gray-600">{{ hardware.description }}</p>
       </div>
-    </section>
-  </div>
-</div>
-
-<main class="container mx-auto">
-
-<!--
-<section class="bg-gray-100 p-16">
-  <div class="text-center">
-    <h2 class="text-xl mb-4">Powered by world class tech and backed by the world's best investors & advisors</h2>
-  </div>
-  <div class="flex">
-    {% for partner in site.data.partners %}
-    <div class="p-4">
-      <img class="h-12  mx-auto object-contain grayscale opacity-50" src="{{ partner.logo }}" />
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </section>
--->
-
-</main>
 
 <section class="mt-24">
-  <div class="text-center">
-    <h2 class="text-3xl md:text-4xl font-medium mt-16">Get in touch</h2>
-    <p class="text-lg text-gray-600 mt-4">Fill in your details below to contact us or meet with our team</p>
+  <div class="container mx-auto p-8">
+    <div class="text-center">
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">The Skysense Advantage</h2>
+      <p class="text-lg text-gray-600 mb-8">Even just 1 in 10,000 plants can massively impact crop yield costing millions of dollars in lost profit. Our fast and intelligent solutions help you find and solve problems on the farm before they grow out of control.</p>
+    </div>
+    <div class="grid md:grid-cols-4 gap-8 mt-8">
+      {% for advantage in site.data.advantage %}
+      <div class="rounded-3xl {{ advantage.color }} p-4 md:p-8">
+        <div class="">
+          {{ advantage.icon }}
+        </div>
+        <h3 class="text-xl md:text-2xl mt-4">{{ advantage.title }}</h3>
+      </div>
+      {% endfor %}
+    </div>
   </div>
-  {% include contact-form.html %}
+</section>
+
+<section class="mt-24 bg-gray-50">
+  <div class="container mx-auto px-8 py-24">
+    <div class="text-center">
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Where to find us</h2>
+      <p class="text-lg text-gray-600 mb-8">Speak to us at some of the biggest AgTech events around the world.</p>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+      {% for event in site.data.events %}
+      <div>
+        <div class="rounded-3xl p-2 md:px-4 lg:px-8 bg-white">
+          <a href="{{ event.link}}" target="_blank">
+            <img class="h-8 md:h-16 lg:h-24 mx-auto object-contain" src="{{ event.logo }}" />
+          </a>
+        </div>
+        <div class="text-xs text-center mt-2">{{ event.title }}</div>
+        <!--
+        <h3 class="text-xl font-light mt-4">{{ event.title }}</h3>
+        <a class="underline text-skysense" href="{{ event.link }}" target="_blank">Learn More</a>
+        -->
+      </div>
+      {% endfor %}
+      <!--<a href="#">Learn more</a>-->
+    </div>
+  </div>
+</section>
+
+<section class="mt-24 p-8 text-center">
+  <h2 class="text-3xl md:text-4xl font-medium mb-4">Skysense Newsletter</h2>
+  <p class="text-lg text-gray-600 mb-8">Sign up to our free newsletter to keep up to date with the latest in AI for farming.</p>
+  <form method="POST" action="https://app.skysense.jp/contact">
+    <div class="flex flex-col md:flex-row max-w-xl mx-auto mt-4 gap-4">
+      <input class="grow border rounded-3xl px-6 py-4 bg-gray-50" type="email" placeholder="Email" />
+      <button type="submit" class="rounded-3xl bg-skysense text-white px-6 py-2">Subscribe</button>
+    </div>
+    <input type="hidden" name="honeypot" value="">
+    <input type="hidden" name="language" value="en">
+  </form>
 </section>

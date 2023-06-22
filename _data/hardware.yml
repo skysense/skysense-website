@@ -1,0 +1,11 @@
+- title: Drones
+  description: From industrial drones like the Matrice 300 RTK and Mavic 3 Enterprise, to budget friendly and consumer options like the DJI Air 2S. 
+  image: /assets/img/hardware/m300.png
+
+- title: Sensors
+  description: Ultra high-resolutions sensors like the Phase One 100MP camera, multispectral, hyperspectral, thermal and other specialized equipment.
+  image: /assets/img/hardware/phaseone.jpg
+
+- title: Robots
+  description: "Robots, e.g. Laser Weeder and Robotic Farm Equipment. Better purchasing decisions, integration with robots, which ones have best ROI"
+  image: /assets/img/hardware/laserweeder.jpg
