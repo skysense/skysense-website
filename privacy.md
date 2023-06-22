@@ -7,7 +7,7 @@ language: en
 We respect your privacy and the confidentiality of information that you give us. We are committed to protecting your information. In the course of providing financial products and services, we need to collect and maintain certain personal information. This Privacy Policy answers some questions about what personal information we collect and why, what we do with it, and how we protect it.
 
 ## About Us
-Skysense Inc. (“Skysense” or “We” or “Us”) is the sole owner of skysense.jp and skysense.ag website (“Website”) and all of the information collected on it. Skysense collects information from users in several ways through the Website.
+Skysense Inc. (“Skysense” or “We” or “Us”) is the sole owner of skysense.ag website (“Website”) and all of the information collected on it. Skysense collects information from users in several ways through the Website.
 The Privacy Policy discloses how we collect, process, store and share information including the following:
 Personal information being collected via Website by Skysense
 How we use the personal information collected
@@ -50,7 +50,7 @@ Google will store this information. Please refer to Google's privacy policy to g
 ## Areas where we don’t collect personal information
 
 ### Links to other sites
-At our discretion We can add links (web links) to other websites from our Website. These websites can be run by third parties with separate and independent privacy policies. We, therefore, have no responsibility or liability for the content, activities or privacy policies of those linked sites. We suggest you read the privacy policy of each and every site that you visit. We remind you that this Privacy Policy applies only to information collected by our Website (skysense.jp and skysense.ag).
+At our discretion We can add links (web links) to other websites from our Website. These websites can be run by third parties with separate and independent privacy policies. We, therefore, have no responsibility or liability for the content, activities or privacy policies of those linked sites. We suggest you read the privacy policy of each and every site that you visit. We remind you that this Privacy Policy applies only to information collected by our Website (skysense.ag).
 
 ### Advertising
 We may display advertising on the website but do not give our advertisers any information about you. Advertisers are able to see general statistics that include the amount of impressions and clicks.
@@ -104,7 +104,7 @@ We may employ other companies and people to provide services to visitors to our 
 ## Where personal information is stored
 Generally, the personal information that we collect from you will be stored in the United States and other countries, which may have different privacy laws and standards than those in your country of residence.
 
-It is important to note that some or all of your personal information provided to third party service providers may be held in countries other than your own, including in particular the United States. You acknowledge and understand that your personal information will be subject to the applicable laws of each such jurisdiction, which may not provide for the same protection as your country of residence. For example, government entities in the United States and other countries may have certain legislative rights to access your personal information. If you have questions about our policies and practices with respect to service providers outside your jurisdiction, including the collection, use, disclosure or storage of such personal information by our service providers worldwide, you may contact us by e-mail at hello@skysense.jp.
+It is important to note that some or all of your personal information provided to third party service providers may be held in countries other than your own, including in particular the United States. You acknowledge and understand that your personal information will be subject to the applicable laws of each such jurisdiction, which may not provide for the same protection as your country of residence. For example, government entities in the United States and other countries may have certain legislative rights to access your personal information. If you have questions about our policies and practices with respect to service providers outside your jurisdiction, including the collection, use, disclosure or storage of such personal information by our service providers worldwide, you may contact us by e-mail at hello@skysense.ag.
 
 ## User rights
 You have the right to access, correct, transfer and delete your data. You also have the right to object to certain ways your data is processed and to restrict such processing.
