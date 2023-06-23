@@ -92,14 +92,14 @@ title: AI and Digital Maps for Agriculture
 </section>
   -->
 
-<section class="mt-24">
-  <div class="text-center">
-    <h2 class="text-3xl md:text-5xl font-medium mb-4">Capture, analyze, act</h2>
-    <p class="text-lg text-gray-600 mb-8">Full-service solutions from data acquisition, analysis, and reporting.</p>
-  </div>
-  {% for feature in site.data.features %}
-  <main class="container mx-auto p-8">
-    <div class="flex flex-col md:flex-row gap-8 md:gap-16 md:items-center {% if feature.reverse %}md:flex-row-reverse{% endif %}">
+<section class="">
+  <div class="container mx-auto p-8">
+    <div class="text-center">
+      <h2 class="text-3xl md:text-5xl font-medium mb-4">Capture, analyze, act</h2>
+      <p class="text-lg text-gray-600 mb-8">Full-service solutions from data acquisition, analysis, and reporting.</p>
+    </div>
+    {% for feature in site.data.features %}
+    <div class="mt-16 flex flex-col md:flex-row gap-8 md:gap-16 md:items-center {% if feature.reverse %}md:flex-row-reverse{% endif %}">
       <div class="md:w-1/2">
         <div class="space-y-2">
           <div class="uppercase text-skysense font-semibold">{{ feature.hint }}</div>
@@ -111,8 +111,8 @@ title: AI and Digital Maps for Agriculture
         <img src="{{ feature.image }}" class="rounded-3xl object-cover max-h-96 w-full {{ feature.color }}" />
       </div>
     </div>
-  </main>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </section>
 <main class="container mx-auto px-8">
 
@@ -144,7 +144,7 @@ title: AI and Digital Maps for Agriculture
     <h2 class="text-3xl md:text-4xl font-medium mb-4">What's your crop type?</h2>
     <p class="text-lg text-gray-600 mb-8">No matter the crop type, we have you covered.</p>
   </div>
-  <select class="md:hidden border rounded-full p-2 w-full" onchange="document.location.href=this.value">
+  <select class="md:hidden border rounded-full p-2 w-full bg-white" onchange="document.location.href=this.value">
     <option></option>
     {% for crop in site.data.crops %}
     <optgroup label="{{ crop.category }}">
@@ -207,7 +207,7 @@ title: AI and Digital Maps for Agriculture
 </section>
 -->
 
-<section class="mt-24 bg-gray-50">
+<section class="bg-gray-50">
   <div class="container mx-auto px-8 py-24">
     <div class="text-center">
       <h2 class="text-3xl md:text-4xl font-medium mb-4">State of the Art Hardware and Equipment</h2>
@@ -255,7 +255,7 @@ title: AI and Digital Maps for Agriculture
     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
       {% for event in site.data.events %}
       <div>
-        <div class="rounded-3xl p-2 md:px-4 lg:px-8 bg-white">
+        <div class="rounded-3xl p-4 lg:px-8 bg-white">
           <a href="{{ event.link}}" target="_blank">
             <img class="h-8 md:h-16 lg:h-24 mx-auto object-contain" src="{{ event.logo }}" />
           </a>
@@ -277,8 +277,8 @@ title: AI and Digital Maps for Agriculture
   <p class="text-lg text-gray-600 mb-8">Sign up to our free newsletter to keep up to date with the latest in AI for farming.</p>
   <form method="POST" action="https://app.skysense.jp/contact">
     <div class="flex flex-col md:flex-row max-w-xl mx-auto mt-4 gap-4">
-      <input class="grow border rounded-3xl px-6 py-4 bg-gray-50" type="email" placeholder="Email" />
-      <button type="submit" class="rounded-3xl bg-skysense text-white px-6 py-2">Subscribe</button>
+      <input class="grow border rounded-xl px-6 py-4 bg-gray-50" type="email" placeholder="Email" name="email" />
+      <button type="submit" class="rounded-xl bg-skysense text-white px-6 py-4">Subscribe</button>
     </div>
     <input type="hidden" name="honeypot" value="">
     <input type="hidden" name="language" value="en">
