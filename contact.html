@@ -5,11 +5,28 @@ title: Contact
 
 <main class="container mx-auto px-8">
 
-<div class="mt-8 md:mt-24 md:text-center">
-  <h2 class="text-3xl md:text-5xl font-bold">Get in touch with our team</h2>
-  <p class="mt-6 text-xl leading-8 text-gray-600">Fill in your details below to contact us, book a demo, or meet with our team!</p>
-</div>
+  <div class="hidden rounded-lg p-2 text-center mt-4 bg-green-200" id="success">
+    <i class="fa fa-check"></i> Thank you, we'll get back to you as soon as possible!
+  </div>
+  
+  <div class="hidden rounded-lg p-2 text-center mt-4 bg-red-200" id="failure">
+    <i class="fa fa-times"></i> Sorry something went wrong, please try again! (hello@skysense.ag)
+  </div>
+    
+  <div class="mt-8 md:mt-24 md:text-center">
+    <h2 class="text-3xl md:text-5xl font-bold">Get in touch with our team</h2>
+    <p class="mt-6 text-xl leading-8 text-gray-600">Fill in your details below to contact us, book a demo, or meet with our team!</p>
+  </div>
 
-{% include contact-form.html %}
+  {% include contact-form.html %}
 
 </main>
+
+<script>
+  if (window.location.href.includes('sent=1')) {
+    document.getElementById('success').style.display = 'block';
+  }
+  if (window.location.href.includes('sent=0')) {
+    document.getElementById('failure').style.display = 'block';
+  }
+</script>
