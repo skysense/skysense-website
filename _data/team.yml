@@ -69,3 +69,8 @@ members:
   - name: Michael Agan
     title: Data Team
     photo: /assets/img/team/michael2.png
+
+  - name: We're Hiring
+    title: See Positions
+    photo: /assets/img/team/i-want-you2.png
+    link: /careers/
