@@ -29,7 +29,7 @@
 
         <div class="col-md-6 col-xs-12">
           <div class="col">
-            <form method="POST" action="https://app.skysense.jp/contact">
+            <form method="POST" action="https://getform.io/f/f7407816-72c4-4c41-8f3a-5286bcba5328">
               <label class="required">{{ locale.contact_field_full_name }}</label>
               <input type="text" name="name" required="required" />
 
@@ -47,8 +47,9 @@
 
               <button type="submit">{{ locale.buttons_submit }}</button>
 
-              <input type="hidden" name="honeypot" value="">
+              <input type="hidden" name="_gotcha" style="display:none !important">
               <input type="hidden" name="language" value="{{page.language}}">
+              <input type="hidden" name="type" value="consultation">
             </form>
           </div>
         </div>

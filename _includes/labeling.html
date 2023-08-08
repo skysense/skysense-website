@@ -121,7 +121,7 @@
       <div class="contact">
         <h2>{{ locale.contact_header_book_demo }}</h2>
         <p>{{ locale.contact_text_book_demo }}</p>
-        <form method="POST" action="https://app.skysense.jp/contact">
+        <form method="POST" action="https://getform.io/f/f7407816-72c4-4c41-8f3a-5286bcba5328">
           <label>{{ locale.contact_field_full_name }}</label>
           <input type="text" name="name" required="required" />
 
@@ -142,8 +142,9 @@
 
           <button type="submit">{{ locale.buttons_contact_us }}</button>
 
-          <input type="hidden" name="honeypot" value="">
+          <input type="hidden" name="_gotcha" style="display:none !important">
           <input type="hidden" name="language" value="{{page.language}}">
+          <input type="hidden" name="type" value="labeling">
         </form>
       </div>
     </div>
