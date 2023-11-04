@@ -36,6 +36,7 @@
   types:
     - name: Onions
       url: /solutions/onion-farming/
+    - name: Carrots
     - name: Lettuce
     - name: Tomatoes
     - name: Beets
