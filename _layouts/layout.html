@@ -104,6 +104,17 @@
 
   {% endif %}
 
+  <!-- reCAPTCHA -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6LemtUopAAAAAN2Lh9zVLZVBefRScAoOCjc9B3UQ"></script>
+  <script>
+    grecaptcha.ready(function() {
+      grecaptcha.execute('6LemtUopAAAAAN2Lh9zVLZVBefRScAoOCjc9B3UQ', { action: 'homepage' })
+      .then(function(token) {
+        document.getElementById('captchaResponse').value = token;
+      });
+    });
+  </script>
+  
 </head>
 <body>
 
