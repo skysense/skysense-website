@@ -39,6 +39,10 @@ defaults:
       path: "assets"
     values:
       image: true
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/share.png
 
 collections:
   solutions:

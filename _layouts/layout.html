@@ -3,25 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {% if page.title %}
-  <title>{{ page.title }} | Skysense</title>
-  <meta property="og:title" content="{{ page.title }}" />
-  {% else %}
-  <title>Skysense</title>
-  <meta property="og:title" content="Skysense" />
-  {% endif %}
 
   <link rel="apple-touch-icon" sizes="180x180" href="/meta/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/meta/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/meta/favicon-16x16.png">
   
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-  <meta property="og:site_name" content="{{ site.title }}" />
-  {% if page.image %}
-  <meta property="og:image" content="{{site.url}}{{page.image}}" />
-  {% else %}
-  <meta property="og:image" content="{{site.url}}/assets/img/share.png" />
-  {% endif %}
+  {% seo %}
   
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
