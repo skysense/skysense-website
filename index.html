@@ -42,7 +42,7 @@ title: AI and Digital Maps for Agriculture
           <div class="group-hover:block absolute inset-0 text-white p-4 bg-gradient-to-t from-black/80 to-70%">
             <div class="w-full h-full flex items-end">
               <div>
-                <div class="text-xs uppercase font-bold">Case Study</div>
+                <div class="text-xs uppercase font-bold">{{ solution.type | default: 'Case Study' }}</div>
                 <div class="line-clamp-2">{{ solution.title }}</div>
               </div>
             </div>
