@@ -2,7 +2,7 @@
 layout: solution
 prompt: skysense is a company that uses drone imagery and satellite imagery together with ai to provide solutions for organic farming. this includes mapping, plant counting, detecting plant disease, and other problems common to organic farming. target customer is farm owners and managers. write a landing page for this. make sure to list examples of common plant disease related to organic farming.
 title: Empowering Organic Farming through Innovative AI Solutions
-image: /assets/img/scenic.jpg
+image: /assets/img/weed-pressure-map.png
 date: 2023-06-09
 ---
 
