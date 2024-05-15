@@ -2,7 +2,7 @@
 layout: solution
 prompt: skysense is a company that uses drone imagery and satellite imagery together with ai to provide solutions for weed management. this includes solving problems like estimating hand crew man hours required for organic weed control, performance evaluation for hand labor for weed killing, optimal prioritization of weed control action based on weed pressure and weed size, which robotic equipment reduces labor cost for organic weed control, how to measure weed pressure accurately, how to scout field efficiently to find hot spots of weeds. write a landing page for this.
 title: Revolutionizing Weed Management through Advanced Technology and AI
-image: /assets/img/solutions/weed/weed-pressure.png
+image: /assets/img/solutions/weed/updated-weed-pressure.png
 date: 2023-06-14
 ---
 

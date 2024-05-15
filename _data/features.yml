@@ -1,16 +1,16 @@
-- hint: Data Capture
-  title: Satellite imagery to drones fitted with 4K cameras and multispectral sensors fly on autopilot to map your farm
-  text: Quickly canvas large areas and difficult terrain. See what’s more obvious from above, with a whole new perspective than feet on the ground.
-  image: /assets/img/features/plantdetectiondrone.png
+- hint: Robot Speed
+  title: Harness the power of robotic farm equipment, from Laser Weeders to advanced robotic systems—designed to optimize your agricultural operations.
+  text: Integrated seamlessly with our AI-driven platforms, these robots provide critical data to help you make informed purchasing decisions.  
+  image: /assets/img/hardware/laserweeder.jpg
 
-- hint: Powerful Software and AI
-  title: State of the art machine learning to count, identify, measure plants, weeds, diseases, and other issues
-  text: Giving drones hundreds of human eyes, with industry expert domain-specific knowledge. Do what one human can do, but a million times faster.
-  image: /assets/img/features/weedai.jpg
+- hint: SPOT SPRAY
+  title: Capitalize on the precision of targeted spot spraying with Skysense's state-of-the-art machine learning technology.
+  text: Our drones are equipped to identify high weed pressure areas with pinpoint accuracy, focusing treatment only where it's needed. This advanced capability not only conserves resources but also maximizes the effectiveness of interventions.
+  image: /assets/img/features/updated-onion-model.jpg
   reverse: true
 
-- hint: Actionable Results
-  title: Actionable diagnostics with an interactive map and custom reports to reduce labor and optimize work
-  text: Cut out “search” from “search and rescue”. Field crews and GPS tractors go directly to map pins to stop disease without “search”
+- hint: LESS LABOR
+  title: Experience a revolution in farm management with Skysense's advanced drone technology.
+  text: Our solutions provide detailed diagnostics and interactive maps, enabling direct interventions with minimal labor required. By scouting every acre and accurately counting weeds and other anomalies, our drones eliminate the need for extensive manual inspection.
   image: /assets/img/features/app.png
   color: bg-blue-50

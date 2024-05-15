@@ -10,20 +10,25 @@
 - category: Specialty Crops
   types:
     - name: Hemp and Cannabis
-    - name: Wine
-      url: /solutions/vineyards/
+    - name: Grass Seed
+      url: /contact/
+    - name: Phenotyping
+      url: /contact/
+    - name: Vegatable Seed
+      url: /contact/
     - name: Vineyards
       url: /solutions/vineyards/
     - name: Organic Farming
       url: /solutions/organic-farming/
-    - name: Dollar Spot Disease
-      url: /solutions/golf-courses/
 - category: Plant Health
   types:
-    - name: Weed Management
+    - name: Weed Control
       url: /solutions/weed-management/
     - name: Dutch Elm Disease
       url: /solutions/dutch-elm-tree-disease/
+    - name: Robot Optimization
+    - name: Spot Spraying
+      url: 
 - category: Grains
   types:
     - name: Barley
@@ -34,6 +39,7 @@
     - name: Rice
       url: /solutions/rice-farming/
     - name: Sugarcane
+    - name: Canola
 - category: Vegetables
   types:
     - name: Onions
@@ -42,11 +48,18 @@
     - name: Lettuce
     - name: Tomatoes
     - name: Beets
+    - name: Asparagus
+    - name: Spinach
+    - name: Garlic
+    - name: Broccoli
+    - name: Vegetable Seed
+
+
 - category: Nuts
   types:
     - name: Almonds
     - name: Pistachios
-    - name: Peanuts
+    - name: Walnuts
 - category: Fruit
   types:
     - name: Apples
@@ -54,14 +67,7 @@
     - name: Grapes
     - name: Oranges
     - name: Blueberries
-- category: Cattle
-  types:
-    - name: Cattle
-    - name: Milk
-    - name: Chickens
-    - name: Eggs
-    - name: Hogs
-    - name: Turkeys
+    - name: Cherries
 - category: Starch
   types:
     - name: Corn

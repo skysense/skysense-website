@@ -22,8 +22,8 @@ title: AI and Digital Maps for Agriculture
   <!-- bg-white/70  -->
   <main class="container mx-auto px-8 relative">
     <header class="mx-auto max-w-xl pt-8 md:pt-16 lg:pt-24 text-center">
-      <h1 class="text-5xl sm:text-6xl font-bold mb-4">AI and Digital Maps for Agriculture</h1>
-      <p class="text-lg">Skysense helps stop plant disease and weeds before the damage is done by providing agricultural intelligence from satellites and self-flying drones.</p>
+      <h1 class="text-5xl sm:text-6xl font-bold mb-4">AI Drone Stand Counts and Robotic Weed Removal</h1>
+      <p class="text-lg">Skysense digitally counts stands and manages weed removal robots with self-flying drones.</p>
     </header>
 
     <div class="text-center mt-4 sm:mb-8 sm:flex sm:justify-center">
@@ -56,7 +56,7 @@ title: AI and Digital Maps for Agriculture
   </main>
 </div>
 
-<section class="p-8">
+<!-- <section class="p-8">
   <h2 class="font-light mt-2 mb-4 text-center opacity-40">Powered by world class tech and backed by the world's best investors & advisors</h2>
   <div class="flex flex-wrap lg:flex-nowrap justify-center">
     {% for partner in site.data.partners %}
@@ -65,7 +65,7 @@ title: AI and Digital Maps for Agriculture
     </div>
     {% endfor %}
   </div>
-</section>
+</section> -->
 
 <!--
 <img class="w-full max-h-96 object-cover rounded-3xl" src="/assets/img/scenic.jpg" />
@@ -243,6 +243,18 @@ title: AI and Digital Maps for Agriculture
       </div>
       {% endfor %}
     </div>
+  </div>
+</section>
+
+
+<section class="p-8">
+  <h2 class="font-light mt-2 mb-4 text-center" style="opacity: 1;">Powered by world class tech and backed by the world's best investors & advisors</h2>
+  <div class="flex flex-wrap lg:flex-nowrap justify-center">
+    {% for partner in site.data.partners %}
+    <div class="p-4">
+      <img class="h-8 md:h-12 mx-auto object-contain" style="filter: none; opacity: 1;" src="{{ partner.logo }}" />
+    </div>
+    {% endfor %}
   </div>
 </section>
 
