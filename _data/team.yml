@@ -34,13 +34,13 @@ members:
     title: UAV Specialist
     photo: /assets/img/team/rob2.png
   
-  - name: Tristan
-    title: Software & Operations Intern
+  - name: Tristan Allaman
+    title: Software & ML Intern
     photo: /assets/img/team/tristan2.png
   
-  # - name: Emile
-  #   title: Engineer
-  #   photo: /assets/img/team/emile2.png
+  - name: Emile Denichaud
+    title: Engineering Intern
+    photo: /assets/img/team/emile2.png
   
   - name: Moly Leelatham
     title: Marketing Intern
