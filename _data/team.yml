@@ -1,4 +1,8 @@
-# https://picofme.io/
+# How to make photos:
+# 1) Goto https://picofme.io/
+# 2) Upload photo
+# 3) Choose Circle
+# 4) Scroll all the way down to "Transparent" and download black and white version
 
 founders:
   
@@ -21,11 +25,7 @@ founders:
     linkedin: https://www.linkedin.com/in/philip-bergqvist/
 
 members:
-  
-  - name: Jessie Stein
-    title: Marketing Coordinator
-    photo: /assets/img/team/jessie2.png
-  
+
   - name: Naoko Youda
     title: Office Administrator
     photo: /assets/img/team/naoko2.png
@@ -33,10 +33,14 @@ members:
   - name: Rob Echols
     title: UAV Specialist
     photo: /assets/img/team/rob2.png
-
-  - name: James Pitman
-    title: UAV Specialist
-    photo: /assets/img/team/james2.png
+  
+  - name: Tristan
+    title: Software & Operations Intern
+    photo: /assets/img/team/tristan2.png
+  
+  # - name: Emile
+  #   title: Engineer
+  #   photo: /assets/img/team/emile2.png
   
   - name: Moly Leelatham
     title: Marketing Intern
