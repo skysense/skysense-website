@@ -7,6 +7,7 @@
     - name: Forest Management
       url: /solutions/forest-management/
     - name: Lumber
+    - name: Labor
 - category: Specialty Crops
   types:
     - name: Hemp and Cannabis
