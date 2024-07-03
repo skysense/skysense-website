@@ -1,6 +1,6 @@
 ---
 layout: solution
-title: "Precision Labor Counting with Skysense"
+title: "Precise Labor Counting with Skysense"
 image: /assets/img/solutions/labor/labor-count.png
 date: 2024-06-27
 ---
