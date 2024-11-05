@@ -7,6 +7,10 @@
   "license": "MIT",
   "scripts": {
     "start": "bundle exec jekyll serve --drafts --future",
-    "preview": "bundle exec jekyll serve"
+    "preview": "bundle exec jekyll serve",
+    "links": "linkinator http://127.0.0.1:4000/ --verbosity error --recurse --skip '^(?!http://127.0.0.1)'"
+  },
+  "dependencies": {
+    "linkinator": "^6.1.2"
   }
 }
