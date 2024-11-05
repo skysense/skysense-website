@@ -149,7 +149,6 @@ This Agreement is intended for the sole and exclusive benefit of the signatories
 
 ## Notice
 
-The parties may give notice to each other via email, fax or certified mail. Notices sent to Skysense should be directed to hello@skysense.ag. Notices sent to User will be sent to User at the email address provided during registration to use the Web Services.
+The parties may give notice to each other via email, fax or certified mail. Notices sent to User will be sent to User at the email address provided during registration to use the Web Services.
  
-Should you have any further questions with regards to Skysense's terms of service, please feel free to reach out via Skysense support at hello@skysense.ag. We're happy to hear from you.
-
+Should you have any further questions with regards to Skysense's terms of service, please feel free to reach out via Skysense support. We're happy to hear from you.

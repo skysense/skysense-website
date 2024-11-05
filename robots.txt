@@ -1,1 +1,6 @@
 User-agent: *
+Disallow: /terms/
+Disallow: /privacy/
+Disallow: /en/
+Disallow: /ja/
+Disallow: /contact/
