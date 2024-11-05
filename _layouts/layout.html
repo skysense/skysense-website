@@ -98,6 +98,10 @@
   <!-- Turnstile -->
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
+  <!-- Helpscout Beacon -->
+  <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
+  <script type="text/javascript">window.Beacon('init', 'f38589e3-427f-4004-b474-9caf958bef7a')</script>
+  <script type="text/javascript">window.Beacon('config', { color: '#2e88fa' })</script>
 </head>
 <body>
 
@@ -113,12 +117,12 @@
         <a href="/solutions/" class="font-semibold">Solutions</a>
         <a href="/pricing/" class="font-semibold">Pricing</a>
         <a href="/company/" class="font-semibold">Company</a>
-        <a href="/contact/" class="font-semibold">Contact</a>
+        <a href="javascript:window.Beacon('open')" class="font-semibold">Contact</a>
         <a href="/careers/" class="font-semibold">Jobs <span class="ml-1 text-sm bg-green-600 text-white rounded-lg px-2 py-1">Hiring</span></a>
       </div>
       <div class="flex space-x-4 flex-1 justify-end items-center">
         <a href="https://app.skysense.jp/" class="font-semibold">Login</a>
-        <a href="/contact" class="transition-colors border px-4 py-2 rounded-full border-skysense bg-skysense text-white hover:bg-white hover:text-skysense">Talk to sales</a>
+        <a href="javascript:window.Beacon('open')" class="transition-colors border px-4 py-2 rounded-full border-skysense bg-skysense text-white hover:bg-white hover:text-skysense">Talk to sales</a>
       </div>
     </div>
     <details class="lg:hidden">
@@ -131,10 +135,10 @@
         <a href="/solutions/" class="py-3">Solutions</a>
         <a href="/pricing/" class="py-3">Pricing</a>
         <a href="/company/" class="py-3">Company</a>
-        <a href="/contact/" class="py-3">Contact</a>
+        <a href="javascript:window.Beacon('open')" class="py-3">Contact</a>
         <a href="/careers/" class="py-3">Jobs <span class="ml-1 text-sm bg-green-600 text-white rounded-lg px-2 py-1">Hiring</span></a>
         <a href="https://app.skysense.jp/" class="py-3">Login</a>
-        <a href="/contact" class="mt-4 transition-colors border px-4 py-2 rounded-md border-skysense bg-skysense text-white hover:bg-white hover:text-skysense">Talk to sales</a>
+        <a href="javascript:window.Beacon('open')" class="mt-4 transition-colors border px-4 py-2 rounded-md border-skysense bg-skysense text-white hover:bg-white hover:text-skysense">Talk to sales</a>
       </div>
     </details>
   </nav>
@@ -182,9 +186,9 @@
         <div>
           <h3 class="font-semibold text-white">Contact</h3>
           <ul class="mt-2 space-y-2">
-            <li><a href="/contact/">Talk to sales</a></li>
-            <li><a href="/contact/">Book a demo</a></li>
-            <li><a href="/contact/">Contact us</a></li>
+            <li><a href="javascript:window.Beacon('open')">Talk to sales</a></li>
+            <li><a href="javascript:window.Beacon('open')">Book a demo</a></li>
+            <li><a href="javascript:window.Beacon('open')">Contact us</a></li>
           </ul>
         </div>
         <div>
@@ -200,6 +204,5 @@
       </div>
     </div>
   </footer>
-
 </body>
 </html>

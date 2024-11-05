@@ -144,12 +144,12 @@ title: AI and Digital Maps for Agriculture
     <h2 class="text-3xl md:text-4xl font-medium mb-4">What's your crop type?</h2>
     <p class="text-lg text-gray-600 mb-8">No matter the crop type, we have you covered.</p>
   </div>
-  <select class="md:hidden border rounded-full p-2 w-full bg-white" onchange="document.location.href=this.value">
+  <select class="md:hidden border rounded-full p-2 w-full bg-white" onchange="this.value ? document.location.href=this.value : window.Beacon('open')">
     <option></option>
     {% for crop in site.data.crops %}
     <optgroup label="{{ crop.category }}">
       {% for type in crop.types %}
-      <option value="{%if type.url %}{{type.url}}{% else %}/contact/{% endif %}">{{ type.name }}{% if type.url %} ★{% endif %}</option>
+      <option value="{{type.url}}">{{ type.name }}{% if type.url %} ★{% endif %}</option>
       {% endfor %}
     </optgroup>
     {% endfor %}
@@ -159,7 +159,7 @@ title: AI and Digital Maps for Agriculture
     <div class="mt-4 mb-2 text-sm font-semibold">{{ crop.category }}</div>
     <div class="flex flex-wrap">
       {% for type in crop.types %}
-      <a href="{%if type.url %}{{type.url}}{% else %}/contact/{% endif %}" class="inline-block bg-skysense text-white rounded-full py-2 px-4 mr-2 mb-2">{{ type.name }}{% if type.url %} ★{% endif %}</a>
+      <a href="{%if type.url %}{{type.url}}{% else %}javascript:window.Beacon('open'){% endif %}" class="inline-block bg-skysense text-white rounded-full py-2 px-4 mr-2 mb-2">{{ type.name }}{% if type.url %} ★{% endif %}</a>
       {% endfor %}
     </div>
     {% endfor %}
@@ -284,6 +284,7 @@ title: AI and Digital Maps for Agriculture
   </div>
 </section>
 
+<!--
 <section class="mt-24 p-8 text-center">
   <h2 class="text-3xl md:text-4xl font-medium mb-4">Skysense Newsletter</h2>
   <p class="text-lg text-gray-600 mb-8">Sign up to our free newsletter to keep up to date with the latest in AI for farming.</p>
@@ -298,3 +299,4 @@ title: AI and Digital Maps for Agriculture
     <input type="hidden" name="type" value="newsletter">
   </form>
 </section>
+-->
