@@ -8,8 +8,8 @@ founders:
   
   - name: Justin Clune
     title: CEO
-    photo: /assets/img/team/justin2.png
-    description: Justin previously founded, scaled, and exited the tech startup HouseCare. The idea for Skysense was seeded when he cultivated a 120-acre hemp farm. Justin was a scientific researcher for 4 years, including at Lawrence Berkeley National Laboratory. Justin holds a Master's in Engineering from the University of Tokyo, and a Bachelor's in Business and Engineering from UC Berkeley.
+    photo: /assets/img/team/justin3.png
+    description: Justin previously founded, scaled, and exited the tech startup HouseCare. The idea for Skysense was seeded when he worked on his dad's farm and saw labor-saving opportunities. Justin was a scientific researcher for 4 years, including at Lawrence Berkeley National Laboratory. Justin holds a Master's in Engineering from the University of Tokyo, and a Bachelor's in Business and Engineering from UC Berkeley.
     linkedin: https://www.linkedin.com/in/justjustin/
   
   - name: Philippe Remy
@@ -23,6 +23,12 @@ founders:
     photo: /assets/img/team/philip2.png
     description: Philip has more than 15 years of professional software development experience with a passion for solving real world problems. He has founded several successful software companies, including Unified Remote and AwardFares. Philip holds a Master's in Engineering from the University of Bristol with First Class Honours.
     linkedin: https://www.linkedin.com/in/philip-bergqvist/
+
+  - name: Patrick Williams
+    title: Chief Agronomic Officer
+    photo: /assets/img/team/patrick2.png
+    description: Before joining Skysense, Patrick worked as an agronomist for the J.R. Simplot Company for more than 17 years. Throughout his career, Patrick has remained dedicated to advancing agronomic research and sustainable solutions, helping to bridge the gap between traditional farming methods and cutting-edge agricultural technologies. He holds a BSc in Agricultural Technology & Management from Washington State University.
+    linkedin: https://www.linkedin.com/in/patrickwilliams84/
 
 members:
 
