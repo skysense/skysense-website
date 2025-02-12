@@ -6,6 +6,10 @@
   logo: /assets/img/logos/whitelabel.svg
   link: https://www.whitelabelexpo.com/speakers/justin-clune-/
 
+- title: World Ag Expo
+  logo: /assets/img/logos/world-ag-expo.jpg
+  link: https://www.worldagexpo.com/
+
 - title: MJBizCon
   logo: /assets/img/logos/mjbizcon.png
   link: https://mjbizdaily.com/cannabis-growers-eye-digital-tools-artificial-intelligence-to-improve-crops-productivity/
@@ -25,3 +29,23 @@
 - title: World Agri-Tech
   logo: /assets/img/logos/worldagritech.jpg
   link: https://worldagritechusa.com/
+
+- title: Iowa Ag Expo
+  logo: /assets/img/logos/iowa-ag-expo.png
+  link: https://iowaagexpo.com/
+
+- title: Spokane Ag Expo
+  logo: /assets/img/logos/spokane-ag-show.jpg
+  link: https://www.agshow.org/
+
+- title: Southwest Ag Summit
+  logo: /assets/img/logos/swag_summit.jpg
+  link: https://yumafreshveg.com/southwest-ag-summit/
+
+- title: AgSmart
+  logo: /assets/img/logos/agsmart.png
+  link: https://agsmartolds.ca/
+
+- title: Organic Grower Summit
+  logo: /assets/img/logos/organic-grower-summit.png
+  link: https://www.organicgrowersummit.com/
