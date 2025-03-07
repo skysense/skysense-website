@@ -4,6 +4,7 @@ prompt: skysense is a company that uses drones with ai to find and remove male h
 title: The Leading Experts in Detection and Removal of Male Hemp Plants
 image: /assets/img/solutions/hemp/updated-hemp.png
 date: 2023-06-12
+hidden: true
 ---
 
 The leading experts in detection and removal of male hemp plants

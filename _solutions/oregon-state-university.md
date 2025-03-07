@@ -4,7 +4,7 @@ layout: solution
 title: "Skysense Showcases Cutting-Edge Technology at OSU & WSU Hemp Field Days"
 image: /assets/img/solutions/hemp/hemp-field-days.png
 date: 2023-07-25
-prompt: 
+hidden: true
 ---
 
 *Skysense, a leader in agricultural technology, took center stage at the collaborative [Oregon State University (OSU) and Washington State University (WSU) Hemp Field Days](https://www.linkedin.com/feed/update/urn:li:activity:7079538869225869312?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7079538869225869312%29), held on July 25 and 26, 2023. The event, which attracted professionals and enthusiasts from the hemp industry, provided a platform for Skysense to demonstrate its innovative use of drones and AI in plant disease detection.*

@@ -13,7 +13,7 @@ title: Solutions
 <div class="mt-16">
   {% assign sorted = site.solutions | sort: 'date' | reverse  %}
   {% for solution in sorted %}
-  {% if solution.title %}
+  {% if solution.title and solution.hidden != true %}
     <div class="py-8 lg:border-t">
       <div class="lg:flex">
         <div class="lg:basis-56">
