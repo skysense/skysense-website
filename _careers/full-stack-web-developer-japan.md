@@ -5,14 +5,13 @@ location: Tokyo, Japan 🇯🇵
 tags:
   - No Japanese Required
   - Fully Remote
-  - Apply from Abroad OK
   - Part-Time or Full-Time
   - Contractor/Freelancer OK
   - Full-Stack
   - Node.js
   - TypeScript
   - Vue.js
-apply: https://www.linkedin.com/jobs/view/4226053643
+apply: https://wellfound.com/l/2Bjtik
 ---
 
 ## About Skysense
