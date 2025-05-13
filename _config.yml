@@ -47,3 +47,5 @@ defaults:
 collections:
   solutions:
     output: true
+  careers:
+    output: true
