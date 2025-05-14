@@ -49,29 +49,9 @@ members:
     photo: /assets/img/team/brett.png
 
   - name: Arnolfo Bambao
-    title: Data Team
+    title: Data Specialist
     photo: /assets/img/team/arnolfo2.png
   
-  - name: Aries Macaranas
-    title: Data Team
-    photo: /assets/img/team/aries2.png
-  
-  - name: Doods Bajamunde
-    title: Data Team
-    photo: /assets/img/team/doods2.png
-  
-  - name: Florence Ceneta
-    title: Data Team
-    photo: /assets/img/team/florence2.png
-  
-  - name: Kevin Pardines
-    title: Data Team
-    photo: /assets/img/team/kevin2.png
-  
-  - name: Michael Agan
-    title: Data Team
-    photo: /assets/img/team/michael2.png
-
   - name: We're Hiring
     title: See Positions
     photo: /assets/img/team/i-want-you2.png
